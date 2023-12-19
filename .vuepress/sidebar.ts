@@ -1,6 +1,8 @@
 import {SidebarConfig4Multiple} from "vuepress/config";
 
 import roadmapSideBar from "./sidebars/roadmapSideBar";
+import universityStudiesSideBar from "./sidebars/universityStudiesSideBar"
+
 // @ts-ignore
 export default {
     "/学习路线/": roadmapSideBar,

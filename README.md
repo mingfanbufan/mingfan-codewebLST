@@ -6,6 +6,8 @@ permalink: /
 
 > 贴心的编程学习路线，全面的编程知识百科
 >
+> ！点击绿色字体查看详细！
+> 
 > 作者：[明凡]()
 >
 > 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
@@ -24,7 +26,7 @@ permalink: /
 
 ## [大学学习资料](大学学习资料)
 
-[虚拟化](大学学习资料/虚拟化)
+[虚拟化](大学学习资料/README.md)
 
 [云计算](大学学习资料/云计算)
 
@@ -43,15 +45,21 @@ permalink: /
 
 [markdown nice](https://editor.mdnice.com/) (点击访问)
 
-方法一：投稿邮箱：[2840283719@qq.com]()  
+点击上方链接参考Markdown nice官方写作方法
 
-方法二：GitHub仓库
+或者[markdown官方文档](https://markdown.com.cn/) (点击访问)
+
+- 方法一：投稿邮箱：[2840283719@qq.com]()  
+
+- 方法二：GitHub仓库
 [https://githubfast.com/zzm20040219/mingfanWeb-1.0](https://githubfast.com/zzm20040219/mingfanWeb-1.0) (点击访问)
 
 
 欢迎大家积极投稿
 
 
-## [作者介绍](/作者)
+## [作者介绍](/作者) 
+
+(点击标题查看作者详细)
 
 没啥好说的，感谢您的阅读！
