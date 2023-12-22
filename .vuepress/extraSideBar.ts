@@ -19,16 +19,16 @@ export default [
   //     "/qrcode-codenav.png",
   //   popoverDesc: "知识星球：编程导航",
   // },
+  {
+    title: "技术交流群",
+    icon: "/icon/weixin.png",
+    popoverTitle:
+      '<span style="font-size:0.8rem;font-weight:bold;">扫码添加 <span style="color:red;"></span>，拉你进专属技术交流群</span>',
+    popoverUrl:
+      "/cloud-computing.png",
+  },
   // {
-  //   title: "交流群",
-  //   icon: "/icon/weixin.png",
-  //   popoverTitle:
-  //     '<span style="font-size:0.8rem;font-weight:bold;">扫码添加 <span style="color:red;">编程导航小助手微信</span>，拉你进专属编程学习交流群</span>',
-  //   popoverUrl:
-  //     "/qrcode-codenavhelper.png",
-  // },
-  // {
-  //   title: "下资料",
+  //   title: "大资料下载",
   //   icon: "/icon/xiazai.png",
   //   popoverTitle:
   //     '<span style="font-size:0.8rem;font-weight:bold;">扫码关注站长公众号，回复 <span style="color:red;">学习</span> 获取海量编程学习资源「无任何套路」</span>',

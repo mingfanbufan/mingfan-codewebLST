@@ -26,10 +26,10 @@ permalink: /
 
 ## [大学学习资料](大学学习资料)
 
-[虚拟化](大学学习资料/README.md)
-
-[云计算](大学学习资料/云计算)
-
+### [虚拟化](大学学习资料/虚拟化/README.md)
+点击访问详细
+### [云计算](大学学习资料/云计算/README.md)
+点击访问详细
 
 
 ## 我的网站
@@ -57,6 +57,9 @@ permalink: /
 
 欢迎大家积极投稿
 
+## 关于本站
+
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/index/mingfanweb-index.png)
 
 ## [作者介绍](/作者) 
 

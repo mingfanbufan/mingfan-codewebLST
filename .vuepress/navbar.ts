@@ -19,5 +19,9 @@ export default [
         ]
 
     },
+    {
+        text: "作者",
+        link: '/作者/',
+    },
 
 ] as NavItem[];
