@@ -23,5 +23,9 @@ export default [
         text: "作者",
         link: '/作者/',
     },
+    {
+        text: "关于本站",
+        link: '/关于本站/#README.md',
+    }
 
 ] as NavItem[];

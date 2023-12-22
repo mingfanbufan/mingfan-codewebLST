@@ -27,15 +27,15 @@ export default [
     popoverUrl:
       "/cloud-computing.png",
   },
-  // {
-  //   title: "大资料下载",
-  //   icon: "/icon/xiazai.png",
-  //   popoverTitle:
-  //     '<span style="font-size:0.8rem;font-weight:bold;">扫码关注站长公众号，回复 <span style="color:red;">学习</span> 获取海量编程学习资源「无任何套路」</span>',
-  //   popoverUrl:
-  //     "/qrcode-mpcoder_yupi.jpg",
-  //   popoverDesc: "公众号: 程序员鱼皮",
-  // },
+  {
+    title: "资料下载",
+    icon: "/icon/xiazai.png",
+    popoverTitle:
+      '<span style="font-size:0.8rem;font-weight:bold;">扫码查看 <span style="color:red;">学习</span>编程宝典资源</span>',
+    popoverUrl:
+      "/share.png",
+    popoverDesc: "飞书-明凡编程宝典",
+  },
   {
     title: "支持我",
     icon: "/icon/dianzan.png",
