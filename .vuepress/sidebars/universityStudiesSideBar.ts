@@ -11,6 +11,15 @@ export default [
             "虚拟化/5.软件管理.md",
             "虚拟化/5-1.Mysql编译安装.md",
             "虚拟化/6.进程管理.md",
+            "虚拟化/安装VMware-Esxi操作系统.md"
+        ],
+    },
+    {
+        title: "期末试题解析",
+        collapsable: true,
+        children: [
+            "期末试题解析/虚拟化期末试题1卷.md",
+            "期末试题解析/虚拟化期末试题2卷.md",
         ],
     },
 ];

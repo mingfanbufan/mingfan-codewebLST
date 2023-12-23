@@ -12,3 +12,7 @@
 [5.软件管理.md](5.软件管理.md)
 
 [5-1.Mysql编译安装.md](5-1.Mysql编译安装.md)
+
+[6.进程管理.md](6.进程管理.md)
+
+[安装VMware-Esxi操作系统.md](安装VMware-Esxi操作系统.md)

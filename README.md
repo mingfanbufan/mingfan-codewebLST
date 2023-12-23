@@ -33,6 +33,17 @@ permalink: /
 ### [云计算](大学学习资料/云计算/README.md)
 点击访问详细
 
+[**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
+
+## [期末试题解析](大学学习资料/期末试题解析/README.md)
+
+云计算，虚拟化期末试题解析  
+目前有虚拟化两套试题
+
+[虚拟化期末试题1卷.md](大学学习资料/期末试题解析/虚拟化期末试题1卷.md)
+
+[虚拟化期末试题2卷.md](大学学习资料/期末试题解析/虚拟化期末试题2卷.md)
+
 
 ## 我的网站
 - [MGL站队](https://yuemingfan.cn)
