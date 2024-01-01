@@ -23,6 +23,10 @@ export default [
 
     },
     {
+        text: "知识碎片",
+        link: '/知识碎片/'
+    },
+    {
         text: "作者",
         link: '/作者/',
     },
