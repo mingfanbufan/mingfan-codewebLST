@@ -15,6 +15,13 @@ export default [
         ],
     },
     {
+        title: "云计算",
+        collapsable: true,
+        children: [
+            "云计算/one.md"
+        ]
+    },
+    {
         title: "期末试题解析",
         collapsable: true,
         children: [
