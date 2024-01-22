@@ -1,5 +1,5 @@
 {
-  "name": "codefather",
+  "name": "mingfancode",
   "version": "1.0.0",
   "scripts": {
     "docs:dev": "vuepress dev .",
