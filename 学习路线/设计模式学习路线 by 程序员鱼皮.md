@@ -4,7 +4,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 ## 介绍
@@ -38,7 +38,7 @@ A：先学习基础的界面开发、组件库和框架的使用，之后可以�
 
 ## 大纲
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/1/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%20by%20%E7%A8%8B%E5%BA%8F%E5%91%98%E9%B1%BC%E7%9A%AE.png#id=ygV2a&originHeight=1303&originWidth=2290&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Design-patterns/1.png)
 
 ## 知识
 

@@ -4,7 +4,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 [Java 学习路线 by 程序员鱼皮](Java学习路线%20by%20程序员鱼皮.md)

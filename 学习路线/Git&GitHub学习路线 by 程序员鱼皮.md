@@ -4,7 +4,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 不喜欢阅读文字的同学可以看视频讲解：[https://www.bilibili.com/video/BV1KZ4y1e7cG](https://www.bilibili.com/video/BV1KZ4y1e7cG)
@@ -76,7 +76,8 @@ B：“TNND，你改了也不跟我说一声。”
 😐 - 了解即可
 
 ### 大纲
-![Git & GitHub 学习路线 by 程序员鱼皮.png](https://cdn.nlark.com/yuque/0/2022/png/398476/1655990159102-a826251e-fbb3-461b-9318-d560cd32a13d.png#clientId=ua3c55a2b-7415-4&from=paste&height=3197&id=ub68f9a98&originHeight=7033&originWidth=1728&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1000924&status=done&style=shadow&taskId=u64a6f249-5014-41bc-82a2-ac71f7a368c&title=&width=785.454528430277)
+
+![Git & GitHub 学习路线 by 程序员鱼皮.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Git%26GitHub/1.png)
 
 ### 零、无痛上手
 
@@ -160,7 +161,7 @@ Git 可视化管理软件：
 
 比如 [猴子都能懂的 Git 入门](https://backlog.com/git-tutorial/cn/) ，图文并茂、通俗易懂，看完入门篇就足够了：
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/1/image-20220623195749271.png#id=qSReP&originHeight=780&originWidth=2008&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=shadow&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Git%26GitHub/2.png)
 
 或者看 B 站上一些免费的分享，比如下面资源里提到的一节课入门视频，可以帮助你快速了解 Git。
 
@@ -326,7 +327,7 @@ Git 的分支概念还是很重要的，大家可以使用 [Learning Git Branchi
 
 另外，建议大家去网上了解一下企业开发中常用的 Git 协作机制，比如怎么定义分支、怎么个提交代码的流程等，如图：
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/1/webp#id=nopW5&originHeight=341&originWidth=586&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=shadow&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Git%26GitHub/3.webp)
 
 还可以了解一些 “先进” 的协作方式，比如一些大公司在采用的 Monorepo（单仓 / 大仓）方案，了解它和传统项目管理模式的优缺点。
 

@@ -4,7 +4,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 ## 云计算

@@ -10,7 +10,7 @@ permalink: /
 > 
 > 作者：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 ## 公告
 
@@ -52,7 +52,7 @@ permalink: /
 
 ## 我的网站
 - [MGL站队](https://yuemingfan.cn)
-- [本站](http://mingfancloud.cn)
+- [本站](https://mingfancloud.cn)
 
 ## 投稿
 喜欢编程的小伙伴们可以将你的学习经验总结分享给大家。让我们一起成长一起进步吧！

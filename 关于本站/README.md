@@ -5,7 +5,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 ## 明凡编程宝典搭建导图
@@ -40,5 +40,8 @@
 
 有条件的小伙伴支持一下吧！
 
+## [明凡编程宝典-test](https://www.yuque.com/mingfanbufan/hwtv9p/tcagktgvpnxk6agp?singleDoc#)
+
+测试文章内容
 
 

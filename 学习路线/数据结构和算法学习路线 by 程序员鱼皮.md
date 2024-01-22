@@ -4,7 +4,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 为什么数据结构和算法如此重要？因为：程序 = 数据结构 + 算法
@@ -39,7 +39,7 @@
 ## 大纲
 思维导图源文件：
 [数据结构和算法学习路线 by 程序员鱼皮.xmind](https://bcdh.yuque.com/attachments/yuque/0/2022/xmind/398476/1647767616242-2d26b3c0-0a6f-425f-a125-5ddc78e532e0.xmind)
-![](https://qiniuyun.code-nav.cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95%20by%20%E7%A8%8B%E5%BA%8F%E5%91%98%E9%B1%BC%E7%9A%AE.png#id=zLsxq&originHeight=1828&originWidth=1782&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/data-structure/1.png)
 
 ## 知识
 
@@ -224,7 +224,7 @@
 ### 1、刷题顺序
 最直接的就是按照知识点标签选题，从【简单的】题目刷起，从【通过率高】的题目刷起，循序渐进。
 
-![](https://pic.yupi.icu/1/640-20231009103248320.png#height=305&id=pVNvD&originHeight=611&originWidth=1080&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=&width=538.4000244140625)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/data-structure/2.png)
 
 ### 2、养成自己的刷题习惯
 
@@ -294,7 +294,7 @@ LeetCode 平台的每道题目都有很多小伙伴给出了题解，讲述如�
 
 其实，LeetCode 网站每周都会开展一次线上算法竞赛，看看谁能在有限时间内最快最多地解题。
 
-![](https://pic.yupi.icu/1/640-20231009114923573.png#height=283&id=xxc4z&originHeight=695&originWidth=1080&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=&width=440.4000244140625)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/data-structure/3.png)
 
 在竞赛的过程中，紧张刺激的环境会使我们的精神保持高度集中，能够激发出我们的思维，从而在有限的时间内进行更多的思考，也能帮助我们适应面试的节奏。多多参加还有机会获得他们官方提供的奖励！
 
@@ -304,7 +304,7 @@ LeetCode 平台的每道题目都有很多小伙伴给出了题解，讲述如�
 
 这几年，PAT 计算机程序设计能力考试在逐渐升温，分为顶级、甲级、乙级三个级别。
 
-![](https://pic.yupi.icu/1/640-20231009114923606.png#height=66&id=Pv22s&originHeight=130&originWidth=822&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=&width=420.4000244140625)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/data-structure/4.png)
 
 我亲身参与过甲级和乙级的考试，难度适中，虽然目前这个证书的含金量不高，但在备战考证的过程中，你有一个学习的目标，会更有动力坚持下去。在我看来，过程大于结果。
 

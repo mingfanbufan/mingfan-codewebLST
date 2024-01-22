@@ -4,7 +4,7 @@
 >
 > 站长：[明凡]()
 >
-> 本站地址：[http://mingfancloud.cn](https://mingfancloud.cn)
+> 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
 💂 + 💻 = 👴🏽
@@ -33,7 +33,7 @@
 
 ## 大纲
 
-![](https://qiniuyun.code-nav.cn/img/%E9%B1%BC%E7%9A%AE%20-%20Linux%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.png#id=b9adW&originHeight=20254&originWidth=2163&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Linux/1.png)
 
 ## 路线
 
@@ -196,7 +196,7 @@
 
 送张 VIM 键盘图：
 
-![](https://qiniuyun.code-nav.cn/img/vi-vim-cheat-sheet-sch.gif#id=uRBZ7&originHeight=724&originWidth=1024&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Linux/2.gif)
 
 ### 磁盘管理
 
@@ -318,7 +318,7 @@
 
 具体路线图参考：
 
-![](https://qiniuyun.code-nav.cn/img/%E5%86%85%E6%A0%B8%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB.jpg#id=HMWtl&originHeight=2443&originWidth=1869&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Linux/3.png)
 
 ### 第三方工具
 
