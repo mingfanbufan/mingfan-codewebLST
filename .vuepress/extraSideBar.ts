@@ -42,7 +42,7 @@ export default [
     popoverTitle:
       ' <span style="font-size:0.8rem;font-weight:bold;">鼓励和赞赏我</span>',
     popoverUrl:
-      "/qrcode-thumb.png",
+      "/mingfan-ma.png",
     popoverDesc:
       "感谢您的支持，作者头发++",
   },
