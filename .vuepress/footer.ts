@@ -9,6 +9,10 @@ export default {
       href: "",
     },
     {
+      label: "明凡-download",
+      href: "https://download.mingfancloud.cn/",
+    },
+    {
       label: "老鱼简历",
       href: "https://www.laoyujianli.com/",
     },
