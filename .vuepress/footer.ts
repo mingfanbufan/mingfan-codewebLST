@@ -9,7 +9,7 @@ export default {
       href: "",
     },
     {
-      label: "明凡-download",
+      label: "明凡Download",
       href: "https://download.mingfancloud.cn/",
     },
     {

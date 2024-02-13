@@ -17,7 +17,7 @@ permalink: /
 > 鼠标移动到右侧小图标 快快扫码加入到技术交流圈子吧
 > 
 > 阅读完这个首页带你了解明凡编程宝典的大概内容
-> 
+
 
 
 
@@ -93,7 +93,7 @@ permalink: /
 有条件的小伙伴支持一下吧！
 
 
-## [明凡-download](https://download.mingfancloud.cn)
+## [明凡Download](https://download.mingfancloud.cn)
 
 明凡编程宝典中包含的软件、文件、代码工具等文件包。包含环境配置工具、软件、文件下载地址，源文件、镜像站。
 
