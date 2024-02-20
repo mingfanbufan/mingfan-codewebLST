@@ -50,7 +50,7 @@ export default [
     },
     {
         text: "关于本站",
-        link: '/关于本站/#README.md',
+        link: '/关于本站/#前端推荐官网.md',
     }
 
 ] as NavItem[];
