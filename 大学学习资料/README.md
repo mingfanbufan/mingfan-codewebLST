@@ -23,28 +23,13 @@
 
 [安装VMware-Esxi操作系统.md](虚拟化/安装VMware-Esxi操作系统.md)
 
-[//]: # ()
-[//]: # ([1.虚拟机网络与物理机网络互通.md]&#40;https://v6pvxr0wye.feishu.cn/docx/VdhcdgZcUoGXC6xHw2wcA8GcnLf&#41;)
 
-[//]: # ()
-[//]: # ([2.linux文件管理.md]&#40;https://v6pvxr0wye.feishu.cn/docx/WLrEd8gw8oXXLvxRScWcfRnLn6p&#41;)
 
-[//]: # ()
-[//]: # ([3.文件权限.md]&#40;https://v6pvxr0wye.feishu.cn/docx/EBcFdabFNor8RnxgdlBcnhrSnZf&#41;)
+## [云计算-桌面云](云计算/README.md)
 
-[//]: # ()
-[//]: # ([4.管道与重定向.md]&#40;https://v6pvxr0wye.feishu.cn/docx/DOOgdaI3ToINsRxMcFacnG0znJg&#41;)
+- 云计算
+- 桌面云技术与部署
 
-[//]: # ()
-[//]: # ([5.软件管理.md]&#40;https://v6pvxr0wye.feishu.cn/docx/A6NDdzfxpooFoxxTEHccYvpYnrh&#41;)
-
-[//]: # ()
-[//]: # ([5-1.Mysql编译安装.md]&#40;https://v6pvxr0wye.feishu.cn/docx/LQZBdEPriox8vMxf4m2cR2sQnUg&#41;)
-
-[//]: # ()
-[//]: # ([1.虚拟机网络与物理机网络互通.md]&#40;虚拟化/1.虚拟机网络与物理机网络互通.md&#41;)
-
-## [云计算](云计算/README.md)
 
 ### 你知道什么是云计算嘛
 云计算（cloud computing）是分布式计算的一种，指的是通过网络“云”将巨大的数据计算处理程序分解成无数个小程序，然后，通过多部服务器组成的系统进行处理和分析这些小程序得到结果并返回给用户。
@@ -54,26 +39,22 @@
 
 [**云计算资料查看下载**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
 
+## [面向对象编程](面向对象编程/README.md)
+
+- Java入门到精通
+
+## [数据存储](数据存储/README.md)
+
+- 数据库
+
 ## [期末试题解析](期末试题解析/README.md)
 
-云计算，虚拟化期末试题解析  
-目前有虚拟化两套试题
-
-[虚拟化期末试题1卷.md](期末试题解析/虚拟化期末试题1卷.md)
-
-[虚拟化期末试题2卷.md](期末试题解析/虚拟化期末试题2卷.md)
 
 
-云计算文字教程稍后更新
+每学期的期末考试试题都会汇聚在这里并给出答案解析。  
+目前已有2023-2024上学期学年度，期末考试试题解析。
 
-以下是视屏教程
-
-[云计算期末试题1卷视屏讲解](https://q1h6kdpo24v.feishu.cn/file/VfQwb6JGdohvsFxFYtocMsABnTh)
-
-[云计算期末试题2卷视屏讲解](https://q1h6kdpo24v.feishu.cn/file/DNl1b5JOroN2NnxkSRccLJ10nIc)
-
-[云计算期末试题1卷文档解析](https://www.yuque.com/mingfanbufan/hwtv9p/vw29guvmqxufmh77?singleDoc#)
-
-
+-  [期末试题解析1卷](期末试题解析/虚拟化期末试题1卷.md)
+-  [期末试题解析2卷](期末试题解析/虚拟化期末试题2卷.md)
 
 

@@ -16,6 +16,13 @@
 [**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
 
 
+## [桌面云技术于部署](桌面云技术.md)
+
+
+### [飞书-桌面云技术于部署资源](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
+
+
+
 
 云计算文字教程稍后更新
 
