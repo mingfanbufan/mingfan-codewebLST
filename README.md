@@ -22,12 +22,12 @@ permalink: /
 
 
 ## 本站内容
-大部分学习内容来源于知识收集
-
-大部分知识来源来自著名知识分享博主[程序员鱼皮]()
+部分学习内容来源于知识收集  
+免费学习路线来源来自著名知识分享博主[程序员鱼皮]()
 - [编程学习路线](学习路线)
 - [作者介绍](/作者)
 - [大学学习资料](大学学习资料/README.md)
+- [明凡Download](https://downlaod.mingfancloud.cn)
 
 ## [编程学习路线](学习路线)
 
@@ -35,24 +35,20 @@ permalink: /
 
 ## [大学学习资料](大学学习资料)
 
- [虚拟化](大学学习资料/虚拟化/README.md)  
- 点击访问详细
-
-包含虚拟化课堂参考命令文档(后期优化)
-
- [云计算](大学学习资料/云计算/README.md)  
+- [虚拟化](大学学习资料/虚拟化/README.md)
+- [云计算](大学学习资料/云计算/README.md)  
 点击访问详细
 
-[**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
+涵盖大学领域的多个方向云计算、桌面云技术与部署、虚拟化、面向对象编程等等。
 
- [期末试题解析](大学学习资料/期末试题解析/README.md)
-
-云计算，虚拟化期末试题解析 2023-12
+目前：最热   
+[桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
 
 
 ## 我的网站
-- [MGL站队](https://yuemingfan.cn)
 - [本站](https://mingfancloud.cn)
+- [明凡Download](https://downlaod.mingfancloud.cn)
+- [MGL站队](https://yuemingfan.cn)
 
 ## 投稿
 喜欢编程的小伙伴们可以将你的学习经验总结分享给大家。让我们一起成长一起进步吧！
