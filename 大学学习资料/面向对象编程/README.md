@@ -8,9 +8,13 @@
 
 
 
-## Java 进阶
+## Java从入门到进阶  
+
+- [**Java程序开发资源库**](https://zyk.mingrisoft.com/Develop/index/cid/1.html?t=new)
 
 
+## 开发环境
 
+[常用软件网址导航](常用软件网址导航.md)
 
 

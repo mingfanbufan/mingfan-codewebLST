@@ -22,6 +22,14 @@ export default [
             "云计算/华为云计算-FusionAcces.md",
         ]
     },
+
+    {
+        title: "面向对象编程",
+        collapsable: true,
+        children: [
+            "面向对象编程/常用软件网址导航.md",
+        ]
+    },
     {
         title: "期末试题解析",
         collapsable: true,
