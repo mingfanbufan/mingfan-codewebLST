@@ -2,6 +2,10 @@ import {NavItem} from "vuepress/config";
 
 export default [
     {
+        text: "使用手册",
+        link: '/使用手册/',
+    },
+    {
         text: "学习路线",
         link: '/学习路线/'
     },
@@ -60,6 +64,6 @@ export default [
     {
         text: "关于本站",
         link: '/关于本站/#前端推荐官网.md',
-    }
+    },
 
 ] as NavItem[];
