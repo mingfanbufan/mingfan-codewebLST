@@ -66,7 +66,7 @@ permalink: /
 - 方法一：投稿邮箱：[2840283719@qq.com]()  
 
 - 方法二：GitHub仓库
-[https://githubfast.com/zzm20040219/mingfanWeb-1.0](https://githubfast.com/zzm20040219/mingfanWeb-1.0) (点击访问)
+[https://github.com/zzm20040219/mingfanWeb-1.0](https://github.com/zzm20040219/mingfanWeb-1.0) (点击访问)
 
 
 欢迎大家积极投稿
