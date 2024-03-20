@@ -37,6 +37,7 @@ permalink: /
 
 - [虚拟化](大学学习资料/虚拟化/README.md)
 - [云计算](大学学习资料/云计算/README.md)  
+- [面向对象编程](大学学习资料/面向对象编程/README.md)  
 点击访问详细
 
 涵盖大学领域的多个方向云计算、桌面云技术与部署、虚拟化、面向对象编程等等。
@@ -45,8 +46,8 @@ permalink: /
 [桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
 
 
-## 我的网站
-- [本站](https://mingfancloud.cn)
+## 我的网站产品
+- [明凡编程宝典](https://mingfancloud.cn)
 - [明凡Download](https://downlaod.mingfancloud.cn)
 - [MGL站队](https://yuemingfan.cn)
 

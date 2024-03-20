@@ -18,7 +18,7 @@ export default [
         title: "云计算",
         collapsable: true,
         children: [
-            "云计算/桌面云技术.md",
+            "云计算/桌面云技术与部署.md",
             "云计算/华为云计算-FusionAcces.md",
         ]
     },

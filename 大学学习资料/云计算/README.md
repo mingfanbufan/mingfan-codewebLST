@@ -14,11 +14,11 @@
 [**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
 
 
-## [桌面云技术与部署](桌面云技术.md)
+## [桌面云技术与部署](桌面云技术与部署/README.md)
 
 
 
-### [华为云计算-FusionAcces.md](华为云计算-FusionAcces.md)
+### [华为云计算-FusionAcces](桌面云技术与部署/华为云计算-FusionAcces.md)
 
 ### [桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
 
