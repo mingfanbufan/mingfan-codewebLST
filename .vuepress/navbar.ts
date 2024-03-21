@@ -7,7 +7,7 @@ export default [
     },
     {
         text: "🔥明凡Download",
-        link: 'https:download.mingfancloud.cn'
+        link: 'https://download.mingfancloud.cn'
     },
     {
         text: "学习路线",
