@@ -25,7 +25,7 @@ export default [
     popoverTitle:
       '<span style="font-size:0.8rem;font-weight:bold;">扫码添加 <span style="color:red;"></span>，拉你进专属技术交流群</span>',
     popoverUrl:
-      "/cloud-computing.png",
+      "/mingfanCodekin.png",
   },
   {
     title: "资料下载",
