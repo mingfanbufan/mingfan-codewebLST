@@ -1,8 +1,15 @@
 export default [
   "",
   {
+    title: "知识碎片-明凡",
+    collapsable: true,
+    children: [
+        // "知识碎片-明凡/教你一招，保护你GitHub上项目代码",
+    ],
+  },
+  {
     title: "知识碎片-鱼皮",
-    collapsable: false,
+    collapsable: true,
     children: [
       "知识碎片-鱼皮/4 种方法，快速初始化 Java 项目.md",
       "知识碎片-鱼皮/使用后端代码生成器，提高开发效率.md",
