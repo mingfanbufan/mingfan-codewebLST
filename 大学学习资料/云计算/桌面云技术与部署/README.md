@@ -9,4 +9,7 @@
 > 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
 
-## 这是一个开始。详细内容敬请期待
+## 目录
+
+1. [虚拟化部署常用Linux命令](虚拟化部署常用Linux命令.md)
+

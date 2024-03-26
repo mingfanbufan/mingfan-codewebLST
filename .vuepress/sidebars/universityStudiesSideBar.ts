@@ -20,15 +20,22 @@ export default [
         children: [
             "云计算/桌面云技术与部署.md",
             "云计算/华为云计算-FusionAcces.md",
-        ]
+        ],
     },
 
+    {
+        title: "桌面云技术与部署",
+        collapsable: true,
+        children: [
+            "云计算/桌面云技术与部署/虚拟化部署常用Linux命令.md",
+        ],
+    },
     {
         title: "面向对象编程",
         collapsable: true,
         children: [
             "面向对象编程/常用软件网址导航.md",
-        ]
+        ],
     },
     {
         title: "期末试题解析",

@@ -11,19 +11,22 @@
 云计算指通过计算机网络(多指因特网)形成的计算能力极强的系统，可存储、集合相关资源并可按需配置，向用户提供个性化服务。
 
 
-[**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
+[**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   
+[**桌面云技术于部署资源查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
 
 
 ## [桌面云技术与部署](桌面云技术与部署/README.md)
 
 
-
-### [华为云计算-FusionAcces](桌面云技术与部署/华为云计算-FusionAcces.md)
-
-### [桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
+- [华为云计算-FusionAcces](桌面云技术与部署/华为云计算-FusionAcces.md)
 
 
 
+
+"[桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)"
+
+
+## 期末测试试题
 
 云计算文字教程稍后更新
 
