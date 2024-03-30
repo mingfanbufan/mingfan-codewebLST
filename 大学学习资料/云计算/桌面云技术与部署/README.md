@@ -12,4 +12,7 @@
 ## 目录
 
 1. [虚拟化部署常用Linux命令](虚拟化部署常用Linux命令.md)
+2. [FusionCompute6.5.1嵌套虚拟化](FusionCompute6.5.1嵌套虚拟化.md)
+
+
 

@@ -28,6 +28,7 @@ export default [
         collapsable: true,
         children: [
             "云计算/桌面云技术与部署/虚拟化部署常用Linux命令.md",
+            "云计算/桌面云技术与部署/FusionCompute6.5.1嵌套虚拟化.md",
         ],
     },
     {
