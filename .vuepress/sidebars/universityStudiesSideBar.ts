@@ -18,8 +18,8 @@ export default [
         title: "云计算",
         collapsable: true,
         children: [
-            "云计算/桌面云技术与部署.md",
-            "云计算/华为云计算-FusionAcces.md",
+            "云计算/桌面云技术与部署/",
+            "云计算/桌面云技术与部署/华为云计算FusionAcces.md",
         ],
     },
 
@@ -29,6 +29,8 @@ export default [
         children: [
             "云计算/桌面云技术与部署/虚拟化部署常用Linux命令.md",
             "云计算/桌面云技术与部署/FusionCompute6.5.1嵌套虚拟化.md",
+            "云计算/桌面云技术与部署/FusionCompute6.5.1使用手册"
+
         ],
     },
     {

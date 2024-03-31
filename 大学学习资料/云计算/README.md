@@ -18,8 +18,7 @@
 ## [桌面云技术与部署](桌面云技术与部署/README.md)
 
 
-- [华为云计算-FusionAcces](桌面云技术与部署/华为云计算-FusionAcces.md)
-
+- [华为云计算-FusionAcces](桌面云技术与部署/华为云计算FusionAcces)
 
 
 
@@ -37,6 +36,8 @@
 [云计算期末试题2卷视屏讲解](https://q1h6kdpo24v.feishu.cn/file/DNl1b5JOroN2NnxkSRccLJ10nIc)
 
 [云计算期末试题1卷文档解析](https://www.yuque.com/mingfanbufan/hwtv9p/vw29guvmqxufmh77?singleDoc#)
+
+
 
 
 
