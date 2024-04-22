@@ -106,6 +106,15 @@ export default [
       "知识碎片-鱼皮/使用 AOP+自定义注解实现日志打印.md",
       "知识碎片-鱼皮/Hexo+Github+Netlify博客搭建教程.md",
       "知识碎片-鱼皮/什么是接口的幂等性，如何保证接口的幂等性？.md",
+      "知识碎片-鱼皮/DTO转VO工具.md",
+      "知识碎片-鱼皮/提示工程进阶技巧（大模型）.md",
+      "知识碎片-鱼皮/MinIO+Docker 从零搭建一个文件存储服务.md",
+      "知识碎片-鱼皮/MySQL8 绿色版安装.md",
+      "知识碎片-鱼皮/IDEA+Docker远程部署SpringBoot项目.md",
+      "知识碎片-鱼皮/函数式接口的使用.md",
+      "知识碎片-鱼皮/面试超高频考点：HashMap 源码逐行解析.md",
+      "知识碎片-鱼皮/MySQL基础知识：DDL、DML、DQL、DCL及TPL的使用.md",
+      "知识碎片-鱼皮/SpringBoot通过自定义注解实现多数据源.md"
     ],
   },
 ];
