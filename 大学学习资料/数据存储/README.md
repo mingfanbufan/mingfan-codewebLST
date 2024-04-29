@@ -6,5 +6,10 @@
 >
 > 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
+---
+
+[构建软RAID磁盘阵列实操](构建软RAID磁盘阵列实操.md)
+
+
 
 

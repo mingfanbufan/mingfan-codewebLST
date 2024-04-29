@@ -38,7 +38,7 @@
 #### [**🔥桌面云技术与部署-飞书文档**](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh) 
 
 
-[**云计算资料查看下载**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
+[**（大一上学期）云计算资料查看下载**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
 
 ## [面向对象编程](面向对象编程/README.md)
 
@@ -53,9 +53,15 @@
 
 
 每学期的期末考试试题都会汇聚在这里并给出答案解析。  
-目前已有2023-2024上学期学年度，期末考试试题解析。
 
--  [期末试题解析1卷](期末试题解析/虚拟化期末试题1卷.md)
--  [期末试题解析2卷](期末试题解析/虚拟化期末试题2卷.md)
+想去回顾的小伙伴们可以点击标题查看详细
+
+- 虚拟化2023年12月
+- 云计算2023年12月
+
+
+
+
+
 
 

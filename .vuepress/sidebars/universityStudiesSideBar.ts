@@ -35,6 +35,13 @@ export default [
         ],
     },
     {
+        title: "数据存储",
+        collapsable: true,
+        children: [
+            "数据存储/构建软RAID磁盘阵列实操.md"
+        ],
+    },
+    {
         title: "面向对象编程",
         collapsable: true,
         children: [
@@ -47,6 +54,17 @@ export default [
         children: [
             "期末试题解析/虚拟化期末试题1卷.md",
             "期末试题解析/虚拟化期末试题2卷.md",
+        ],
+    },
+    {
+        title: "计算机科学与技术",
+        collapsable: true,
+        children: [
+            "虚拟化/Nginx/Nginx-day1.md",
+            "虚拟化/Nginx/Nginx-day2.md",
+            "虚拟化/Nginx/Nginx-day3.md",
+            "虚拟化/Nginx/Nginx-day4.md",
+            "虚拟化/Nginx/Nginx-day5.md",
         ],
     },
 ];
