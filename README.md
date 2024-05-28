@@ -12,28 +12,23 @@ permalink: /
 >
 > 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
-## 公告
-
-> 鼠标移动到右侧小图标 快快扫码加入到技术交流圈子吧
-> 
-> 阅读明凡编程宝典使用手册了解这个站点的使用
-
-
-
 
 ## 本站内容
 部分学习内容来源于知识收集  
 免费学习路线来源来自著名知识分享博主[程序员鱼皮]()
 - [编程学习路线](学习路线)
-- [作者介绍](/作者)
 - [大学学习资料](大学学习资料/README.md)
 - [明凡Download](https://downlaod.mingfancloud.cn)
+- [知识碎片](知识碎片)
+- [投稿](使用手册/投稿.md)
+- [作者介绍](/作者)
+
 
 ## [编程学习路线](学习路线)
 
 包含 Java、前端、C++、Python、SQL、计算机基础、数据结构和算法、Git & GitHub、Linux、设计模式等多个精心编写的学习路线，帮助程序员快速入门。
 
-## [大学学习资料](大学学习资料)
+## [🤓大学学习资料](大学学习资料)
 
 - [虚拟化](大学学习资料/虚拟化/README.md)
 - [云计算](大学学习资料/云计算/README.md)  
@@ -48,6 +43,7 @@ permalink: /
 
 
 ## 我的网站产品
+
 - [明凡编程宝典](https://mingfancloud.cn)
 - [明凡Download](https://downlaod.mingfancloud.cn)
 - [MGL站队](https://yuemingfan.cn)
@@ -63,13 +59,19 @@ permalink: /
 
 欢迎大家积极投稿
 
+
+## [明凡Download](https://download.mingfancloud.cn)
+
+明凡编程宝典中包含的软件、文件、代码工具等文件包。包含环境配置工具、软件、文件下载地址，源文件、镜像站。
+
+
 ## [关于本站](关于本站/README.md)
 
 (详细点击标题查看)
 
 **本站开发上线的技术**
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/index/mingfanweb-index.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/index/mingfanweb-index.png)
 
 看见最右侧的小图标了嘛，加入圈子我们一起进步！！
 
@@ -77,14 +79,10 @@ permalink: /
 
 明凡编程宝典 建立实属不易，访问维护都含有成本。条件允许的小伙伴可以支持一下站长，站长的头发++。
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/about-website/support.png)  
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/about-website/support.png)  
 
 有条件的小伙伴支持一下吧！
 
-
-## [明凡Download](https://download.mingfancloud.cn)
-
-明凡编程宝典中包含的软件、文件、代码工具等文件包。包含环境配置工具、软件、文件下载地址，源文件、镜像站。
 
 ## [作者介绍](/作者) 
 

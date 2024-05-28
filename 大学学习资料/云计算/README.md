@@ -12,7 +12,6 @@
 
 - [云计eNSP安装步骤](云计算一期/eNSP安装步骤.md)
 
-- [open](桌面云技术与部署/OpenStack.md)
 
 [**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   
 [**桌面云技术于部署资源查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
@@ -21,8 +20,7 @@
 ## [桌面云技术与部署](桌面云技术与部署/README.md)
 
 
-- [华为云计算-FusionAcces](桌面云技术与部署/华为云计算FusionAcces)
-
+- [华为云计算-FusionAcces](桌面云技术与部署/华为云计算FusionAcces.md)
 
 
 "[🔥桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)"

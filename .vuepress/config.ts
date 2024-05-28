@@ -121,7 +121,7 @@ export default defineConfig({
     lastUpdated: "最近更新",
 
     // GitHub 仓库位置
-    repo: "zzm20040219",
+    repo: "mingfanbufan",
     docsBranch: "master",
 
     // 编辑链接
