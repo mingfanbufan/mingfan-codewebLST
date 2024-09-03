@@ -4,7 +4,10 @@ export default [
     title: "知识碎片-明凡",
     collapsable: true,
     children: [
-        // "知识碎片-明凡/教你一招，保护你GitHub上项目代码",
+        // "知识碎片-明凡/教你一招，保护你GitHub上项目代码.md",
+        "知识碎片-明凡/1Panel服务器运维管理面板使用halo建站.md",
+        "知识碎片-明凡/Centos7的yum源无法使用的解决办法.md",
+
     ],
   },
   {
@@ -114,7 +117,10 @@ export default [
       "知识碎片-鱼皮/函数式接口的使用.md",
       "知识碎片-鱼皮/面试超高频考点：HashMap 源码逐行解析.md",
       "知识碎片-鱼皮/MySQL基础知识：DDL、DML、DQL、DCL及TPL的使用.md",
-      "知识碎片-鱼皮/SpringBoot通过自定义注解实现多数据源.md"
+      "知识碎片-鱼皮/SpringBoot通过自定义注解实现多数据源.md",
+      "知识碎片-鱼皮/IDEA 同时关联 GitHub 和 Gitee 远程仓库.md",
+      "知识碎片-鱼皮/缓存穿透、缓存击穿、缓存雪崩的场景以及解决方法.md",
+      "知识碎片-鱼皮/状态机概念以及使用.md"
     ],
   },
 ];
