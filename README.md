@@ -18,7 +18,7 @@ permalink: /
 免费学习路线来源来自著名知识分享博主[程序员鱼皮]()
 - [编程学习路线](学习路线)
 - [大学学习资料](大学学习资料/README.md)
-- [明凡Download](https://downlaod.mingfancloud.cn)
+- [明凡Download](https://download.mingfancloud.cn)
 - [知识碎片](知识碎片)
 - [投稿](使用手册/投稿.md)
 - [作者介绍](/作者)
@@ -48,6 +48,13 @@ permalink: /
 - [明凡Download](https://download.mingfancloud.cn)
 - [MGL站队](https://yuemingfan.cn)
 
+
+
+## [明凡Download](https://download.mingfancloud.cn)
+
+明凡编程宝典中包含的软件、文件、代码工具等文件包。包含环境配置工具、软件、文件下载地址，源文件、镜像站。
+
+
 ## [投稿](使用手册/投稿.md)
 
 喜欢编程的小伙伴们可以将你的学习经验总结分享给大家。让我们一起成长一起进步吧！
@@ -59,10 +66,6 @@ permalink: /
 
 欢迎大家积极投稿
 
-
-## [明凡Download](https://download.mingfancloud.cn)
-
-明凡编程宝典中包含的软件、文件、代码工具等文件包。包含环境配置工具、软件、文件下载地址，源文件、镜像站。
 
 
 ## [关于本站](关于本站/README.md)
@@ -89,10 +92,5 @@ permalink: /
 (点击标题查看作者详细)
 
 没啥好说的，感谢您的阅读！
-
-
-
-
-
 
 
