@@ -18,10 +18,22 @@ export default [
         link: '/大学学习资料/',
         items: [
             {
-                text: "虚拟化", link: "/大学学习资料/#虚拟化",
+                text: "Linux操作系统", link: "/大学学习资料/#linux操作系统",
+            },
+            {
+            text: "数据库技术及应用", link: "/大学学习资料/#数据库技术及应用",
+            },
+            {
+                text: "Docker容器技术", link: "/大学学习资料/#docker容器技术",
             },
             {
                 text: "云计算&桌面云", link: "/大学学习资料/#云计算-桌面云",
+            },
+            {
+                text: "JavaScript", link: "/大学学习资料/#javascript-jquery交互式web前端开发",
+            },
+            {
+                text: "虚拟化", link: "/大学学习资料/#虚拟化",
             },
             {
                 text: "面向对象编程", link: "/大学学习资料/#面向对象编程",
