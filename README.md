@@ -30,16 +30,19 @@ permalink: /
 
 ## [🤓大学学习资料](大学学习资料)
 
+`点击绿色查看详细，绿色通道哦！`
+
 - [Linux操作系统](大学学习资料/Linux操作系统/README.md)
 - [数据库技术及应用](大学学习资料/数据库技术及应用/README.md)
 - [Docker容器技术](大学学习资料/docker容器技术/README.md)
-- [JavaScrip](大学学习资料/交互式web前端开发/README.md)
+- [JavaScript](大学学习资料/交互式web前端开发/README.md)
 - [虚拟化](大学学习资料/虚拟化/README.md)
 - [云计算](大学学习资料/云计算/README.md)  
   - [桌面云技术于部署](大学学习资料/云计算/桌面云技术与部署/README.md)
+  - [OpenStack](大学学习资料/云计算/OpenStack/README.md)
 - [面向对象编程](大学学习资料/面向对象编程/README.md)
 - [数据存储](大学学习资料/数据存储/README.md)  
-点击访问详细
+
 
 涵盖大学领域的多个方向云计算、桌面云技术与部署、虚拟化、面向对象编程等等。
 
