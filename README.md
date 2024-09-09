@@ -38,7 +38,7 @@ permalink: /
 - [JavaScript](大学学习资料/交互式web前端开发/README.md)
 - [虚拟化](大学学习资料/虚拟化/README.md)
 - [云计算](大学学习资料/云计算/README.md)  
-  - [桌面云技术于部署](大学学习资料/云计算/桌面云技术与部署/README.md)
+  - [桌面云技术与部署](大学学习资料/云计算/桌面云技术与部署/README.md)
   - [OpenStack](大学学习资料/云计算/OpenStack/README.md)
 - [面向对象编程](大学学习资料/面向对象编程/README.md)
 - [数据存储](大学学习资料/数据存储/README.md)  
@@ -46,7 +46,7 @@ permalink: /
 
 涵盖大学领域的多个方向云计算、桌面云技术与部署、虚拟化、面向对象编程等等。
 
-🔥[桌面云技术与部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
+🔥[Docker容器技术资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/M8ZkfNLXOlMequdTdQeclnnCn9g)
 
 
 

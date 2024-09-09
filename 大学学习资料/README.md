@@ -31,21 +31,19 @@ Docker 的徽标,表示一艘装有许多集装箱(Container)的货轮。
 Docker 借鉴集装箱装运货物的场景,让开发人员将应用程序及其依赖打包到一个轻量级、可移植的容器中,然后发布到任何运行 Docker容器引擎的环境中，以容器方式运行该应用程序。
 与装运集装箱时不用关心其中的货物一样，Docker在操作容器时也不关心容器中有什么软件，采用这种方式部署和运行应用程序非常方便。应当注意的是Docker 中的 Container 应译为容器，以区别于集装箱。
 
+🔥[Docker容器技术资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/M8ZkfNLXOlMequdTdQeclnnCn9g)
 
 
 ## [云计算-桌面云](云计算/README.md)
 
 - 云计算
 - 桌面云技术与部署
+- OpenStack
 
 
 云计算（cloud computing）是分布式计算的一种，指的是通过网络“云”将巨大的数据计算处理程序分解成无数个小程序，然后，通过多部服务器组成的系统进行处理和分析这些小程序得到结果并返回给用户。  
 云计算指通过计算机网络(多指因特网)形成的计算能力极强的系统，可存储、集合相关资源并可按需配置，向用户提供个性化服务。
 
-#### [**🔥桌面云技术与部署-飞书文档**](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh) 
-
-
-[**（大一上学期）云计算资料查看下载**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)
 
 ## [javascript+jquery交互式web前端开发](交互式web前端开发/README.md)
 

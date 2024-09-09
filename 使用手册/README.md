@@ -7,7 +7,15 @@
 >
 > 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
-## 首页介绍
+## 前言
+
+
+# `一切绿色皆可点`
+
+
+
+
+### 首页介绍
 
 待更新
 

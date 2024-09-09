@@ -20,7 +20,7 @@
 - [华为云计算-FusionAcces](桌面云技术与部署/华为云计算FusionAcces.md)
 
 
-"[🔥桌面云技术于部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)"
+"[🔥桌面云技术与部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)"
 
 
 ## [云计算一期](云计算一期/README.md)
@@ -29,7 +29,6 @@
 
 
 [**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   
-[**桌面云技术于部署资源查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)
 
 
 
@@ -46,7 +45,12 @@
 [云计算期末试题1卷文档解析](https://www.yuque.com/mingfanbufan/hwtv9p/vw29guvmqxufmh77?singleDoc#)
 
 
+## 资料
 
 
+
+[**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   
+[**桌面云技术于部署资源查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)  
+🔥[**Docker容器技术资源-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/M8ZkfNLXOlMequdTdQeclnnCn9g)
 
 
