@@ -39,7 +39,7 @@ permalink: /
 - [虚拟化](大学学习资料/虚拟化/README.md)
 - [云计算](大学学习资料/云计算/README.md)  
   - [桌面云技术与部署](大学学习资料/云计算/桌面云技术与部署/README.md)
-  - [OpenStack](大学学习资料/云计算/OpenStack/README.md)
+  - [OpenStack](大学学习资料/云计算/openstack/README.md)
 - [面向对象编程](大学学习资料/面向对象编程/README.md)
 - [数据存储](大学学习资料/数据存储/README.md)  
 

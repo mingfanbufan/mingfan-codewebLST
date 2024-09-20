@@ -6,20 +6,27 @@
 >
 > 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
-
-## 建立文件夹
-
+## 自动化脚本重建yum源仓库
 
 ```bash
- vi /etc/yum.repos.d/CentOS-Base.repo
+curl -o /root/updatarepo.sh https://mingfanwin.obs.cn-north-4.myhuaweicloud.com/updatarepo.sh 
+bash updatarepo.sh
 ```
 
+## 可下载的yum仓库
 Centos7
 ```bash
 curl -o /etc/yum.repos.d/CentOSmingfan-Base.repo https://mingfanwin.obs.cn-north-4.myhuaweicloud.com/Centos-mingfan.repo
 ```
 
-## yum源
+
+## 手动配置yum源
+
+
+```bash
+ vi /etc/yum.repos.d/CentOS-Base.repo
+```
+将以下内容写入CentOS-Base.repo
 
 ```bash
 # CentOS-Base.repo  
@@ -75,7 +82,7 @@ failovermethod=roundrobin
 
 
 
-## 清理
+### 清理
 
 ```bash
 sudo yum clean all

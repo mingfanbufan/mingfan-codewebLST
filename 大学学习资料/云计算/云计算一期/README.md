@@ -6,3 +6,7 @@
 >
 > 本站地址：[https://mingfancloud.cn](https://mingfancloud.cn)
 
+# 往期教学资料-2023
+
+[eNSP安装步骤](eNSP安装步骤.md)
+
