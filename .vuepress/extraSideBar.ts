@@ -7,7 +7,7 @@ export default [
   //   icon: "/icon/mobile.png",
   //   popoverTitle: "微信扫一扫",
   //   popoverUrl:
-  //     "/qrcode-codefather.png",
+  //     "/图片",
   //   popoverDesc: "可以手机看或分享至朋友圈",
   // },
   // {
@@ -16,7 +16,7 @@ export default [
   //   popoverTitle:
   //     '<span style="font-size:0.8rem;font-weight:bold;"><span style="color:red;">保姆级实战项目教程</span>、编程学习指南、学习资源、求职指南、技术分享、编程交流</span>',
   //   popoverUrl:
-  //     "/qrcode-codenav.png",
+  //     "/图片",
   //   popoverDesc: "知识星球：编程导航",
   // },
   {

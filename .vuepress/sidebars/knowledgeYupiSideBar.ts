@@ -11,6 +11,13 @@ export default [
     ],
   },
   {
+    title: "知识碎片-小诚",
+    collapsable: true,
+    children: [
+        "知识碎片-小诚/openstack搭建自动化脚本-xc.md"
+    ],
+  },
+  {
     title: "知识碎片-鱼皮",
     collapsable: true,
     children: [
