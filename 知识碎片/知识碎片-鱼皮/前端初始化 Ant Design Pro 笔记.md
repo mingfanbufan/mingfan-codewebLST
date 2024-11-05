@@ -7,7 +7,7 @@
 
 ## 注意 如果需要UMI UI插件就选择umi@3
 
-![](https://pic.yupi.icu/5563/202311220900308.png) 3. 打开项目后，需要运行npm
+![img](https://pic.yupi.icu/5563/202311220900308.png) 3. 打开项目后，需要运行npm
 
 1. 终端运行yarn,下载依赖
 2. 运行：在package.json中找到start并运行

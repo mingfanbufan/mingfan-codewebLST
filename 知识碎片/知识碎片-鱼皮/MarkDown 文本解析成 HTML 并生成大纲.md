@@ -95,7 +95,7 @@ const setTreeDataByHtml = (htmlContent) => {
 
 #### 测试结果
 
-![](https://pic.yupi.icu/5563/202401081829355.png)
+![img](https://pic.yupi.icu/5563/202401081829355.png)
 
 #### 完整代码
 

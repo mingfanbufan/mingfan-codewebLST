@@ -17,9 +17,9 @@
 
 整体工作流程如下：
 
-![](https://pic.yupi.icu/5563/202312201922520.png) 各个命令作用如下：
+![img](https://pic.yupi.icu/5563/202312201922520.png) 各个命令作用如下：
 
-![](https://pic.yupi.icu/5563/202312201922501.png)
+![img](https://pic.yupi.icu/5563/202312201922501.png)
 
 ### (3) 代码托管服务
 
@@ -61,7 +61,7 @@ git config --list
 3. 在窗口执行命令git init
 4. 如果创建成功后可在文件夹下看到隐藏的.git目录。
 
-![](https://pic.yupi.icu/5563/202312201922538.png)
+![img](https://pic.yupi.icu/5563/202312201922538.png)
 
 ### (2.2) 远程克隆
 
@@ -85,7 +85,7 @@ Git工作区中的文件存在两种状态
 
 注意：这些文件的状态会随着我们执行Git的命令发生变化。
 
-![](https://pic.yupi.icu/5563/202312201922603.png)
+![img](https://pic.yupi.icu/5563/202312201922603.png)
 
 ## 三.常用命令
 
@@ -144,7 +144,7 @@ git reset --hard commitID
 
 commitID可以使用git log指令查看
 
-![](https://pic.yupi.icu/5563/202312201922709.png) git reflog 这个指令可以看到已经删除的提交记录
+![img](https://pic.yupi.icu/5563/202312201922709.png) git reflog 这个指令可以看到已经删除的提交记录
 
 ### (2) 远程仓库操作
 
@@ -160,7 +160,7 @@ git remote add 远端名称 仓库路径
 远端名称:默认是origin，取决于远端服务器设置
 仓库路径:从远端服务器获取此URL
 
-![](https://pic.yupi.icu/5563/202312201922674.png)
+![img](https://pic.yupi.icu/5563/202312201922674.png)
 
 ### (2.2) 查看远程仓库
 
@@ -172,7 +172,7 @@ git remote
 git remote -v
 ```
 
-![](https://pic.yupi.icu/5563/202312201922881.png)
+![img](https://pic.yupi.icu/5563/202312201922881.png)
 
 ### (1.3) 克隆远程仓库到本地
 
@@ -193,7 +193,7 @@ git push 远端名称 远端分支名称
 
   首次push到远程仓库可能需要进行身份验证，这是只需要输入注册托管平台的账号密码即可。
 
-![](https://pic.yupi.icu/5563/202312201922836.png)
+![img](https://pic.yupi.icu/5563/202312201922836.png)
 
 ### (1.5) 从远程仓库拉去
 
@@ -262,7 +262,7 @@ git branch 分支名称
 git checkout 分支名称
 ```
 
-![](https://pic.yupi.icu/5563/202312201922859.png)
+![img](https://pic.yupi.icu/5563/202312201922859.png)
 
 ### (3.5) 推送至远程仓库分支
 
@@ -272,7 +272,7 @@ git checkout 分支名称
 git push 远端名称 分支名称
 ```
 
-![](https://pic.yupi.icu/5563/202312201922914.png)
+![img](https://pic.yupi.icu/5563/202312201922914.png)
 
 ### (3.6) 分支合并
 
@@ -290,7 +290,7 @@ git merge 被融合分支名称
   3.提交到仓库(commit)
   冲突部分的内容处理如下所示：
 
-![](https://pic.yupi.icu/5563/202312201922977.png)
+![img](https://pic.yupi.icu/5563/202312201922977.png)
 
 ### (3.7) 删除分支
 
@@ -312,7 +312,7 @@ git branch -D 分支名称
 
   Git中的标签，指的是某个分支某个特定时间点的状态。通过标签很方便的切换到标记时的状态（类似拍的一张照片，已经定格）。比较有代表的是人们会使用这个功能来标记发布结点（v1.0,v1.2等）。
 
-![](https://pic.yupi.icu/5563/202312201922920.png)
+![img](https://pic.yupi.icu/5563/202312201922920.png)
 
 ### (4.2) 查看已有标签
 
@@ -347,13 +347,13 @@ git push 远端名称 标签名称
 git checkout -b 创建新分支名称 当时状态标签名称
 ```
 
-![](https://pic.yupi.icu/5563/202312201922556.png)
+![img](https://pic.yupi.icu/5563/202312201922556.png)
 
 ## 四.在IDEA中操作Git
 
 ### (1) 在IDEA中配置Git
 
-![](https://pic.yupi.icu/5563/202312201922707.png)
+![img](https://pic.yupi.icu/5563/202312201922707.png)
 
 ### (2) 获取Git仓库
 
@@ -361,15 +361,15 @@ git checkout -b 创建新分支名称 当时状态标签名称
 
 1. 本地初始化仓库
 
-![](https://pic.yupi.icu/5563/202312201922679.png)
+![img](https://pic.yupi.icu/5563/202312201922679.png)
 
-![](https://pic.yupi.icu/5563/202312201922893.png)
+![img](https://pic.yupi.icu/5563/202312201922893.png)
 
 1. 从远程仓库克隆
 
-![](https://pic.yupi.icu/5563/202312201922880.png) 或者在初始界面：
+![img](https://pic.yupi.icu/5563/202312201922880.png) 或者在初始界面：
 
-![](https://pic.yupi.icu/5563/202312201922973.png)
+![img](https://pic.yupi.icu/5563/202312201922973.png)
 
 ### (3) gitignore文件的作用
 
@@ -379,58 +379,58 @@ git checkout -b 创建新分支名称 当时状态标签名称
 
 ### (4.1) 将文件加入暂存区
 
-![](https://pic.yupi.icu/5563/202312201922615.png)
+![img](https://pic.yupi.icu/5563/202312201922615.png)
 
 ### (4.2) 将暂存区的文件提交到到版本库
 
-![](https://pic.yupi.icu/5563/202312201922676.png) 常用：
+![img](https://pic.yupi.icu/5563/202312201922676.png) 常用：
 
-![](https://pic.yupi.icu/5563/202312201922596.png)
+![img](https://pic.yupi.icu/5563/202312201922596.png)
 
 ### (4.3) 查看日志
 
-![](https://pic.yupi.icu/5563/202312201922637.png)
+![img](https://pic.yupi.icu/5563/202312201922637.png)
 
-![](https://pic.yupi.icu/5563/202312201922783.png)
+![img](https://pic.yupi.icu/5563/202312201922783.png)
 
 ### (5) 远程仓库操作
 
 ### (5.1) 查看远程仓库&添加远程仓库
 
-![](https://pic.yupi.icu/5563/202312201922932.png)
+![img](https://pic.yupi.icu/5563/202312201922932.png)
 
 ### (5.2) 推送至远程仓库
 
-![](https://pic.yupi.icu/5563/202312201922510.png) 常用：
+![img](https://pic.yupi.icu/5563/202312201922510.png) 常用：
 
-![](https://pic.yupi.icu/5563/202312201922505.png)
+![img](https://pic.yupi.icu/5563/202312201922505.png)
 
 ### (5.3) 从远程仓库拉取
 
-![](https://pic.yupi.icu/5563/202312201922652.png) 常用：
+![img](https://pic.yupi.icu/5563/202312201922652.png) 常用：
 
-![](https://pic.yupi.icu/5563/202312201922558.png)
+![img](https://pic.yupi.icu/5563/202312201922558.png)
 
 ### (6) 分支操作
 
 ### (6.1) 查看分支
 
-![](https://pic.yupi.icu/5563/202312201922750.png) 常用：（在屏幕右下角）
+![img](https://pic.yupi.icu/5563/202312201922750.png) 常用：（在屏幕右下角）
 
-![](https://pic.yupi.icu/5563/202312201922769.png)
+![img](https://pic.yupi.icu/5563/202312201922769.png)
 
 ### (6.2) 创建分支
 
-![](https://pic.yupi.icu/5563/202312201922271.png)
+![img](https://pic.yupi.icu/5563/202312201922271.png)
 
 ### (6.3) 切换分支
 
-![](https://pic.yupi.icu/5563/202312201922265.png)
+![img](https://pic.yupi.icu/5563/202312201922265.png)
 
 ### (6.4) 将分支推送至远程仓库
 
-![](https://pic.yupi.icu/5563/202312201922370.png)
+![img](https://pic.yupi.icu/5563/202312201922370.png)
 
 ### (6.5) 合并分支
 
-![](https://pic.yupi.icu/5563/202312201922468.png)
+![img](https://pic.yupi.icu/5563/202312201922468.png)

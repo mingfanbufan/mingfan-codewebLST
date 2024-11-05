@@ -4,7 +4,7 @@
 
 首先要了解在 Springboot 中只支持那些 Springboot 的版本（我真的被这个搞死了）,可以如下图参考：
 
-![](https://pic.yupi.icu/5563/202312131307119.png)
+![img](https://pic.yupi.icu/5563/202312131307119.png)
 
 下面我们就开始吧
 
@@ -26,15 +26,15 @@
 
 命令的运行是在 bin 目录下，如果无权限，请用管理员的终端再次尝试。
 
-![](https://pic.yupi.icu/5563/202312131307768.png)
+![img](https://pic.yupi.icu/5563/202312131307768.png)
 
 启动好后：
 
-![](https://pic.yupi.icu/5563/202312131307829.png)
+![img](https://pic.yupi.icu/5563/202312131307829.png)
 
 点击上图出现的网址可以进入（如果要输入密码默认都是nacos）：
 
-![](https://pic.yupi.icu/5563/202312131307841.png)
+![img](https://pic.yupi.icu/5563/202312131307841.png)
 
 ------
 
@@ -136,7 +136,7 @@ public class UserServiceApplication {
 
 然后重新启动就可以啦
 
-![](https://pic.yupi.icu/5563/202312131308126.png)
+![img](https://pic.yupi.icu/5563/202312131308126.png)
 
 > 说明：在SpringBoot 2.4.x的版本之后，对于bootstrap.properties/bootstrap.[yaml配置文件](https://so.csdn.net/so/search?q=yaml配置文件&spm=1001.2101.3001.7020)(我们合起来成为Bootstrap配置文件)的支持，需要导入如下的依赖。由于SpringCloud 2020.*以后的版本默认禁用了bootstrap，导致读取配置文件时读取不到该属性。
 >

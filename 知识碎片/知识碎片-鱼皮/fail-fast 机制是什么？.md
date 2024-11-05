@@ -50,7 +50,7 @@ List<String> list = new ArrayList<>();
 
 ## 先说正确规范
 
-在阿里巴巴手册中明确规定了，不要在foreach中使用`remove\add`操作。 ![](https://pic.yupi.icu/5563/202311300826859.png)
+在阿里巴巴手册中明确规定了，不要在foreach中使用`remove\add`操作。 ![img](https://pic.yupi.icu/5563/202311300826859.png)
 
 ## 【问题】为什么上面代码1，3没问题？2会抛异常
 

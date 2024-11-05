@@ -12,15 +12,15 @@ elasticsearch 是一款非常强大的开源搜索引擎，具备非常多强大
 
 - 在 Github 中搜索代码
 
-![](https://pic.yupi.icu/5563/202312241549217.png)
+![img](https://pic.yupi.icu/5563/202312241549217.png)
 
 - 在电商网站搜索商品
 
-![](https://pic.yupi.icu/5563/202312241549383.png)
+![img](https://pic.yupi.icu/5563/202312241549383.png)
 
 - 在 Google 搜索答案
 
-![](https://pic.yupi.icu/5563/202312241549223.png)
+![img](https://pic.yupi.icu/5563/202312241549223.png)
 
 - ……
 
@@ -158,7 +158,7 @@ elasticsearch 是面向 **文档** 存储的，可以是数据库中的一条商
 - 对查询性能要求较高的搜索需求，使用elasticsearch实现
 - 两者再基于某种方式，实现数据的同步，保证一致性
 
-![](https://pic.yupi.icu/5563/202312241549107.png)
+![img](https://pic.yupi.icu/5563/202312241549107.png)
 
 ## 安装
 
@@ -170,13 +170,13 @@ elasticsearch 是面向 **文档** 存储的，可以是数据库中的一条商
 
 elasticsearch 对中文的分词不是很友好，一般的分词不管你选择的是标准分词器，还是中文分词器，结果都是只能分成一个一个的字，非常不友好。所以我们选择一个开源的分词器。[下载地址]([medcl/elasticsearch-analysis-ik: The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary. (github.com)](https://github.com/medcl/elasticsearch-analysis-ik)) 你只需要把内容下载好，把这个目录解压放到安装 elasticsearch 的文件夹中的 plugins 目录中。例如：
 
-![](https://pic.yupi.icu/5563/202312241549138.png)
+![img](https://pic.yupi.icu/5563/202312241549138.png)
 
 放好以后，直接重启 elasticsearch 就好。
 
 如果出现报错说分词器版本不兼容 elasticsearch 只要进入下载好的分词器目录下面的 `plugin-descriptor.properties`文件中八版本改成和你的 elasticsearch 版本一致就好了。
 
-![](https://pic.yupi.icu/5563/202312241549316.png)
+![img](https://pic.yupi.icu/5563/202312241549316.png)
 
 ## 使用
 
@@ -311,7 +311,7 @@ PUT /xwhking
 
 结果展示：
 
-![](https://pic.yupi.icu/5563/202312241549968.png)
+![img](https://pic.yupi.icu/5563/202312241549968.png)
 
 #### 查询索引库
 
@@ -335,7 +335,7 @@ GET /xwhking
 
 结果展示：
 
-![](https://pic.yupi.icu/5563/202312241549009.png)
+![img](https://pic.yupi.icu/5563/202312241549009.png)
 
 #### 修改索引库
 
@@ -380,11 +380,11 @@ PUT /xwhking/_mapping
 
 添加结果：
 
-![](https://pic.yupi.icu/5563/202312241549979.png)
+![img](https://pic.yupi.icu/5563/202312241549979.png)
 
 我们重新查看索引看是否有添加字段：
 
-![](https://pic.yupi.icu/5563/202312241549472.png)
+![img](https://pic.yupi.icu/5563/202312241549472.png)
 
 从结果来看我们是成功了的。
 
@@ -412,9 +412,9 @@ DELETE /xwhking
 
 结果：
 
-![](https://pic.yupi.icu/5563/202312241549476.png)
+![img](https://pic.yupi.icu/5563/202312241549476.png)
 
-![](https://pic.yupi.icu/5563/202312241549946.png)
+![img](https://pic.yupi.icu/5563/202312241549946.png)
 
 很明显我们查询不到了。
 
@@ -468,7 +468,7 @@ POST /xwhking/_doc/1
 
 结果：
 
-![](https://pic.yupi.icu/5563/202312241549932.png)
+![img](https://pic.yupi.icu/5563/202312241549932.png)
 
 #### 查询文档
 
@@ -492,7 +492,7 @@ GET /xwhking/_doc/1
 
 结果：
 
-![](https://pic.yupi.icu/5563/202312241549969.png)
+![img](https://pic.yupi.icu/5563/202312241549969.png)
 
 #### 删除文档
 
@@ -516,7 +516,7 @@ DELETE /xwhking/_doc/1
 
 结果参考
 
-![](https://pic.yupi.icu/5563/202312241549116.png)
+![img](https://pic.yupi.icu/5563/202312241549116.png)
 
 #### 修改文档
 
@@ -573,7 +573,7 @@ PUT /xwhking/_doc/1
 
 结果：
 
-![](https://pic.yupi.icu/5563/202312241549126.png)
+![img](https://pic.yupi.icu/5563/202312241549126.png)
 
 ##### 增量修改
 
@@ -610,7 +610,7 @@ POST /xwhking/_doc/1
 
 其中的 version 表示修改次数，创建一次，上面一次全量修改一次，增量修改一次，所以是三次。
 
-![](https://pic.yupi.icu/5563/202312241549810.png)
+![img](https://pic.yupi.icu/5563/202312241549810.png)
 
 ### 利用 RestAPI 在 Java 中使用 ElasticSearch
 
@@ -728,7 +728,7 @@ GET /hotel/_search
 
 结果：
 
-![](https://pic.yupi.icu/5563/202312241549804.png)
+![img](https://pic.yupi.icu/5563/202312241549804.png)
 
 #### 全文检索查询
 
@@ -801,7 +801,7 @@ GET /hotel/_search
 
 result :
 
-![](https://pic.yupi.icu/5563/202312241549833.png)
+![img](https://pic.yupi.icu/5563/202312241549833.png)
 
 multi_match 示例：
 
@@ -819,7 +819,7 @@ GET /hotel/_search
 
 result:
 
-![](https://pic.yupi.icu/5563/202312241549897.png)
+![img](https://pic.yupi.icu/5563/202312241549897.png)
 
 > # TIPS
 >
@@ -879,13 +879,13 @@ GET /hotel/_search
 
 result:
 
-![](https://pic.yupi.icu/5563/202312241549955.png)
+![img](https://pic.yupi.icu/5563/202312241549955.png)
 
 因为词条是精匹配如果我们输入的是`杭州上海`则不会有结果
 
 但是，当我搜索的内容不是词条，而是多个词语形成的短语时，反而搜索不到：
 
-![](https://pic.yupi.icu/5563/202312241549052.png)
+![img](https://pic.yupi.icu/5563/202312241549052.png)
 
 ##### range 查询
 
@@ -934,7 +934,7 @@ result:
 
 出现的都是在 40 以上的！
 
-![](https://pic.yupi.icu/5563/202312241549649.png)
+![img](https://pic.yupi.icu/5563/202312241549649.png)
 
 #### 
 
@@ -956,7 +956,7 @@ result:
 - 请求路径：/索引库/_search
 - 请求参数：请看示例
 
-![](https://pic.yupi.icu/5563/202312241549636.png)
+![img](https://pic.yupi.icu/5563/202312241549636.png)
 
 查询时，需要指定矩形的**左上**、**右下**两个点的坐标，然后画出一个矩形，落在该矩形内的都是符合条件的点。
 
@@ -987,7 +987,7 @@ GET /indexName/_search
 
 换句话来说，在地图上找一个点作为圆心，以指定距离为半径，画一个圆，落在圆内的坐标都算符合条件：
 
-![](https://pic.yupi.icu/5563/202312241549864.png)
+![img](https://pic.yupi.icu/5563/202312241549864.png)
 
 ###### 基本语法：
 
@@ -1026,11 +1026,11 @@ GET /hotel/_search
 
 result:
 
-![](https://pic.yupi.icu/5563/202312241549873.png)
+![img](https://pic.yupi.icu/5563/202312241549873.png)
 
 缩小一下半径（就是陆家嘴附近啦）：
 
-![](https://pic.yupi.icu/5563/202312241549909.png)
+![img](https://pic.yupi.icu/5563/202312241549909.png)
 
 #### 复合查询
 
@@ -1063,15 +1063,15 @@ result:
 
 在elasticsearch中，早期使用的打分算法是TF-IDF算法，公式如下：
 
-![](https://pic.yupi.icu/5563/202312241549426.png)
+![img](https://pic.yupi.icu/5563/202312241549426.png)
 
 在后来的5.1版本升级中，elasticsearch将算法改进为BM25算法，公式如下：
 
-![](https://pic.yupi.icu/5563/202312241549325.png)
+![img](https://pic.yupi.icu/5563/202312241549325.png)
 
 TF-IDF算法有一各缺陷，就是词条频率越高，文档得分也会越高，单个词条对文档影响较大。而BM25则会让单个词条的算分有一个上限，曲线更加平滑：
 
-![](https://pic.yupi.icu/5563/202312241549529.png)
+![img](https://pic.yupi.icu/5563/202312241549529.png)
 
 ##### 算分函数查询
 
@@ -1083,7 +1083,7 @@ TF-IDF算法有一各缺陷，就是词条频率越高，文档得分也会越�
 
 ###### 基本语法：
 
-![](https://pic.yupi.icu/5563/202312241549584.png)
+![img](https://pic.yupi.icu/5563/202312241549584.png)
 
 function score 查询中包含四部分内容：
 
@@ -1166,7 +1166,7 @@ GET /hotel/_search
 
 result:
 
-![](https://pic.yupi.icu/5563/202312241549738.png)
+![img](https://pic.yupi.icu/5563/202312241549738.png)
 
 function score query定义的三要素是什么？
 
@@ -1229,7 +1229,7 @@ GET /hotel/_search
 
 result：
 
-![](https://pic.yupi.icu/5563/202312241549934.png)
+![img](https://pic.yupi.icu/5563/202312241549934.png)
 
 #### 搜索结果处理
 

@@ -12,11 +12,11 @@
 
 1. 定义CSS变量：因为CSS变量组件库已经配好一套黑白变量了，直接拿来用https://arco.design/vue/docs/token 
 
-   ![](https://pic.yupi.icu/5563/202311161420865.png)
+   ![img](https://pic.yupi.icu/5563/202311161420865.png)
 
 2. 为body标签添加相关的属性，参考arcodesign官网：
 
-![](https://pic.yupi.icu/5563/202311161420640.png) 设置到localStorage防止刷新之后主题恢复成默认的配置
+![img](https://pic.yupi.icu/5563/202311161420640.png) 设置到localStorage防止刷新之后主题恢复成默认的配置
 
 ```javascript
 const isLight = ref();
@@ -45,7 +45,7 @@ onMounted(() => {
 
 1. 将一些写死的样式改为变量：
 
-![](https://pic.yupi.icu/5563/202311161420070.png)
+![img](https://pic.yupi.icu/5563/202311161420070.png)
 如果发现官网设计的变量不够，想自己加，可以参考：
 https://arco.design/vue/docs/theme
 利用组件库平台提供去配置主题：
@@ -138,7 +138,7 @@ module.exports = {
 例如，
 在需要应用相应主题样式的地方的父元素或自身元素上添加主题的标签: `theme-light`
 在需要改变背景的地方添加上：`bg-base`
-![](https://pic.yupi.icu/5563/202311161420202.png)
+![img](https://pic.yupi.icu/5563/202311161420202.png)
 代码：[Tailwind Play](https://play.tailwindcss.com/pGH5RsrfJ0)
 
 ### unocss颜色主题切换
@@ -187,4 +187,4 @@ export default defineConfig({
 
 
 6种方案：
-![](https://pic.yupi.icu/5563/202311161420682.png)
+![img](https://pic.yupi.icu/5563/202311161420682.png)

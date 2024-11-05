@@ -345,7 +345,7 @@ MinIO 的主要目标是作为私有云对象存储的标准方案，非常适�
 
 在 Docker Hub 搜索 MinIO 相关镜像，使用这一个：
 
-[![](https://pic.yupi.icu/5563/202311171841217.png)](https://imgloc.com/image/ngYO5)
+[![img](https://pic.yupi.icu/5563/202311171841217.png)](https://imgloc.com/image/ngYO5)
 
 按照文档的说明，下载镜像：
 
@@ -407,7 +407,7 @@ ruby
 
 `API` 也就是对外提供资源存取服务的地址，`Console` 是控制台，也就是一个后台管理系统。`RootUser` 是通过环境变量设置的 root 用户名，`RootPass` 是 root 用户密码。创建容器时没有指定这两个环境变量的话，这里会提供两个默认的值，分别是 `minio` 和 `miniosecret`。
 
-[![](https://pic.yupi.icu/5563/202311171841346.png)](https://imgloc.com/image/ngDlX)
+[![img](https://pic.yupi.icu/5563/202311171841346.png)](https://imgloc.com/image/ngDlX)
 
 查看 minio 容器的信息：
 
@@ -416,39 +416,39 @@ ruby
 复制代码$ docker ps
 ```
 
-可以看到容器的 ID，所使用的的镜像，运行状态，端口等信息： [![](https://pic.yupi.icu/5563/202311171841618.png)](https://imgloc.com/image/ngdEs)
+可以看到容器的 ID，所使用的的镜像，运行状态，端口等信息： [![img](https://pic.yupi.icu/5563/202311171841618.png)](https://imgloc.com/image/ngdEs)
 
 ### 开放安全组端口
 
 MinIO 服务用到了 9000 和 9001 端口，如果使用的是云服务器，需要在安全组中开放端口：
 
-![](https://pic.yupi.icu/5563/202311171845030.png)
+![img](https://pic.yupi.icu/5563/202311171845030.png)
 
 ### 访问 MinIO
 
 打开浏览器，访问 `域名:9001` 或者 `IP:9001` ，即可访问 MinIO 服务的管理系统，使用设置好的用户名和密码，登录系统：
 
-![](https://pic.yupi.icu/5563/202311171844496.png)
+![img](https://pic.yupi.icu/5563/202311171844496.png)
 
 进入系统首页，默认展示存储桶列表，由于现在是一个新的服务，所以还是空的：
 
-[![](https://pic.yupi.icu/5563/202311171841291.png)](https://imgloc.com/image/ng9XC)
+[![img](https://pic.yupi.icu/5563/202311171841291.png)](https://imgloc.com/image/ng9XC)
 
 ### 创建桶
 
 根据提示，点击 “Create a Bucket” 开始创建第一个存储桶：
 
-[![](https://pic.yupi.icu/5563/202311171841069.png)](https://imgloc.com/image/ngG0t)
+[![img](https://pic.yupi.icu/5563/202311171841069.png)](https://imgloc.com/image/ngG0t)
 
 点击按钮即可完成桶的创建，如下，是刚刚创建的存储桶的卡片展示：
 
-[![](https://pic.yupi.icu/5563/202311171841055.png)](https://imgloc.com/image/ngN1m)
+[![img](https://pic.yupi.icu/5563/202311171841055.png)](https://imgloc.com/image/ngN1m)
 
-[![](https://pic.yupi.icu/5563/202311171841904.png)](https://imgloc.com/image/ngaaN)
+[![img](https://pic.yupi.icu/5563/202311171841904.png)](https://imgloc.com/image/ngaaN)
 
 ### 上传文件
 
-![](https://pic.yupi.icu/5563/202311171843371.png)
+![img](https://pic.yupi.icu/5563/202311171843371.png)
 
 上方的路径可以复制下来，拼接上 MinIO 服务的地址，就是此文件的 URL 了。一定要把桶的访问策略改为 Public，否则访问此 URL 将返回 403。
 
@@ -502,11 +502,11 @@ MinIO是一个开源的对象存储服务器，设计用于存储和检索大量
 
 #### 2.1 设置minio参数
 
-![](https://pic.yupi.icu/5563/202311171842067.png)
+![img](https://pic.yupi.icu/5563/202311171842067.png)
 
 如出现报错，可按下方方式解决（来自博客：[Minio上传图片时遇到的问题S3 API Requests must be made to API port._minio 上传失败_Micek的博客-](https://blog.csdn.net/Gracener/article/details/127820613?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-127820613-blog-127102500.235^v38^pc_relevant_anti_t3_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-127820613-blog-127102500.235^v38^pc_relevant_anti_t3_base&utm_relevant_index=5)）
 
-![](https://pic.yupi.icu/5563/202311171841340.png)
+![img](https://pic.yupi.icu/5563/202311171841340.png)
 
 #### 2.2 文件上传配置
 
@@ -831,4 +831,4 @@ public class MinioController
 
 其他接口请自行测试。
 
-![](https://pic.yupi.icu/5563/202311171841018.png)
+![img](https://pic.yupi.icu/5563/202311171841018.png)

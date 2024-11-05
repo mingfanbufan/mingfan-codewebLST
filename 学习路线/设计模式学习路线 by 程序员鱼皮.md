@@ -38,7 +38,7 @@ A：先学习基础的界面开发、组件库和框架的使用，之后可以�
 
 ## 大纲
 
-![](http://img.mingfancloud.cn/Learning-Path/Design-patterns/1.png)
+![img](http://img.mingfancloud.cn/Learning-Path/Design-patterns/1.png)
 
 ## 知识
 

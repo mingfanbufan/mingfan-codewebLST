@@ -44,7 +44,7 @@ public static List<ArticleDTO> toArticleDtoList(List<ArticleDO> articleDOS) {
 }
 ```
 
-这样的代码如果只是一个方法可能还好，但是如果写多了，你就会发现代码不是很优雅，而且每次写代码量还巨大，虽然有插件可以帮你写，但是感觉还是不好，这个时候，肯定有人会说用 BeanUtils，这个时候我会给你大大的一巴掌，主要是 BeeanUtils 其可能会踩一些坑，你可能把握不是很好，这里我找了一些关于 BeanUtils 的一些文章，感兴趣的同学可以一起看看：<br />Spring的BeanUtils.copyProperties()避坑指南：[https://juejin.cn/post/7012279747526787080](https://juejin.cn/post/7012279747526787080)<br />几个 BeanUtils 中的坑，千万别踩！[https://cloud.tencent.com/developer/article/1522266](https://cloud.tencent.com/developer/article/1522266)<br />SpringBoot 整合mapstruct|赶紧丢掉BeanUtils吧：[https://juejin.cn/post/7035161765948162078](https://juejin.cn/post/7035161765948162078)<br />![](https://pic.yupi.icu/5563/202311081045996.jpeg)
+这样的代码如果只是一个方法可能还好，但是如果写多了，你就会发现代码不是很优雅，而且每次写代码量还巨大，虽然有插件可以帮你写，但是感觉还是不好，这个时候，肯定有人会说用 BeanUtils，这个时候我会给你大大的一巴掌，主要是 BeeanUtils 其可能会踩一些坑，你可能把握不是很好，这里我找了一些关于 BeanUtils 的一些文章，感兴趣的同学可以一起看看：<br />Spring的BeanUtils.copyProperties()避坑指南：[https://juejin.cn/post/7012279747526787080](https://juejin.cn/post/7012279747526787080)<br />几个 BeanUtils 中的坑，千万别踩！[https://cloud.tencent.com/developer/article/1522266](https://cloud.tencent.com/developer/article/1522266)<br />SpringBoot 整合mapstruct|赶紧丢掉BeanUtils吧：[https://juejin.cn/post/7035161765948162078](https://juejin.cn/post/7035161765948162078)<br />![img](https://pic.yupi.icu/5563/202311081045996.jpeg)
 
 那有什么简单的解决方法，那就是我们今天的主角， MapStruct 了，接下来我们简单使用一下 MapStruct演示一下。
 
@@ -333,15 +333,15 @@ ColumnInfoDO columnInfoDO = columnStructMapper.toDo(req);
 
 如果你在 Intellij IDEA 中安装 MapStruct 插件的话，直接在插件市场搜 MapStruct 关键字就可以了。
 
-![](https://pic.yupi.icu/5563/202311081048480.png)
+![img](https://pic.yupi.icu/5563/202311081048480.png)
 
 安装完成后，可以直接在 [@Mapper](https://www.yuque.com/Mapper) 接口和它的实现类之间快速导航。 
 
-![](https://pic.yupi.icu/5563/202311081048118.png)
+![img](https://pic.yupi.icu/5563/202311081048118.png)
 
 比如说点击上图中的跳转小图标，就可以直接到实现类。
 
-![](https://pic.yupi.icu/5563/202311081048973.png)
+![img](https://pic.yupi.icu/5563/202311081048973.png)
 
 ## **MapStruct 的背后原理**
 
@@ -364,15 +364,15 @@ public interface SimpleSourceDestinationMapper {
 
 <br />其在编译后会生成两个文件 SimpleSourceDestinationMapper 和 SimpleSourceDestinationMapperImpl。
 
-![](https://pic.yupi.icu/5563/202311081049390.png)
+![img](https://pic.yupi.icu/5563/202311081049390.png)
 
 通过终端可以看到 class 文件的后缀。
 
-![](https://pic.yupi.icu/5563/202311081049134.png)
+![img](https://pic.yupi.icu/5563/202311081049134.png)
 
 OK，我们直接来看 class 文件的内容，当然是反编译后的，Intellij IDEA 可以直接打开，先是 SimpleSourceDestinationMapper。
 
-![](https://pic.yupi.icu/5563/202311081049183.png)
+![img](https://pic.yupi.icu/5563/202311081049183.png)
 
 再来看实现类 SimpleSourceDestinationMapperImpl，我们直接贴反编译后的代码。
 
@@ -407,7 +407,7 @@ public class SimpleSourceDestinationMapperImpl implements SimpleSourceDestinatio
 
 其实内容和我们直接去写 Converter 是一样的，通过 new 创建一个对象，然后通过 set 方法进行赋值。
 
-如果是 @Mapper(componentModel = "spring") 的话，在生成的时候，会带上 [@Component](https://www.yuque.com/Component) 注解。 <br />![](https://pic.yupi.icu/5563/202311081050327.png)
+如果是 @Mapper(componentModel = "spring") 的话，在生成的时候，会带上 [@Component](https://www.yuque.com/Component) 注解。 <br />![img](https://pic.yupi.icu/5563/202311081050327.png)
 
 > 使用 [**@Component**](https://www.yuque.com/Component) 注解的类将会在 Spring 的组件扫描期间被检测并注册到 ApplicationContext 中，从而使其成为一个 Spring Bean。
 

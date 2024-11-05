@@ -34,7 +34,7 @@ public class Mycontroller {
 
 执行结果：
 
-![](https://pic.yupi.icu/5563/202403201916030.png)
+![img](https://pic.yupi.icu/5563/202403201916030.png)
 
 方法的首尾两行都会有一个日志输出，把这个方法的所有运行包在了日志里面，如果个方法出现了问题，就很容易定位到这里了。
 
@@ -53,7 +53,7 @@ public class Mycontroller {
 
 那么输出结果如下：
 
-![](https://pic.yupi.icu/5563/202403201916965.png)
+![img](https://pic.yupi.icu/5563/202403201916965.png)
 
 可以看到报错的上一行日志定位了`get`方法。我们只需在`get`方法里面找问题就好了。
 
@@ -239,7 +239,7 @@ public class LogAOP {
 
 执行结果如下：
 
-![](https://pic.yupi.icu/5563/202403201916944.png)
+![img](https://pic.yupi.icu/5563/202403201916944.png)
 
 即使我们没有在接口方法中写任何的日志逻辑，只要标记了注解，就会自动调用注解方法！
 
@@ -358,7 +358,7 @@ public class LogAOP {
 
 分别请求两个注解看看有什么不一样的地方：
 
-![](https://pic.yupi.icu/5563/202403201916988.png)
+![img](https://pic.yupi.icu/5563/202403201916988.png)
 
 可以看到虽然`get`方法中没有标注任何的注解，但是也记录了日志。而`post`方法中，还打印出了自定义注解的“审计日志”。
 

@@ -123,14 +123,14 @@ executeMessage.setTime(stopWatch.getLastTaskTimeMillis());
 
 1. **打包项目成jar包：** 使用构建工具（本项目使用Maven），在项目目录下执行打包命令，生成可执行的JAR文件。这个JAR文件将包含您项目的所有必要依赖和代码。
 
-![](https://pic.yupi.icu/5563/202401212006062.png)
+![img](https://pic.yupi.icu/5563/202401212006062.png)
 
 1. **复制jar包和Dockerfile文件至Linux服务器：** 将打包好的JAR文件和编写好的Dockerfile文件复制到目标Linux服务器上。您可以使用文件传输工具，比如xftp、云盘等工具。
 2. **构建Docker镜像：** 在Linux服务器上，使用Docker命令根据提供的Dockerfile构建镜像。这个镜像将包含您的应用程序和其运行所需的环境。确保在构建之前已经在服务器上安装了Docker。
 
 目录如下：
 
- ![](https://pic.yupi.icu/5563/202401212006204.png) 
+ ![img](https://pic.yupi.icu/5563/202401212006204.png) 
 
 Dockerfile文件内容如下：
 
@@ -156,7 +156,7 @@ ADD ./sspuoj-code-sandbox-0.0.1-SNAPSHOT.jar /app.jar
 ENTRYPOINT ["sh","-c","java $JAVA_OPTS $PARAMS -jar /app.jar $PARAMS"]
 ```
 
-![](https://pic.yupi.icu/5563/202401212006351.png)
+![img](https://pic.yupi.icu/5563/202401212006351.png)
 
 1. **实例化容器：** 运行构建好的Docker镜像，创建一个运行实例，也就是容器。这个容器将承载您的应用程序并运行在服务器上。在这一步，可以指定端口映射等参数。
 
@@ -167,14 +167,14 @@ ENTRYPOINT ["sh","-c","java $JAVA_OPTS $PARAMS -jar /app.jar $PARAMS"]
 docker build -t sspuoj:codesandbox .
 ```
 
-![](https://pic.yupi.icu/5563/202401212006423.png) （2)查看是否创建镜像成功
+![img](https://pic.yupi.icu/5563/202401212006423.png) （2)查看是否创建镜像成功
 
 ```lua
 # 查看已经构建的Docker镜像列表
 docker image list
 ```
 
-![](https://pic.yupi.icu/5563/202401212006839.png) 
+![img](https://pic.yupi.icu/5563/202401212006839.png) 
 
 （3)创建容器
 
@@ -183,7 +183,7 @@ docker image list
 docker run -p 8090:8090 -d --name sspuoj-codesandbox-01 sspuoj:codesandbox
 ```
 
-![](https://pic.yupi.icu/5563/202401212006920.png) （4)查看是否创建容器成功
+![img](https://pic.yupi.icu/5563/202401212006920.png) （4)查看是否创建容器成功
 
 ```lua
 # 查看正在运行的Docker容器列表
@@ -199,11 +199,11 @@ docker container list
 docker logs -f sspuoj-codesandbox-01
 ```
 
-![](https://pic.yupi.icu/5563/202401212006397.png)
+![img](https://pic.yupi.icu/5563/202401212006397.png)
 
 1. **进行测试：** 最后，通过接口测试工具，本文使用ApiFox测试服务器上的相应接口，测试部署的项目是否正常运行。
 
-![](https://pic.yupi.icu/5563/202401212006528.png) ![](https://pic.yupi.icu/5563/202401212006052.png) ![](https://pic.yupi.icu/5563/202401212006890.png) ![](https://pic.yupi.icu/5563/202401212006065.png)
+![img](https://pic.yupi.icu/5563/202401212006528.png) ![img](https://pic.yupi.icu/5563/202401212006052.png) ![img](https://pic.yupi.icu/5563/202401212006890.png) ![img](https://pic.yupi.icu/5563/202401212006065.png)
 
 1. 删除
 

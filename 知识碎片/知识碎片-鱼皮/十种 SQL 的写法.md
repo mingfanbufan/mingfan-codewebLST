@@ -12,7 +12,7 @@ ORDER BY FIELD(str,str1,...) 自定义排序sql如下：
 SELECT * from order_diy ORDER BY FIELD(title,'九阴真经', '降龙十八掌','九阴白骨爪','双手互博','桃花岛主','全真内功心法','蛤蟆功','销魂掌','灵白山少主');
 ```
 
-![](https://pic.yupi.icu/5563/202311300832291.png)
+![img](https://pic.yupi.icu/5563/202311300832291.png)
 
 ### 二、CASE表达式
 
@@ -26,7 +26,7 @@ else '低级' END level
 from order_diy;
 ```
 
-![](https://pic.yupi.icu/5563/202311300832258.png)
+![img](https://pic.yupi.icu/5563/202311300832258.png)
 
 ### 三、EXISTS用法
 
@@ -48,7 +48,7 @@ SELECT name, GROUP_CONCAT(title ORDER BY id desc  SEPARATOR '-')
 from order_diy GROUP BY name ORDER BY NULL;
 ```
 
-![](https://pic.yupi.icu/5563/202311300832019.png)
+![img](https://pic.yupi.icu/5563/202311300832019.png)
 
 ### 五、自连接查询
 
@@ -60,11 +60,11 @@ from tree t1 join tree t2 on t1.id = t2.pid left join tree t3 on t2.id = t3.pid
 where t1.pid = 0;
 ```
 
-![](https://pic.yupi.icu/5563/202311300833035.png)
+![img](https://pic.yupi.icu/5563/202311300833035.png)
 
 ### 六、更新emp表和dept表关联数据
 
-![](https://pic.yupi.icu/5563/202311300832139.png)
+![img](https://pic.yupi.icu/5563/202311300832139.png)
 
 可以看到上述 emp 表中 jack 的部门名称与 dept 表实际不符合，现在我们想将 jack 的部门名称更新成 dept 表的正确数据，sql 如下：
 
@@ -93,7 +93,7 @@ FROM order_diy GROUP BY name WITH ROLLUP;
 
 查询结果：
 
-![](https://pic.yupi.icu/5563/202311300832962.png)
+![img](https://pic.yupi.icu/5563/202311300832962.png)
 
 可以看到通过 **GROUP BY name WITH ROLLUP** 语句，查询结果最后一列显示了分组统计的汇总结果。但是 name 字段最后显示为 null，我们可以通过 `coalesce(val1, val2, ...)` 函数，这个函数会返回参数列表中的第一个非空参数。
 
@@ -109,13 +109,13 @@ SELECT * from t1
 where t1.id not in (SELECT id from  t2) and t1.name = '周伯通';
 ```
 
-![](https://pic.yupi.icu/5563/202311300832227.png)
+![img](https://pic.yupi.icu/5563/202311300832227.png)
 
 ### 十、存在就更新，不存在就插入
 
 MySql 中通过**on duplicate key update**语法来实现存在就更新，不存在就插入的逻辑。插入或者更新时，它会根据表中主键索引或者唯一索引进行判断，如果主键索引或者唯一索引有冲突，就会执行**on duplicate key update**后面的赋值语句。 这里通过 news 表举例，表结构和说数据展示，其中 news_code 字段有唯一索引：
 
-![](https://pic.yupi.icu/5563/202311300833894.png) 添加sql：
+![img](https://pic.yupi.icu/5563/202311300833894.png) 添加sql：
 
 ```sql
 -- 第一次执行添加语句

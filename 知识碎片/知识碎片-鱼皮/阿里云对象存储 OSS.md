@@ -7,20 +7,20 @@
 官网地址：[https://home.console.aliyun.com/](https://home.console.aliyun.com/)
 
 ## 2 在官网产品中开启对象存储 oss
-第一次使用会先开启对象存储服务，用量小是免费使用的<br />![](https://pic.yupi.icu/5563/202311271521997.png)
+第一次使用会先开启对象存储服务，用量小是免费使用的<br />![img](https://pic.yupi.icu/5563/202311271521997.png)
 
 
 ## 3 创建一个对象存储空间 bucket
-![](https://pic.yupi.icu/5563/202311271521351.png)<br />定义不可重复的名字，选择本地冗余存储（省流）<br />![](https://pic.yupi.icu/5563/202311271521104.png)<br />查看存储空间列表<br />![](https://pic.yupi.icu/5563/202311271521534.png)
+![img](https://pic.yupi.icu/5563/202311271521351.png)<br />定义不可重复的名字，选择本地冗余存储（省流）<br />![img](https://pic.yupi.icu/5563/202311271521104.png)<br />查看存储空间列表<br />![img](https://pic.yupi.icu/5563/202311271521534.png)
 <a name="Oe4AO"></a>
 
 ## 4 获取上传密钥
-![](https://pic.yupi.icu/5563/202311271522693.png)
+![img](https://pic.yupi.icu/5563/202311271522693.png)
 
 <br />自己生成一个即可
 
 ## 5 上传文件测试
-官网中有详细教程，以表单上传为例<br />[https://help.aliyun.com/zh/oss/developer-reference/form-upload-1?spm=a2c4g.11186623.0.0.46cb6d86hqmZRz](https://help.aliyun.com/zh/oss/developer-reference/form-upload-1?spm=a2c4g.11186623.0.0.46cb6d86hqmZRz)<br />![](https://pic.yupi.icu/5563/202311271523883.png)
+官网中有详细教程，以表单上传为例<br />[https://help.aliyun.com/zh/oss/developer-reference/form-upload-1?spm=a2c4g.11186623.0.0.46cb6d86hqmZRz](https://help.aliyun.com/zh/oss/developer-reference/form-upload-1?spm=a2c4g.11186623.0.0.46cb6d86hqmZRz)<br />![img](https://pic.yupi.icu/5563/202311271523883.png)
 
 
 #### 5.1 进行 Java 安装及初始化
@@ -91,5 +91,5 @@ public class OssAC {
         return null;
     }
 ```
-使用 postman 进行测试，要选择 post 请求，表单形式提交，上传文件，<br />![](https://pic.yupi.icu/5563/202311271523558.png)<br />返回地址，可以复制地址在浏览器输入查看，**如果是报没权限的错误**，进行下面设置，<br />![](https://pic.yupi.icu/5563/202311271523743.png)
+使用 postman 进行测试，要选择 post 请求，表单形式提交，上传文件，<br />![img](https://pic.yupi.icu/5563/202311271523558.png)<br />返回地址，可以复制地址在浏览器输入查看，**如果是报没权限的错误**，进行下面设置，<br />![img](https://pic.yupi.icu/5563/202311271523743.png)
 

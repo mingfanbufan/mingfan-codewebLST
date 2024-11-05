@@ -12,7 +12,7 @@
 
 **本网站运用了以下方式开发上线**
 
-![](http://img.mingfancloud.cn/index/mingfanweb-index.png)
+![img](http://img.mingfancloud.cn/index/mingfanweb-index.png)
 
 ## 最右侧的小图标
 
@@ -26,7 +26,7 @@
 
 明凡编程宝典资源下载地址哦！！！
 
-![](http://img.mingfancloud.cn/about-website/download.png)
+![img](http://img.mingfancloud.cn/about-website/download.png)
 
 **支持站长**
 
@@ -34,7 +34,7 @@
 
 你的支持将会使站长更加有力量去开发本站，做更好的知识分享。
 
-![](http://img.mingfancloud.cn/about-website/support.png)
+![img](http://img.mingfancloud.cn/about-website/support.png)
 
 大量的流量访问会让站长的心**滴血**的，你的支持站长将感激不尽。。。  
 

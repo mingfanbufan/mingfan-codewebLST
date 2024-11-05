@@ -14,7 +14,7 @@
 
 **博客初步的页面效果可以看一下我的博客**：[Leo](https://manamn.space/)，欢迎大家支持访问。
 
-![](https://pic.yupi.icu/5563/202403220818956.jpg)
+![img](https://pic.yupi.icu/5563/202403220818956.jpg)
 
 本博客基于[Hexo](https://hexo.io/zh-cn/)，所以首先要了解一下我们搭建博客所要用到的框架。**Hexo**是高效的静态网站生成框架，它基于**Node.js**快速，简单且功能强大，是搭建博客的首选框架。大家可以进入[hexo](https://hexo.io/zh-cn/)官网进行详细查看，因为**Hexo**的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。通过 **Hexo**，你可以直接使用**Markdown**语法来撰写博客。相信很多小伙伴写工程都写过**README.md** 文件吧，对，就是这个格式的！写完后只需两三条命令即可将生成的网页上传到**github**或者**coding**等代码管理托管平台，然后别人就可以浏览你的博客网页啦。是不是很简单？你无需关心网页源代码的具体生成细节，只需要用心写好你的博客文章内容就行了。
 
@@ -34,11 +34,11 @@
 
 建议直接到[nodejs官网](http://nodejs.cn/)去下载，如下所示:
 
-![](https://pic.yupi.icu/5563/202403220818151.jpg)
+![img](https://pic.yupi.icu/5563/202403220818151.jpg)
 
 然后解压到你指定的文件夹即可，比如我解压到我系统的 D:\software\nodejs 目录下了，如图:
 
-![](https://pic.yupi.icu/5563/202403220818979.jpg)
+![img](https://pic.yupi.icu/5563/202403220818979.jpg)
 
 这样我们在所有用户下，都可以使用**npm**，也可以使用**npm**安装的包的命令。成功的将**nodejs**安装并配置到全局环境下。
 
@@ -83,7 +83,7 @@ npm install -g hexo-cli
 hexo -v
 ```
 
-![](https://pic.yupi.icu/5563/202403220819330.jpg)
+![img](https://pic.yupi.icu/5563/202403220819330.jpg)
 
 看到以上内容，至此Hexo就安装完了。
 
@@ -102,7 +102,7 @@ hexo g
 hexo server(或者简写:hexo s）
 ```
 
-![](https://pic.yupi.icu/5563/202403220818483.png)
+![img](https://pic.yupi.icu/5563/202403220818483.png)
 
 按ctrl+c关闭本地服务器。
 
@@ -112,7 +112,7 @@ hexo server(或者简写:hexo s）
 
 打开https://github.com/，新建一个项目仓库 `New repository`，如下所示：
 
-![](https://pic.yupi.icu/5563/202403220818913.jpg)
+![img](https://pic.yupi.icu/5563/202403220818913.jpg)
 
 要创建一个和你用户名相同的仓库，后面加[http://github.io，只有这样，将来要部署到GitHub](http://github.xn--io,,github-q11qw9ne15ath9areb69fw27lj3sbqgza9oe/) page的时候，才会被识别，
 
@@ -165,7 +165,7 @@ cat ~/.ssh/id_rsa.pub
 
 打开[github](http://github.com/)，在头像下面点击`settings`，再点击`SSH and GPG keys`，新建一个`SSH`，名字随便取一个都可以，把你的`id_rsa.pub`里面的信息复制进去。如图：
 
-![](https://pic.yupi.icu/5563/202403220818034.png)
+![img](https://pic.yupi.icu/5563/202403220818034.png)
 
 在**git bash**输入以下命令。
 
@@ -175,7 +175,7 @@ ssh -T git@github.com
 
 如果如下图所示，出现你的用户名，那就成功了。
 
-![](https://pic.yupi.icu/5563/202403220818239.png)
+![img](https://pic.yupi.icu/5563/202403220818239.png)
 
 ### 2.6 将Hexo部署到GitHub
 
@@ -220,15 +220,15 @@ hexo deploy
 
 这篇以阿里云为例，阿里云官网购买：
 
-![](https://pic.yupi.icu/5563/202403220818681.png)
+![img](https://pic.yupi.icu/5563/202403220818681.png)
 
 然后实名认证后进入阿里云控制台，点云解析进去，找到你刚买的域名，点进去添加两条解析记录，如下图所示：
 
-![](https://pic.yupi.icu/5563/202403220818833.png)
+![img](https://pic.yupi.icu/5563/202403220818833.png)
 
 然后打开你的**github**博客项目，点击**settings**，拉到下面**Custom domain**处，填上你自己的域名，保存：
 
-![](https://pic.yupi.icu/5563/202403220818013.jpg)
+![img](https://pic.yupi.icu/5563/202403220818013.jpg)
 
 这时候你的项目根目录应该会出现一个名为**CNAME**的文件了。如果没有的话，打开你本地博客**/source**目录，我的是**D:\Hexo\source**，新建**CNAME**文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行**hexo g、hexo d**上传到**Github**。
 
@@ -306,7 +306,7 @@ permalink，也就是你生成某个文章时的那个链接格式。
 
 下面给出我的网站配置
 
-![](https://pic.yupi.icu/5563/202403220818541.jpg)
+![img](https://pic.yupi.icu/5563/202403220818541.jpg)
 
 ```yml
 theme: landscap
@@ -331,7 +331,7 @@ date: 2023-10-13 15:15:44
 
 ### 3.2 更换主题
 
-![](https://pic.yupi.icu/5563/202403220818247.jpg)
+![img](https://pic.yupi.icu/5563/202403220818247.jpg)
 
 Hexo官方为我们提供了很多开发者大佬提供的精美主题供大家更换，大家看选择一个自己喜欢的即可。
 
@@ -358,7 +358,7 @@ Hexo官方为我们提供了很多开发者大佬提供的精美主题供大家�
 
 他的介绍文档写得非常的详细，https://keep-docs.xpoet.cn/，简直是保姆级教程，大家可以慢慢去探索。
 
-![](https://pic.yupi.icu/5563/202403220818012.jpg)
+![img](https://pic.yupi.icu/5563/202403220818012.jpg)
 
 ## 4.优化功能
 
@@ -366,7 +366,7 @@ Hexo官方为我们提供了很多开发者大佬提供的精美主题供大家�
 
 可以使用github的账号直接登录，这样关联仓库的时候也更加方便。
 
-![](https://pic.yupi.icu/5563/202403220818366.jpg)
+![img](https://pic.yupi.icu/5563/202403220818366.jpg)
 
 配置好**Hexo**的部署命令，并设置发布目录。如图。
 
@@ -376,7 +376,7 @@ Hexo官方为我们提供了很多开发者大佬提供的精美主题供大家�
 hexo generate
 ```
 
-![](https://pic.yupi.icu/5563/202403220818415.jpg)
+![img](https://pic.yupi.icu/5563/202403220818415.jpg)
 
 配置你的域名，**netlify** 默认给你一个二级域名，你可以修改它，也可以绑定自己已有的域名。同时你也可以使用免费提供的ssl证书,开启Https。
 
@@ -388,7 +388,7 @@ hexo generate
 
 让我们看看最后的效果吧
 
-![](https://pic.yupi.icu/5563/202403220818935.jpg)
+![img](https://pic.yupi.icu/5563/202403220818935.jpg)
 
 感兴趣的小伙伴别犹豫了，抓紧搭建起来！
 

@@ -76,7 +76,7 @@ integerList.stream().sorted(Comparator.comparing(Integer::intValue));
 
 9）Collectors 收集器
 
-![](https://pic.yupi.icu/5563/202401242026474.png)
+![img](https://pic.yupi.icu/5563/202401242026474.png)
 
 - 恒等处理 Collectors
 

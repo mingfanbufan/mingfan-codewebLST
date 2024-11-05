@@ -129,7 +129,7 @@ kratos proto client api/study/v1/todo.proto
 
 当看到这里的 go 代码成功生成了，就证明没什么问题：
 
-![](https://pic.yupi.icu/5563/202401011502181.png)
+![img](https://pic.yupi.icu/5563/202401011502181.png)
 
 我们继续生成 service 端代码：
 
@@ -139,17 +139,17 @@ kratos proto server api/study/v1/todo.proto -t internal/service
 
 可以看到这里就多了一个 todo.go 的代码了
 
-![](https://pic.yupi.icu/5563/202401011502242.png)
+![img](https://pic.yupi.icu/5563/202401011502242.png)
 
 那 service 层的这个 todo.go 应该实现一些什么东西呢？
 
 我们可以看看示例的 greater.go 实现了什么，他这里嵌入了一个实现业务逻辑的结构体，在 biz 里面的
 
-![](https://pic.yupi.icu/5563/202401011502315.png)
+![img](https://pic.yupi.icu/5563/202401011502315.png)
 
 然后下面就是具体逻辑的实现：
 
-![](https://pic.yupi.icu/5563/202401011502297.png)
+![img](https://pic.yupi.icu/5563/202401011502297.png)
 
 那咱们也照葫芦画瓢，同样整一份：
 
@@ -169,7 +169,7 @@ func NewTodoService(uc *biz.TodoUsecase) *TodoService {
 }
 ```
 
-![](https://pic.yupi.icu/5563/202401011502234.png)
+![img](https://pic.yupi.icu/5563/202401011502234.png)
 
 biz 这里，咱们 CV 他的 greater.go 代码，自己实现一份我们的 todo.go，
 
@@ -241,7 +241,7 @@ func (s *TodoService) CreateTodo(ctx context.Context, req *pb.CreateTodoRequest)
 
 同样的操作，CV 一份 greater.go 的代码，然后修改我们的 todo.go
 
-![](https://pic.yupi.icu/5563/202401011502300.png)
+![img](https://pic.yupi.icu/5563/202401011502300.png)
 
 把我们之前在 biz 层封装的功能都写好在这里
 
@@ -323,7 +323,7 @@ http.go 也是类似的，这里就不放代码了
 
 最后到 cmd 目录下的 wire.go 文件：
 
-![](https://pic.yupi.icu/5563/202401011502409.png)
+![img](https://pic.yupi.icu/5563/202401011502409.png)
 
 将这里 wire.Build 里面的函数，点进他们的实现，然后修改成我们的逻辑，比如进 data.ProviderSet：
 
@@ -345,8 +345,8 @@ wire
 kratos run
 ```
 
-![](https://pic.yupi.icu/5563/202401011502562.png)
+![img](https://pic.yupi.icu/5563/202401011502562.png)
 
-![](https://pic.yupi.icu/5563/202401011502549.png)
+![img](https://pic.yupi.icu/5563/202401011502549.png)
 
 项目就成功跑起来了

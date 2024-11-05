@@ -28,7 +28,7 @@
 
 > PS:免登陆不是说不用通过数据库查询，而是下次登录的信息从Cookie中取出。
 
-![](https://pic.yupi.icu/5563/202312151543693.png)
+![img](https://pic.yupi.icu/5563/202312151543693.png)
 
 1. 会话管理
 
@@ -52,7 +52,7 @@
 
 答：不同的浏览器和不同的操作系统，Cookie存储本机的位置都是不同的。见下图（Chatgpt如是说）
 
-![](https://pic.yupi.icu/5563/202312151543765.png)
+![img](https://pic.yupi.icu/5563/202312151543765.png)
 
 ## Session
 
@@ -72,7 +72,7 @@
 
 我以关系图来表示，这样显得更直观。
 
-![](https://pic.yupi.icu/5563/202312151543936.png)
+![img](https://pic.yupi.icu/5563/202312151543936.png)
 
 #### Session的生命周期
 
@@ -112,11 +112,11 @@
 
 Edge浏览器的SessionId：
 
-![](https://pic.yupi.icu/5563/202312151543002.png)
+![img](https://pic.yupi.icu/5563/202312151543002.png)
 
-![](https://pic.yupi.icu/5563/202312151543923.png) Chrome的SessionId
+![img](https://pic.yupi.icu/5563/202312151543923.png) Chrome的SessionId
 
-![](https://pic.yupi.icu/5563/202312151543928.png)
+![img](https://pic.yupi.icu/5563/202312151543928.png)
 
 总结：不管是否是同一个用户还是不同的标签，只要符合**同一个浏览器同一个请求**，那么的sessionId一定是相同的！
 

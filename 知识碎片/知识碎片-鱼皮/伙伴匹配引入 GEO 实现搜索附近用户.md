@@ -10,7 +10,7 @@
 
 1. 在 User（用户）表中添加两个字段 longitude（经度）和 dimension（维度），用以存储用户的经纬度坐标。因为Redis GEO 通过每个用户的经纬度坐标计算用户间的距离，同时其 Redis 数据类型为ZSET，ZSET 是一个有序的 List 类似 Java 的 SortedSet。在此场景 value 就是用户id，score 是经纬度信息（ ZSET 根据 score值升序排序）。
 
-![](https://pic.yupi.icu/5563/202402221848343.png)
+![img](https://pic.yupi.icu/5563/202402221848343.png)
 
 ```sql
 create table hjj.user
@@ -133,7 +133,7 @@ stringRedisTemplate.opsForGeo().add() 支持一次一次地传入经纬度信息
 
 stringRedisTemplate.opsForGeo().add()传入的参数：
 
-![](https://pic.yupi.icu/5563/202402221848351.png)
+![img](https://pic.yupi.icu/5563/202402221848351.png)
 
 ```java
     @Test
@@ -151,7 +151,7 @@ stringRedisTemplate.opsForGeo().add()传入的参数：
 
 结果：
 
-![](https://pic.yupi.icu/5563/202402221848324.png)
+![img](https://pic.yupi.icu/5563/202402221848324.png)
 
 ### 获取用户 id = 1 与其他用户的距离
 
@@ -177,7 +177,7 @@ stringRedisTemplate.opsForGeo().add()传入的参数：
 
 结果：
 
-![](https://pic.yupi.icu/5563/202402221848332.png)
+![img](https://pic.yupi.icu/5563/202402221848332.png)
 
 ### 搜索附近用户
 
@@ -204,7 +204,7 @@ stringRedisTemplate.opsForGeo().add()传入的参数：
 
 结果：
 
-![](https://pic.yupi.icu/5563/202402221848356.png)
+![img](https://pic.yupi.icu/5563/202402221848356.png)
 
 ## 应用至伙伴匹配项目
 

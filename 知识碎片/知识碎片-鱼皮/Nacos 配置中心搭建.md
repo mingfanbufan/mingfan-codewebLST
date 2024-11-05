@@ -5,7 +5,7 @@
 > 官方文档：[https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html)
 
 ### 版本选择
-![](https://pic.yupi.icu/5563/202311062040531.png)（2023.07.06)
+![img](https://pic.yupi.icu/5563/202311062040531.png)（2023.07.06)
 ### 搭建
 
 1. 下载并解压，下载地址：[https://github.com/alibaba/nacos/releases?page=2](https://github.com/alibaba/nacos/releases?page=2)
@@ -18,7 +18,7 @@ sh startup.sh -m standalone
 ```bash
 tail -n 5 /Users/wangzhihao/dev_tools/nacos/logs/start.out
 ```
-![](https://pic.yupi.icu/5563/202311062041705.png)
+![img](https://pic.yupi.icu/5563/202311062041705.png)
 ### SpringBoot 中使用
 #### 依赖
 ```xml
@@ -128,7 +128,7 @@ public void initVipConfig() {
 Nacos 内置了 derby 嵌入式数据库，每启动一个 Nacos 就会有一个数据库，而我们在使用 Nacos 时往往都是集群，使用 derby 数据不能互通会很麻烦。所以我们需要一个外部的统一的数据库，Nacos 在 0.7 版本增加了支持 [mysql](https://cloud.tencent.com/product/cdb?from=20065&from_column=20065) 数据源的能力。
 ~~如果 Nacos 在单机环境下运行，则没有必要替换为 MySQL 。~~（后期数据不好迁移）
 替换文档：[https://nacos.io/zh-cn/docs/deployment.html](https://nacos.io/zh-cn/docs/deployment.html)
-![](https://pic.yupi.icu/5563/202311062041853.png)
+![img](https://pic.yupi.icu/5563/202311062041853.png)
 
 #### 认证
 > 文档：[https://nacos.io/zh-cn/docs/auth.html](https://nacos.io/zh-cn/docs/auth.html)
@@ -137,7 +137,7 @@ Nacos 内置了 derby 嵌入式数据库，每启动一个 Nacos 就会有一个
 > - Nacos提供简单的鉴权实现，为防止业务错用的弱鉴权体系，不是防止恶意攻击的强鉴权体系。
 > - 如果运行在不可信的网络环境或者有强鉴权诉求，请参考官方简单实现做替换增强。
 
-![](https://pic.yupi.icu/5563/202311062041400.png)
+![img](https://pic.yupi.icu/5563/202311062041400.png)
 ### SpringCloud 中使用
 #### 依赖
 ```xml

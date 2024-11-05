@@ -19,15 +19,15 @@ LiteFlow就可以解决这些问题，它可以很方便打造一个低耦合的
 1. 可以将瀑布式代码转换为以组件为核心的代码结构，这种结构的好处是可以任意编排，组件和组件之间是解耦的。
 2. 组件之间的执行顺序可以用脚本来定义，语法简单，上手容易。
 
-![](https://pic.yupi.icu/5563/202311230840732.png)
+![img](https://pic.yupi.icu/5563/202311230840732.png)
 
 1. 组件热更替：如果想在现有逻辑中加入一个新逻辑，可以随时更换，可以类比换掉汽车中某个生锈的零件，不需要把整个车拆掉。
 
-![](https://pic.yupi.icu/5563/202311230840216.png)
+![img](https://pic.yupi.icu/5563/202311230840216.png)
 
 1. 支持多种脚本语言，基本上可以用脚本可以实现任何逻辑
 
-![](https://pic.yupi.icu/5563/202311230840072.png)
+![img](https://pic.yupi.icu/5563/202311230840072.png)
 
 ## 设计原则
 
@@ -123,7 +123,7 @@ public class SubProductsFlow {
 
 ### 编排节点
 
-![](https://pic.yupi.icu/5563/202311230840062.png)
+![img](https://pic.yupi.icu/5563/202311230840062.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -162,7 +162,7 @@ liteflow:
 
 执行结果
 
-![](https://pic.yupi.icu/5563/202311230840726.png)
+![img](https://pic.yupi.icu/5563/202311230840726.png)
 
 如果有一天突然产品要求我们说，要先减库存再生成订单，那么我们只需要修改一下编排规则就可以了
 
@@ -249,7 +249,7 @@ Object requestData = component.getRequestData();
 System.out.println("请求参数,"+JSONObject.toJSONString(requestData));
 ```
 
-![](https://pic.yupi.icu/5563/202311230840773.png)
+![img](https://pic.yupi.icu/5563/202311230840773.png)
 
 ### 获取上下文数据
 

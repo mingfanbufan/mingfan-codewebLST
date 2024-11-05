@@ -19,7 +19,7 @@ Git 提交是指将你的代码保存到 Git 本地存储库，就像用 Word �
 
 如下图，就是一次 Git 提交：
 
-![](https://pic.yupi.icu/1/1698386167354-03b333b6-a0db-4683-a7ad-a3f088786e92.png)
+![img](https://pic.yupi.icu/1/1698386167354-03b333b6-a0db-4683-a7ad-a3f088786e92.png)
 
 
 
@@ -39,7 +39,7 @@ Git 提交最基本的作用就是维护项目的历史记录。每次提交都�
 
 > 开源地址：[https://github.com/liyupi/code-xingqiu](https://github.com/liyupi/code-xingqiu)
 
-![](https://pic.yupi.icu/1/1698386560903-9cf1f805-8b8b-4132-aa42-e321c366a458.png)
+![img](https://pic.yupi.icu/1/1698386560903-9cf1f805-8b8b-4132-aa42-e321c366a458.png)
 
 
 
@@ -55,7 +55,7 @@ Git 提交最基本的作用就是维护项目的历史记录。每次提交都�
 
 如下图，在 JetBrains 系列开发工具中，右键某个提交，就可以切换版本或撤销提交了：
 
-![](https://pic.yupi.icu/1/1698386927568-f731adf9-8ffb-4383-af36-72acd7405f26.png)
+![img](https://pic.yupi.icu/1/1698386927568-f731adf9-8ffb-4383-af36-72acd7405f26.png)
 
 
 
@@ -65,11 +65,11 @@ Git 提交最基本的作用就是维护项目的历史记录。每次提交都�
 
 在 JetBrains 系列开发工具中，只需要选中 2 个提交，然后点右键，选择 `Compare Versions` 就能实现代码对比了：
 
-![](https://pic.yupi.icu/1/1698387206540-7383bf4f-9f52-4d7c-b336-595691eda6ba.png)
+![img](https://pic.yupi.icu/1/1698387206540-7383bf4f-9f52-4d7c-b336-595691eda6ba.png)
 
 改动了哪些代码一目了然：
 
-![](https://pic.yupi.icu/1/1698387236268-d956dd21-5ad1-4439-ae62-a145291b7f07.png)
+![img](https://pic.yupi.icu/1/1698387236268-d956dd21-5ad1-4439-ae62-a145291b7f07.png)
 
 一般情况下，如果我们因为某次代码改动导致项目出现了新的 Bug。通过这种方式对比本次改动的所有代码，很快就能发现 Bug 出现的原因了。
 
@@ -105,7 +105,7 @@ Git 提交最基本的作用就是维护项目的历史记录。每次提交都�
 
 
 
-![](https://pic.yupi.icu/1/1698387672503-53057f93-7a85-4282-8745-f2d88d697a5a.png)
+![img](https://pic.yupi.icu/1/1698387672503-53057f93-7a85-4282-8745-f2d88d697a5a.png)
 
 
 
@@ -115,13 +115,13 @@ Git 提交最基本的作用就是维护项目的历史记录。每次提交都�
 
 像我在用 Git 开发个人项目时，也不是每次都写很详细的提交信息的。但是带 [编程导航](https://mp.weixin.qq.com/s/eNjauC-3361z-l7fy3VssA) 的同学从 0 开发项目时，每场直播写的代码都会单独作为一次提交，如下图：
 
-![](https://pic.yupi.icu/1/1698387871191-d4108f32-e3fc-415e-8ca1-3f722dd39292.png)
+![img](https://pic.yupi.icu/1/1698387871191-d4108f32-e3fc-415e-8ca1-3f722dd39292.png)
 
 
 
 是不是很清晰呢？这样做的好处是，大家想获取某场直播对应的中间代码（而不是最终的成品代码）时，只需要点击某次提交记录就可以获取到了，很方便。
 
-![](https://pic.yupi.icu/1/1698388047321-47d47a3d-f979-4054-b721-5541323e1879.png)
+![img](https://pic.yupi.icu/1/1698388047321-47d47a3d-f979-4054-b721-5541323e1879.png)
 
 
 
@@ -141,7 +141,7 @@ GitHub Actions 和 GitHub Webhooks 都可以实现上述功能，感兴趣的同
 
 
 
-![](https://pic.yupi.icu/1/1698388468389-03cf84de-f56a-4a8a-ace1-ea1531ba08a9.png)
+![img](https://pic.yupi.icu/1/1698388468389-03cf84de-f56a-4a8a-ace1-ea1531ba08a9.png)
 
 
 
@@ -151,7 +151,7 @@ GitHub Actions 和 GitHub Webhooks 都可以实现上述功能，感兴趣的同
 
 比如我收到一些同学的简历中，有的开源项目看起来感觉很厉害，但是点进仓库看了下提交记录，发现寥寥无几，甚至有的只有 1 次！像下图这样：
 
-![](https://pic.yupi.icu/1/1698388718653-20a58e8b-2336-4867-9874-37566b08c145.png)
+![img](https://pic.yupi.icu/1/1698388718653-20a58e8b-2336-4867-9874-37566b08c145.png)
 
 
 
@@ -161,7 +161,7 @@ GitHub Actions 和 GitHub Webhooks 都可以实现上述功能，感兴趣的同
 
 像我的 yuindex Web 终端项目一样，这才是比较真实、有说服力的：
 
-![](https://pic.yupi.icu/1/1698388825722-92cdc9c8-8b15-4eb6-a7b2-0f8652cf10c4.png)
+![img](https://pic.yupi.icu/1/1698388825722-92cdc9c8-8b15-4eb6-a7b2-0f8652cf10c4.png)
 
 
 

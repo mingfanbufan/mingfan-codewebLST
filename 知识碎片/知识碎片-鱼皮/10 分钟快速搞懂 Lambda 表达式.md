@@ -37,11 +37,11 @@ interface MyCase{
 
 正常情况：
 
-![](https://pic.yupi.icu/5563/202401112124131.png)
+![img](https://pic.yupi.icu/5563/202401112124131.png)
 
 异常情况：
 
-![](https://pic.yupi.icu/5563/202401112124464.png)
+![img](https://pic.yupi.icu/5563/202401112124464.png)
 
 ------
 
@@ -114,11 +114,11 @@ interface MyInterface {
 
    运行结果：
 
-   ![](https://pic.yupi.icu/5563/202401112124458.png)
+   ![img](https://pic.yupi.icu/5563/202401112124458.png)
 
 可以看到，每次创建匿名实现类的时候，有很多格式上的东西是每次都要写的，这样就很冗余。比如下面我选中的这部分：
 
-![](https://pic.yupi.icu/5563/202401112124848.png)
+![img](https://pic.yupi.icu/5563/202401112124848.png)
 
 这部分在上面的接口`interface MyInterface`中就已经定死了。就算不写`new MyInterface()`，从创建匿名实现类的前面部分**MyInterface** myInterface1，也可以看出实现的就是`MyInterface`接口。
 

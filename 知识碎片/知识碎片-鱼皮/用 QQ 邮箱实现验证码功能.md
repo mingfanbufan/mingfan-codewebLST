@@ -21,17 +21,17 @@
 
 1. 网页版：进入邮箱，点击设置中的账户
 
-![](https://pic.yupi.icu/5563/202312171825796.png)
+![img](https://pic.yupi.icu/5563/202312171825796.png)
 
 1. 往下翻可以看到如下服务开关，点击开启
 
-![](https://pic.yupi.icu/5563/202312171825801.png)
+![img](https://pic.yupi.icu/5563/202312171825801.png)
 
 点击开启后会得到一串授权码，后端程序中需要用到。
 
 1. 可能会要求完成相关安全验证
 
-![](https://pic.yupi.icu/5563/202312171825788.png)
+![img](https://pic.yupi.icu/5563/202312171825788.png)
 
 ### (2) 后端环境
 
@@ -156,7 +156,7 @@ GET http://localhost:8080/getCode?targetEmail=35xxxx947@qq.com
 
 可以看到如下效果：
 
-![](https://pic.yupi.icu/5563/202312171825817.png)
+![img](https://pic.yupi.icu/5563/202312171825817.png)
 
 如此我们初步效果就已经实现啦~
 
@@ -198,7 +198,7 @@ public class SendMail {
 
 如此再次测试，可以发现疯狂点击不再产生效果，成功被拦截，如此安全了许多
 
-![](https://pic.yupi.icu/5563/202312171825811.png)
+![img](https://pic.yupi.icu/5563/202312171825811.png)
 
 至此我们开始想要的效果便已经在小demo中实现了，接下来可以引入正式自己项目啦
 
@@ -263,7 +263,7 @@ public class CheckCodeUtils {
 
 用原生js简单写了一个界面，感兴趣的可以看一看
 
-![](https://pic.yupi.icu/5563/202312171825762.png)
+![img](https://pic.yupi.icu/5563/202312171825762.png)
 
 代码如下：
 

@@ -29,9 +29,9 @@ OpenStack 是一个 云操作系统，它控制着整个数据中心的大型计
 "[🔥桌面云技术与部署资源-飞书](https://q1h6kdpo24v.feishu.cn/drive/folder/HgZ1fLHzEl3oOgdHgE2cS6TPnPh)"
 
 
-## [云计算一期](云计算一期/README.md)
+## [云计算技术基础](云计算技术基础/README.md)
 
-- [云计算eNSP安装步骤](云计算一期/eNSP安装步骤.md)
+- [云计算eNSP安装步骤](云计算技术基础/eNSP安装步骤.md)
 
 
 [**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   

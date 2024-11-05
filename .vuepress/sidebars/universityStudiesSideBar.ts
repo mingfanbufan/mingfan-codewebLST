@@ -28,7 +28,7 @@ export default [
         children: [
             "云计算/桌面云技术与部署/",
             // "云计算/桌面云技术与部署/华为云计算FusionAcces.md",
-            "云计算/云计算一期/eNSP安装步骤.md",
+            "云计算/云计算技术基础/eNSP安装步骤.md",
         ],
     },
 

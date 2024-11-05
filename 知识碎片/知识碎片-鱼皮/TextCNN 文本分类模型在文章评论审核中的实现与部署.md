@@ -8,7 +8,7 @@
 
 ## 1. 算法结构和思路
 
-![](https://pic.yupi.icu/5563/202312231904377.png)
+![img](https://pic.yupi.icu/5563/202312231904377.png)
 
 1. **预处理阶段**：
 
@@ -156,17 +156,17 @@ Embedding Matrix:
 
 1. 通过对原始数据集 `train.txt` 进行处理，生成词表 `word_list.txt`。为了提升词表的容量，我们并未设定单词阈值，而是完全将所有单词纳入词表中。
 
-![](https://pic.yupi.icu/5563/202312231904715.png)
+![img](https://pic.yupi.icu/5563/202312231904715.png)
 
 1. 利用生成的词表 `word_list.txt`，将 `train.txt`、`dev.txt` 和 `test.txt` 转换为相应的单词索引向量。
 
-![](https://pic.yupi.icu/5563/202312231904664.png)
+![img](https://pic.yupi.icu/5563/202312231904664.png)
 
 ## 5. 模型训练和验证
 
 ### 5.1. 代码文件
 
-![](https://pic.yupi.icu/5563/202312231904681.png)
+![img](https://pic.yupi.icu/5563/202312231904681.png)
 
 ### 5.2. 训练环境
 
@@ -498,7 +498,7 @@ Embedding Matrix:
 
 ### 5.4. 训练结果
 
-![](https://pic.yupi.icu/5563/202312231904539.png)
+![img](https://pic.yupi.icu/5563/202312231904539.png)
 
 最后，经过100轮训练，可将验证损失控制在0.01，效果良好。
 
@@ -506,7 +506,7 @@ Embedding Matrix:
 
 经过类似的步骤，执行test.py文件即可得到测试结果，并将结果保存至日志文件log_test中
 
-![](https://pic.yupi.icu/5563/202312231904723.png)
+![img](https://pic.yupi.icu/5563/202312231904723.png)
 
 可以看到，测试准确率也维持在97%以上，模型可用。
 
@@ -516,21 +516,21 @@ Embedding Matrix:
 
 ### 7.1. 代码文件
 
-![](https://pic.yupi.icu/5563/202312231904920.png)
+![img](https://pic.yupi.icu/5563/202312231904920.png)
 
 ### 7.2. api解析
 
-![](https://pic.yupi.icu/5563/202312231904731.png)
+![img](https://pic.yupi.icu/5563/202312231904731.png)
 
 ### 7.3. 网页html测试
 
-![](https://pic.yupi.icu/5563/202312231904276.png)
+![img](https://pic.yupi.icu/5563/202312231904276.png)
 
 ### 7.4. 接口测试工具测试
 
 这里以apifox为例：
 
-![](https://pic.yupi.icu/5563/202312231904760.png)
+![img](https://pic.yupi.icu/5563/202312231904760.png)
 
 ## 8. 云部署
 
@@ -642,11 +642,11 @@ nohup gunicorn -w 3 -b 0.0.0.0:9102 --preload predict_online:app &
 
 执行结果：
 
-![](https://pic.yupi.icu/5563/202312231904348.png)
+![img](https://pic.yupi.icu/5563/202312231904348.png)
 
 后台运行日志文件：
 
-![](https://pic.yupi.icu/5563/202312231904554.png)
+![img](https://pic.yupi.icu/5563/202312231904554.png)
 
 可见，已成功启动。
 
@@ -654,7 +654,7 @@ nohup gunicorn -w 3 -b 0.0.0.0:9102 --preload predict_online:app &
 
 使用apifox测试：
 
-![](https://pic.yupi.icu/5563/202312231904201.png)
+![img](https://pic.yupi.icu/5563/202312231904201.png)
 
 ## 9. 源码地址和结构说明
 

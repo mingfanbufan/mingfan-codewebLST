@@ -12,11 +12,11 @@
 
 **1、下载的是免安装版**`nvm-noinstall.zip`，版本号为：`1.1.12`
 
-![](https://pic.yupi.icu/5563/202401261637488.png)
+![img](https://pic.yupi.icu/5563/202401261637488.png)
 
 **免安装版本是没有settings文件的**
 
-![](https://pic.yupi.icu/5563/202401261637694.png)
+![img](https://pic.yupi.icu/5563/202401261637694.png)
 
 **需要加一个**`settings.txt`文件，下方配置可以自行修改
 
@@ -65,11 +65,11 @@ D:\envs\nvm\yarn_global\bin
 
 **1、系统变量**
 
-![](https://pic.yupi.icu/5563/202401261637370.png)
+![img](https://pic.yupi.icu/5563/202401261637370.png)
 
 **2、环境配置**
 
-![](https://pic.yupi.icu/5563/202401261638626.png)
+![img](https://pic.yupi.icu/5563/202401261638626.png)
 
 ### 3、安装Node
 
@@ -113,7 +113,7 @@ nvm ls
 nvm use 18.16.0
 ```
 
-![](https://pic.yupi.icu/5563/202401261644707.png)
+![img](https://pic.yupi.icu/5563/202401261644707.png)
 
 **yes，成功！**
 
@@ -135,7 +135,7 @@ npm config ls
 
 **执行**`npm config ls`，得到配置如下
 
-![](https://pic.yupi.icu/5563/202401261645136.png)
+![img](https://pic.yupi.icu/5563/202401261645136.png)
 
 ### 5、修改yarn配置
 
@@ -179,7 +179,7 @@ yarn config list
 
 **执行**`yarn config list`，配置如下
 
-![](https://pic.yupi.icu/5563/202401261646268.png)
+![img](https://pic.yupi.icu/5563/202401261646268.png)
 
 ### 6、检查nvm文件夹
 
@@ -188,5 +188,5 @@ yarn config list
 - **我们npm全局安装的在node_global下**
 - **我们yarn全局安装的在yarn_global下（在本目录或者下一级的bin目录中）**
 
-![](https://pic.yupi.icu/5563/202401261646840.png)
+![img](https://pic.yupi.icu/5563/202401261646840.png)
 

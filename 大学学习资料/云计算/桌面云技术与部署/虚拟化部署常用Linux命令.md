@@ -13,11 +13,11 @@
 ①使用ifconfig查看网卡名称：
 
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301534929.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301534929.png)
 
 ②在/etc/sysconfig/network-scripts/目录中找对应的网卡文件
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301640225.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301640225.png)
 
 ③用vi/vim编辑网卡文件
 
@@ -25,7 +25,7 @@
 vi ifcfg-bridge0
 ```
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301641706.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301641706.png)
 
 文本的编辑方式：  
 “i”进入编辑模式  
@@ -43,7 +43,7 @@ systemctl restart network            #重启网络服务
 参考1.1步骤找到ifcfg-bridge0网卡文件  
 修改前：
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301643241.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301643241.png)
 
 将BOOTPROTO=none改为BOOTPROTO=dhcp，删除IP地址信息
 
@@ -57,14 +57,14 @@ DNS1=114.114.114.114  #删掉
 
 修改后：
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301645961.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301645961.png)
 
 ```bash
 systemctl restart network            #重启网络服务
 用ifconfig或ip a验证网卡地址是否修改
 ```
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301645196.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301645196.png)
 
 ## 2 修改SSH相关内容（X11转发、允许root用户登录）
 
@@ -86,7 +86,7 @@ vi sshd_config
 
 进入文件后输入/X11，回车（/X11：目的是索引X11开头的语句。注意：不要进入文本编辑模式后输入）
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301647295.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301647295.png)
 
 开启X11转发，把no改成yes  
 文本的编辑方式：  
@@ -102,7 +102,7 @@ systemctl restart sshd            #重启网络服务
 错误示范：  
 sshd_config文件在修改时输入了错误的字符，导致sshd服务无法启动，进而导致远程无法连接
 
-![](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301648237.png)
+![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/CommonLinuxCommandsForVirtualizationDe/202403301648237.png)
 
 ### 2.2 允许root用户登录（CNA、VRM默认不允许root用户登录）
 

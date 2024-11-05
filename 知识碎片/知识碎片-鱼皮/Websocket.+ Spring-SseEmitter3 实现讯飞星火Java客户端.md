@@ -202,13 +202,13 @@ public class TestController {
 
 #### 测试
 
-启动项目 , 接着我们通过postman进行测试![](https://pic.yupi.icu/5563/202311191321280.png)
+启动项目 , 接着我们通过postman进行测试![img](https://pic.yupi.icu/5563/202311191321280.png)
 
 接着访问 `http://localhost:8080/test/send/ws/1`
 
 可以看到我们已经提前预设好的消息
 
-![](https://pic.yupi.icu/5563/202311191321358.png)
+![img](https://pic.yupi.icu/5563/202311191321358.png)
 
 ## 讯飞星火
 
@@ -220,7 +220,7 @@ public class TestController {
 
 - 包含了 200w 个token , 足够开发过程使用
 
-![](https://pic.yupi.icu/5563/202311191321364.png)
+![img](https://pic.yupi.icu/5563/202311191321364.png)
 
 ### 请求流程分析
 
@@ -663,7 +663,7 @@ public String doChat(long userId,String question) throws Exception {
 
 另外为了 脱离 WebSocketListener 与 配置信息和用户信息的耦合 , 我们把构建请求的逻辑放到 Manager中
 
-![](https://pic.yupi.icu/5563/202311191321286.png)
+![img](https://pic.yupi.icu/5563/202311191321286.png)
 
 当然后续如果需要有 数据持久化 or 关联历史记录 , 再次基础之上修改即可
 
@@ -680,7 +680,7 @@ public String chat(@RequestParam("question") String question) {
 }
 ```
 
-![](https://pic.yupi.icu/5563/202311191321241.png)
+![img](https://pic.yupi.icu/5563/202311191321241.png)
 
 ## HTTP流式传输-SseEmitter
 
@@ -821,8 +821,8 @@ public SparkChatListener doChat(long userId, String question, StringBuilder answ
 
 可以看到 问题的内容是逐步的做出响应的
 
-![](https://pic.yupi.icu/5563/202311191321411.png)
+![img](https://pic.yupi.icu/5563/202311191321411.png)
 
 如果需要更快的响应 , 可以修改 控制层中 `Thread.sleep()` 的 参数(越小越灵敏 , 不过频繁的访问也会增大CPU的压力)
 
-![](https://pic.yupi.icu/5563/202311191321105.png)
+![img](https://pic.yupi.icu/5563/202311191321105.png)

@@ -84,7 +84,7 @@ FreeMarker 官方文档：https://freemarker.apache.org/docs/index.html
 
 
 
-![](https://pic.yupi.icu/1/1699268459163-234f13aa-3a9a-4e45-8e26-52b23b2aa7a4.png)
+![img](https://pic.yupi.icu/1/1699268459163-234f13aa-3a9a-4e45-8e26-52b23b2aa7a4.png)
 
 
 
@@ -100,7 +100,7 @@ FreeMarker 官方文档：https://freemarker.apache.org/docs/index.html
 
 
 
-![](https://pic.yupi.icu/1/1697633515576-f06ebdc6-7eac-46ef-a171-b5d646040e24.png)
+![img](https://pic.yupi.icu/1/1697633515576-f06ebdc6-7eac-46ef-a171-b5d646040e24.png)
 
 
 
@@ -234,7 +234,7 @@ configuration.setDefaultEncoding("utf-8");
 
 我们将上述《鱼皮官网》的模板代码保存为 `myweb.html.ftl` 文件，存放在上面指定的目录下。
 
-![](https://pic.yupi.icu/1/1699277942881-2d0897c2-114d-4722-8b19-cf9bc6d21fcc.png)
+![img](https://pic.yupi.icu/1/1699277942881-2d0897c2-114d-4722-8b19-cf9bc6d21fcc.png)
 
 
 
@@ -299,7 +299,7 @@ out.close();
 
 组合上面的所有代码并执行，发现在项目的根路径下生成了网页文件，至此 Demo 结束，很简单吧~
 
-![](https://pic.yupi.icu/1/1699278834613-ef699fb6-c256-4649-8f59-534fcbfeccbf.png)
+![img](https://pic.yupi.icu/1/1699278834613-ef699fb6-c256-4649-8f59-534fcbfeccbf.png)
 
 
 

@@ -136,7 +136,7 @@ user.setStatus(UserStatus.USER_ABNORMAL); // 推荐√
 
   - 可以看到除了枚举类内置的方法以外，我们只能使用事先罗列的枚举类实例。
 
-![](https://pic.yupi.icu/5563/202312211026528.png)
+![img](https://pic.yupi.icu/5563/202312211026528.png)
 
 - 示例二：
 
@@ -180,9 +180,9 @@ user.setStatus(UserStatus.USER_ABNORMAL); // 推荐√
 
   - 可以看到与上述类似，不过多了我们提供的获取值方法
 
-![](https://pic.yupi.icu/5563/202312211026540.png)
+![img](https://pic.yupi.icu/5563/202312211026540.png)
 
-![](https://pic.yupi.icu/5563/202312211026544.png)
+![img](https://pic.yupi.icu/5563/202312211026544.png)
 
 ### (2) 特点
 
@@ -194,7 +194,7 @@ user.setStatus(UserStatus.USER_ABNORMAL); // 推荐√
 
 我们可以**反编译后**结合上述观察枚举的特征：
 
-![](https://pic.yupi.icu/5563/202312211026519.png)
+![img](https://pic.yupi.icu/5563/202312211026519.png)
 
 ### (3) 去魔法化
 

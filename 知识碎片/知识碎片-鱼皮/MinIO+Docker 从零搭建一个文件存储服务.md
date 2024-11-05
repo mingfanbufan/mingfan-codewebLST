@@ -10,11 +10,11 @@
 
 **个人小博客被攻击：**
 
-![](https://pic.yupi.icu/5563/202403290850178.png)
+![img](https://pic.yupi.icu/5563/202403290850178.png)
 
 **某知名up主被刷爆：**
 
-![](https://pic.yupi.icu/5563/202403290850876.png)
+![img](https://pic.yupi.icu/5563/202403290850876.png)
 
 虽然个人小项目一般不会被攻击，但就问你看到-1.5w慌不慌？接下来让我们来学习一下如何使用MinIO搭建一个自己的文件存储服务器吧~
 
@@ -28,7 +28,7 @@
 
 国内阿里巴巴、腾讯、百度、华为、中国移动、中国联通等企业都有在使用 MinIO，甚至不少商业公司二次开发 MinIO 来提供商业化的云存储产品。
 
-![](https://pic.yupi.icu/5563/202403290850437.png)
+![img](https://pic.yupi.icu/5563/202403290850437.png)
 
 ## 三.搭建MinIO
 
@@ -36,7 +36,7 @@
 
 MinIO 的[官方文档](https://www.minio.org.cn/download.shtml#/docker)上介绍了多种下载方式:
 
-![](https://pic.yupi.icu/5563/202403290850973.png)
+![img](https://pic.yupi.icu/5563/202403290850973.png)
 
 本文我们只介绍如何**使用 Docker 基于CentOS 服务器来进行服务的搭建**，如果未安装Docker可以通过[本文（点击跳转）](https://blog.csdn.net/m0_66570338/article/details/128786952)来了解和安装Docker，或者在[官方文档](https://www.minio.org.cn/download.shtml#/docker)挑选自己擅长的方式进行搭建~
 
@@ -70,7 +70,7 @@ minio/minio server \
 
 **运行效果：**
 
-![](https://pic.yupi.icu/5563/202403290850774.png)
+![img](https://pic.yupi.icu/5563/202403290850774.png)
 
 **命令行解释：**
 
@@ -97,11 +97,11 @@ minio/minio server \
 
 1. **最后在浏览器中访问 [http://服务器IP:9001](http://xn--ip-fr5c86lx7z:9001/)，即可访问到MinIO的控制台。**
 
-![](https://pic.yupi.icu/5563/202403290850962.png)
+![img](https://pic.yupi.icu/5563/202403290850962.png)
 
 **可以输入账号 admin，密码 password 进行登录，进入首页。**
 
-![](https://pic.yupi.icu/5563/202403290850612.png)
+![img](https://pic.yupi.icu/5563/202403290850612.png)
 
 可以发现它的界面和我们使用的一些第三方对象存储服务非常相似，接下来我们也要进行一系列的配置~
 
@@ -109,15 +109,15 @@ minio/minio server \
 
 1. **创建一个 Bucket 存储桶，用于稍后文件的上传操作。**
 
-![](https://pic.yupi.icu/5563/202403290850055.png)
+![img](https://pic.yupi.icu/5563/202403290850055.png)
 
 1. **前往创建用于远程操作的AccessKey 和 SecretKey**.
 
-![](https://pic.yupi.icu/5563/202403290850271.png)
+![img](https://pic.yupi.icu/5563/202403290850271.png)
 
 1. **创建并保存好生成Access Key 和 Secret Key**.
 
-![](https://pic.yupi.icu/5563/202403290850131.png)
+![img](https://pic.yupi.icu/5563/202403290850131.png)
 
 1. **默认配置下，访问存储桶是需要请求授权的。但是在实际场景下，我们往往希望允许直接访问，此时就需要添加一条 readonly 访问规则。**
 
@@ -125,11 +125,11 @@ minio/minio server \
 
 进入配置存储桶界面
 
-![](https://pic.yupi.icu/5563/202403290850449.png)
+![img](https://pic.yupi.icu/5563/202403290850449.png)
 
 进行配置，添加只读规则
 
-![](https://pic.yupi.icu/5563/202403290850597.png)
+![img](https://pic.yupi.icu/5563/202403290850597.png)
 
 至此，我们已经基本完成了MinIO的简单配置，当然如果想要更安全，同样是可以像使用第三方对象存储服务一样创建用户组，分配权限等诸如此类的操作。
 
@@ -137,15 +137,15 @@ minio/minio server \
 
 1. **我们上传一张图片并访问来测试一下是否搭建成功。**
 
-![](https://pic.yupi.icu/5563/202403290850971.png)
+![img](https://pic.yupi.icu/5563/202403290850971.png)
 
 1. **可以看到成功上传了图片**
 
-![](https://pic.yupi.icu/5563/202403290850780.png)
+![img](https://pic.yupi.icu/5563/202403290850780.png)
 
 1. 接下来我们在浏览器访问 `http://服务器IP:9000/{bucket存储桶名字}/{name图片后缀名}` 来进行访问。例如我刚上传的文件 `{bucket}` 是 guanzhi，`{name}` 是 csdn.png，所以最终的访问路径是 `http://服务器IP:9000/guanzhi/csdn.png`。
 
-![](https://pic.yupi.icu/5563/202403290850037.png)
+![img](https://pic.yupi.icu/5563/202403290850037.png)
 
 测试成功，能够正常使用，接下来我们来学习一下如何在Java项目中使用吧~
 
@@ -155,7 +155,7 @@ minio/minio server \
 
 [官方文档](https://min.io/docs/minio/linux/developers/java/minio-java.html)上有介绍多种语言的SDK使用指南，本篇我们只**学习如何在Java的Maven项目中进行使用**，其他语言的同学可以跟着[官方文档](https://min.io/docs/minio/linux/developers/java/minio-java.html)尝试一下~
 
-![](https://pic.yupi.icu/5563/202403290850700.png)
+![img](https://pic.yupi.icu/5563/202403290850700.png)
 
 ## (2) 初步尝试
 
@@ -220,11 +220,11 @@ class DemoApplicationTests {
 
 1. **可以发现运行成功。**
 
-![](https://pic.yupi.icu/5563/202403290850816.png)
+![img](https://pic.yupi.icu/5563/202403290850816.png)
 
 **查看控制台，可以看成功上传了文件。**
 
-![](https://pic.yupi.icu/5563/202403290850867.png)
+![img](https://pic.yupi.icu/5563/202403290850867.png)
 
 ## (3) 在SpringBoot中使用
 
@@ -320,14 +320,14 @@ public class FileController {
 
 1. **启动SpringBoot项目，测试接口,可以看到后端正确响应了文件Url.**
 
-![](https://pic.yupi.icu/5563/202403290850059.png)
+![img](https://pic.yupi.icu/5563/202403290850059.png)
 
 1. **可以看到控制台存储桶中也有文件**
 
-![](https://pic.yupi.icu/5563/202403290850197.png)
+![img](https://pic.yupi.icu/5563/202403290850197.png)
 
 1. 在浏览器中我们也成功的通过返回的url访问到了图片
 
-![](https://pic.yupi.icu/5563/202403290850037.png)
+![img](https://pic.yupi.icu/5563/202403290850037.png)
 
 至此，我们已经完成了服务器的搭建，赶紧用起来吧~

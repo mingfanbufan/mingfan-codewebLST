@@ -14,19 +14,19 @@
 
      使用了AJAX和服务器进行**通信**，就可以使用 HTML+AJAX来**替换JSP页面**，可以说是终结了JSP的存在，促使了前后端分离开发
 
-![](https://pic.yupi.icu/5563/202312181551899.png) 
+![img](https://pic.yupi.icu/5563/202312181551899.png) 
 
 2. 实现**异步交互**：可以在**不重新加载整个页面**的情况下，与**服务器交换数据并更新部分网页**的技术，如：搜索时的联想、检查用户名是否可用校验，等等
 
-![](https://pic.yupi.icu/5563/202312181551973.png)
+![img](https://pic.yupi.icu/5563/202312181551973.png)
 
 **补充说明：异步&同步通信**
 
-![](https://pic.yupi.icu/5563/202312181551909.png)
+![img](https://pic.yupi.icu/5563/202312181551909.png)
 
 ## 二.使用
 
-![](https://pic.yupi.icu/5563/202312181551277.png)
+![img](https://pic.yupi.icu/5563/202312181551277.png)
 
 ## (1) GET请求
 
@@ -93,7 +93,7 @@ if (xhr.readyState == 4 && xhr.status == 200){
 
 **简单使用示例：**
 
-![](https://pic.yupi.icu/5563/202312181551985.png)
+![img](https://pic.yupi.icu/5563/202312181551985.png)
 
 ## (2) POST请求
 
@@ -175,7 +175,7 @@ if (xhr.readyState == 4 && xhr.status == 200){
 
 **简单使用示例：**
 
-![](https://pic.yupi.icu/5563/202312181551040.png)
+![img](https://pic.yupi.icu/5563/202312181551040.png)
 
 ## 三.补充
 

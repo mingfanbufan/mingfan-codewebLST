@@ -10,13 +10,13 @@ OAuth 是一个开放的非常重要的认证标准/协议，该标准允许用�
 
 例如用户想登录 Ruby China，传统方式是使用用户名密码但是这样并不安全，因为网站会存储你的用户名密码，这样可能会导致密码泄露。这种授权方式安全隐患很大，如果使用 OAuth 协议就能很好地解决这一问题。
 
-![](https://pic.yupi.icu/5563/202311211035897.png)
+![img](https://pic.yupi.icu/5563/202311211035897.png)
 
 ## OAuth2 授权总体流程
 
 角色梳理: 第三方应用 <----> 存储用户私密信息应用 ----> 授权服务器 ----> 资源服务器
 
-![](https://pic.yupi.icu/5563/202311211033233.png)
+![img](https://pic.yupi.icu/5563/202311211033233.png)
 
 ```markdown
 A）用户打开客户端以后，客户端要求用户给予授权。
@@ -46,7 +46,7 @@ F）资源服务器确认令牌无误，同意向客户端开放资源。
 - Authorization Server：认证服务器，即服务端专门用来处理认证的服务器；
 - Resource Server：资源服务器，即服务端存放用户生成的资源的服务器。它与认证服务器，可以是同一台服务器，也可以是不同的服务器。
 
-![](https://pic.yupi.icu/5563/202311211033235.png)
+![img](https://pic.yupi.icu/5563/202311211033235.png)
 
 具体流程如下:
 
@@ -74,7 +74,7 @@ https://wx.com/oauth/authorize?response_type=code&client_id=CLIENT_ID&redirect_u
 
 **简化模式（`implicit` grant type）**不通过第三方应用程序的服务器，直接在浏览器中向认证服务器申请令牌，跳过了"授权码"这个步骤，因此得名。所有步骤在浏览器中完成，令牌对访问者是可见的，且客户端不需要认证。其具体的授权流程如图所示（图片来自 RFC6749文档 https://tools.ietf.org/html/rfc6749)
 
-![](https://pic.yupi.icu/5563/202311211033640.png)
+![img](https://pic.yupi.icu/5563/202311211033640.png)
 
 具体步骤如下:
 
@@ -106,7 +106,7 @@ https://wx.com/oauth/authorize?response_type=token&client_id=CLIENT_ID&redirect_
 
 端，但是客户端不得储存密码。这通常用在用户对客户端高度信任的情况下，比如客户端是操作系统的一部分，或者由一个相同公司出品。而认证服务器只有在其他授权模式无法执行的情况下，才能考虑使用这种模式。其具体的授权流程如图所示（图片来自 RFC6749文档 https://tools.ietf.org/html/rfc6749)
 
-![](https://pic.yupi.icu/5563/202311211033335.png)
+![img](https://pic.yupi.icu/5563/202311211033335.png)
 
 具体步骤如下:
 
@@ -124,7 +124,7 @@ https://wx.com/token?grant_type=password&username=USERNAME&password=PASSWORD&cli
 
 **客户端模式（`Client Credentials` Grant）**指客户端以自己的名义，而不是以用户的名义，向"服务提供商"进行认证。严格地说，客户端模式并不属于OAuth框架所要解决的问题。在这种模式中，用户直接向客户端注册，客户端以自己的名义要求"服务提供商"提供服务，其实不存在授权问题。
 
-![](https://pic.yupi.icu/5563/202311211033053.png)
+![img](https://pic.yupi.icu/5563/202311211033053.png)
 
 具体步骤如下:
 
@@ -150,15 +150,15 @@ https://wx.com/token?grant_type=client_credentials&client_id=CLIENT_ID&client_se
 
 访问 github 并登录，在https://github.com/settings/profile中找到 Developer Settings 选项
 
-![](https://pic.yupi.icu/5563/202311211033684.png)
+![img](https://pic.yupi.icu/5563/202311211033684.png)
 
 - 创建 OAuth App并输入一下基本信息:
 
-![](https://pic.yupi.icu/5563/202311211033071.png)
+![img](https://pic.yupi.icu/5563/202311211033071.png)
 
 - 注册成功后会获取到对应的 Client ID 和 Client Secret。
 
-![](https://pic.yupi.icu/5563/202311211033351.png)
+![img](https://pic.yupi.icu/5563/202311211033351.png)
 
 ## 项目开发
 
@@ -222,11 +222,11 @@ spring.security.oauth2.client.registration.github.redirect-uri=http://localhost:
 
 - 启动测试
 
-![](https://pic.yupi.icu/5563/202311211033343.png)
+![img](https://pic.yupi.icu/5563/202311211033343.png)
 
 - 点击 github 登录,点击授权 访问 hello 接口
 
-![](https://pic.yupi.icu/5563/202311211033643.png)
+![img](https://pic.yupi.icu/5563/202311211033643.png)
 
 ## Spring Security OAuth2
 
@@ -378,17 +378,17 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
 启动服务,登录之后进行授权码获取
 
-![](https://pic.yupi.icu/5563/202311211033565.png)
+![img](https://pic.yupi.icu/5563/202311211033565.png)
 
 ```http
 http://localhost:8080/oauth/authorize?client_id=client&response_type=code&redirect_uri=http://www.baidu.com
 ```
 
-![](https://pic.yupi.icu/5563/202311211033797.png)
+![img](https://pic.yupi.icu/5563/202311211033797.png)
 
 点击授权获取授权码
 
-![](https://pic.yupi.icu/5563/202311211034088.png)
+![img](https://pic.yupi.icu/5563/202311211034088.png)
 
 根据授权码,申请令牌
 
@@ -396,7 +396,7 @@ http://localhost:8080/oauth/authorize?client_id=client&response_type=code&redire
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'grant_type=authorization_code&code=IwvCtx&redirect_uri=http://www.baidu.com' "http://client:secret@localhost:8080/oauth/token"
 ```
 
-![](https://pic.yupi.icu/5563/202311211034404.png)
+![img](https://pic.yupi.icu/5563/202311211034404.png)
 
 刷新令牌
 
@@ -404,7 +404,7 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'grant_type
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'grant_type=refresh_token&refresh_token=f6583d8a-598c-46bb-81d8-01fa6484cf05&client_id=client' "http://client:secret@localhost:8080/oauth/token"
 ```
 
-![](https://pic.yupi.icu/5563/202311211034985.png)
+![img](https://pic.yupi.icu/5563/202311211034985.png)
 
 #### 基于数据库客户端和令牌存储
 
@@ -610,7 +610,7 @@ public class JdbcAuthorizationServer extends AuthorizationServerConfigurerAdapte
 
 启动测试,发现数据库中已经存储相关的令牌
 
-![](https://pic.yupi.icu/5563/202311211034418.png)
+![img](https://pic.yupi.icu/5563/202311211034418.png)
 
 ### 资源服务器搭建
 
@@ -747,7 +747,7 @@ logging.level.org.springframework.jdbc.core=debug
 curl -H "Authorization:Bearer dffa62d2-1078-457e-8a2b-4bd46fae0f47" http://localhost:8081/hello
 ```
 
-![](https://pic.yupi.icu/5563/202311211034462.png)
+![img](https://pic.yupi.icu/5563/202311211034462.png)
 
 ### 授权服务器颁发 JWT 令牌
 
@@ -799,7 +799,7 @@ public class JwtAuthServerConfig extends AuthorizationServerConfigurerAdapter {
 
 启动服务,根据授权码获取令牌
 
-![](https://pic.yupi.icu/5563/202311211034556.png)
+![img](https://pic.yupi.icu/5563/202311211034556.png)
 
 ![image-20231120114040975](https://pic.yupi.icu/5563/202311211034989.png)
 
@@ -834,4 +834,4 @@ public class JwtResourceServerConfig extends ResourceServerConfigurerAdapter {
 curl -H "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjAzMzM4MjgsInVzZXJfbmFtZSI6InJvb3QiLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImp0aSI6ImJmZGVjMzg1LWQyYmYtNDc5Yi05YjhhLTgyZWE4YTRkNzgzMyIsImNsaWVudF9pZCI6ImNsaWVudCIsInNjb3BlIjpbImFwcDpyZWFkIl19.QlELW7LMLuD4OghbEFFzJpIxjW80hC3WHd3I0PiuI7Y" http://localhost:8081/hello
 ```
 
-![](https://pic.yupi.icu/5563/202311211034551.png)
+![img](https://pic.yupi.icu/5563/202311211034551.png)

@@ -107,7 +107,7 @@ public static final String LOGIN_CODE_KEY = "login:code:";
 
 redis中
 
-![](https://pic.yupi.icu/5563/202311230843708.png)
+![img](https://pic.yupi.icu/5563/202311230843708.png)
 
 ### 3）新建结果返回类
 
@@ -371,17 +371,17 @@ Set<Object> cacheKey = stringRedisTemplate.
 
 我新建一个用户
 
-![](https://pic.yupi.icu/5563/202311230843181.png)
+![img](https://pic.yupi.icu/5563/202311230843181.png)
 
 可以看到用户创建成功，并且在redis中也存储了用户信息
 
-![](https://pic.yupi.icu/5563/202311230843756.png) 下面我再次发送验证码，观察会不会出现用户信息重复
+![img](https://pic.yupi.icu/5563/202311230843756.png) 下面我再次发送验证码，观察会不会出现用户信息重复
 
-![](https://pic.yupi.icu/5563/202311230843104.png)
+![img](https://pic.yupi.icu/5563/202311230843104.png)
 
 可以看到用户信息并未重复
 
-![](https://pic.yupi.icu/5563/202311230843155.png)
+![img](https://pic.yupi.icu/5563/202311230843155.png)
 
 基于redis的短信登录就此结束！！
 

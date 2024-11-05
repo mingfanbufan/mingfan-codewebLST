@@ -246,7 +246,7 @@ c）当参数是路径的一部分时，如： /addPerson/1?name='lsq' 在表达
 
 **补充：**
 
-![](https://pic.yupi.icu/5563/202402241806638.png)
+![img](https://pic.yupi.icu/5563/202402241806638.png)
 
 ### 内置对象/内嵌变量
 
@@ -345,7 +345,7 @@ SpEL：基于Spring的表达式语言，提供给我们一种运行时对象的�
 - replace与include相反，只引入碎片代码的内容，引入碎片标签，不保留原有的标签
 - insert是即引入碎片标签，也保留原有标签（当样式冲突时，碎片标签属性起作用，看网页源码可知）
 
-![](https://pic.yupi.icu/5563/202402241806627.png)
+![img](https://pic.yupi.icu/5563/202402241806627.png)
 
 ## Freemarker
 

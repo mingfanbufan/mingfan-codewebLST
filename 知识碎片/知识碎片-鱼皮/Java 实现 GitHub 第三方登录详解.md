@@ -6,20 +6,20 @@
 
 1. 点击 Github 的头像
 2. 然后点击设置
-3. ![](https://pic.yupi.icu/5563/202402211807239.png)
+3. ![img](https://pic.yupi.icu/5563/202402211807239.png)
 4. 进入设置后，往下滑，点击开发者设置
 
-![](https://pic.yupi.icu/5563/202402211807024.png)
+![img](https://pic.yupi.icu/5563/202402211807024.png)
 
 4.1然后点击 Oauth apps
 
-![](https://pic.yupi.icu/5563/202402211807852.png)
+![img](https://pic.yupi.icu/5563/202402211807852.png)
 
  5. 随后创建一个新的OAuth App
 
-![](https://pic.yupi.icu/5563/202402211807854.png) 6. 可以看到的是期中有几个必填选项，下面我们来一一说明
+![img](https://pic.yupi.icu/5563/202402211807854.png) 6. 可以看到的是期中有几个必填选项，下面我们来一一说明
 
-![](https://pic.yupi.icu/5563/202402211807844.png)
+![img](https://pic.yupi.icu/5563/202402211807844.png)
 
 ```markdown
 1. Application name 这个可以随意填写，就是你的一个应用名字而已
@@ -29,7 +29,7 @@
 5. 下面是一个填写示例：
 ```
 
-![](https://pic.yupi.icu/5563/202402211807857.png) 
+![img](https://pic.yupi.icu/5563/202402211807857.png) 
 
 7. 全部填写好后我们成功创建了一个 Github 授权应用。
 
@@ -45,15 +45,15 @@
 
 这里可以自己随意快速的开一个前端应用，然后加一个链接标签，把 href 属性的值如上就可以了，只需要注意的是其中的 client_id 需要换成自己的就行，创建好以后，前后端分离的那么前端几乎就没有事情需要做了。这里主要是前后端分离版本。
 
-![](https://pic.yupi.icu/5563/202402211807330.png)
+![img](https://pic.yupi.icu/5563/202402211807330.png)
 
 ## 通过授权拿到一个随机的 code
 
 点击上面的 Github 登录以后会出现一个这样的页面
 
-![](https://pic.yupi.icu/5563/202402211807353.png)
+![img](https://pic.yupi.icu/5563/202402211807353.png)
 
-![](https://pic.yupi.icu/5563/202402211807362.png)
+![img](https://pic.yupi.icu/5563/202402211807362.png)
 
 ![image.png](https://pic.yupi.icu/5563/202402211807419.png)
 
@@ -70,7 +70,7 @@ public class ThirdLoginController {
 
 debug 拿值示例
 
-![](https://pic.yupi.icu/5563/202402211807613.png)
+![img](https://pic.yupi.icu/5563/202402211807613.png)
 
 这一部分只是为了我能够拿到 code 的值，我们一步一步来，看下面 👇
 

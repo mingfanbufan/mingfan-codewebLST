@@ -42,7 +42,7 @@
 
 首先我们创建一个新的模块命名为：**springboot-dynamic-source**
 
-![](https://pic.yupi.icu/5563/202404180837230.png)
+![img](https://pic.yupi.icu/5563/202404180837230.png)
 
 #### 1.导入依赖
 
@@ -726,9 +726,9 @@ public class DynamicTest {
 
 我们查看控制台。
 
-![](https://pic.yupi.icu/5563/202404180837200.png)
+![img](https://pic.yupi.icu/5563/202404180837200.png)
 
-![](https://pic.yupi.icu/5563/202404180837222.png)
+![img](https://pic.yupi.icu/5563/202404180837222.png)
 
 可以看出来我们去查询的是test02库中的user数据。
 

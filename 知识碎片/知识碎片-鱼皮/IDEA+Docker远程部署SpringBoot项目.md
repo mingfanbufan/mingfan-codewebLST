@@ -14,7 +14,7 @@ IDEA+Docker远程部署SpringBoot项目
 - 在本地电脑安装 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 开发工具.
 - 能正常访问接口的SpringBoot项目，打包出jar包，此处用如下简单Demo进行演示.
 
-![](https://pic.yupi.icu/5563/202404072114189.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114189.jpeg)
 
 至此，准备工作已完成~
 
@@ -28,11 +28,11 @@ IDEA+Docker远程部署SpringBoot项目
 
 使用这种方式进行好一系列配置后，**每次需要重新部署项目仅需点击绿色小三角（一步）即可自动完成项目部署**：
 
-![](https://pic.yupi.icu/5563/202404072114249.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114249.jpeg)
 
 同时还可以非常便捷的查看项目实时运行日志：
 
-![](https://pic.yupi.icu/5563/202404072117877.jpeg)
+![img](https://pic.yupi.icu/5563/202404072117877.jpeg)
 
 是不是非常方便？接下来学习一下如何进行配置~~~
 
@@ -44,13 +44,13 @@ IDEA+Docker远程部署SpringBoot项目
 
 使用`Key pair`进行连接过程比较繁琐，可参考博客：[在IDEA中通过密钥认证的方式使用SSH连接远程Linux服务器](https://blog.csdn.net/cnds123321/article/details/121947896)
 
-![](https://pic.yupi.icu/5563/202404072114213.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114213.jpeg)
 
 ### (2) 连接Docker守护进程
 
 接下来需要配置连接Docker守护进程`（File->Settings->搜索docker）`来操作Docker。
 
-![](https://pic.yupi.icu/5563/202404072117198.jpeg)
+![img](https://pic.yupi.icu/5563/202404072117198.jpeg)
 
 `Docker daemon` 补充说明：
 
@@ -82,7 +82,7 @@ EXPOSE  8080
 
 复制主机jar包至镜像内，复制的目录需放置在 Dockerfile 文件同级目录下，例如：
 
-![](https://pic.yupi.icu/5563/202404072115947.jpeg)
+![img](https://pic.yupi.icu/5563/202404072115947.jpeg)
 
 至此准备工作已经全部完成，接下来即可正式开始配置远程一键部署~
 
@@ -90,28 +90,28 @@ EXPOSE  8080
 
 1）前往创建配置
 
-![](https://pic.yupi.icu/5563/202404072114659.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114659.jpeg)
 
 2）创建配置
 
-![](https://pic.yupi.icu/5563/202404072114717.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114717.jpeg)
 
 3）根据下述步骤填写之前所进行的一系列配置即可
 
-![](https://pic.yupi.icu/5563/202404072114974.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114974.jpeg)
 
 4）至此，所有配置都已完成，最后尝试一下本文开始所述”**点击绿色小三角（一步）即可自动完成项目部署**“
 
 **正在上传文件~~~**
 
-![](https://pic.yupi.icu/5563/202404072114396.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114396.jpeg)
 
 **已经跑起来了~~~**
 
-![](https://pic.yupi.icu/5563/202404072114801.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114801.jpeg)
 
 **在浏览器请求成功显示了响应结果，控制台也能看到日志输出啦~~~**
 
-![](https://pic.yupi.icu/5563/202404072114249.jpeg)
+![img](https://pic.yupi.icu/5563/202404072114249.jpeg)
 
 至此本文教程结束。首次配置或许确实比较繁琐，但后续部署项目是真的方便，感觉动手试一下吧~

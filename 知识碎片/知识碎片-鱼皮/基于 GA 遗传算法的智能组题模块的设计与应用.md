@@ -29,7 +29,7 @@
 
 ## （2）总体思路
 
-[![](https://pic.yupi.icu/5563/202403162128746.png)](https://imgloc.com/image/cwTYO)
+[![img](https://pic.yupi.icu/5563/202403162128746.png)](https://imgloc.com/image/cwTYO)
 
 ## （3）适应度函数设计
 
@@ -124,13 +124,13 @@ def max_fitness_function(solution, solution_idx):
 
 ## （6）测试效果
 
-![](https://pic.yupi.icu/5563/202403162128945.png)
+![img](https://pic.yupi.icu/5563/202403162128945.png)
 
-![](https://pic.yupi.icu/5563/202403162128719.png)
+![img](https://pic.yupi.icu/5563/202403162128719.png)
 
 （GA的逐代优化过程变化图）
 
-![](https://pic.yupi.icu/5563/202403162128775.png)
+![img](https://pic.yupi.icu/5563/202403162128775.png)
 
 **测试数据：**
 

@@ -4,7 +4,7 @@
 
 ## SQL分类
 
-![](https://pic.yupi.icu/5563/202404150830070.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830070.jpeg)
 
 ## DDL数据定义语言
 
@@ -64,7 +64,7 @@ alter table 表名 drop 原列名;
 
 ### 5、数据类型
 
-![](https://pic.yupi.icu/5563/202404150830046.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830046.jpeg)
 
 ## DML数据操作语言
 
@@ -158,7 +158,7 @@ a. 查询中用来显示的部分`select 函数(列) from 表名;`
 
 b. 条件筛选where的后面
 
-![](https://pic.yupi.icu/5563/202404150830032.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830032.jpeg)
 
 ### 5、分组条件
 
@@ -461,13 +461,13 @@ B表格后出现，B右边显示
 
 语法：`create user '用户名'@'IP' identified by '密码'; `
 
-![](https://pic.yupi.icu/5563/202404150830808.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830808.jpeg)
 
 ### 2、查看用户权限
 
 语法：`show grants for '用户名'@'IP';`
 
-![](https://pic.yupi.icu/5563/202404150830804.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830804.jpeg)
 
 用户被创建成功 (只有一个默认的权限 Usage 只允许登录 不允许做其他事情)
 
@@ -477,15 +477,15 @@ B表格后出现，B右边显示
 
 赋予权限之后最好做一个刷新`flush privileges;`
 
-![](https://pic.yupi.icu/5563/202404150830811.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830811.jpeg)
 
-![](https://pic.yupi.icu/5563/202404150830579.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830579.jpeg)
 
 ### 4、回收用户权限
 
 语法：`revoke 权限 on 数据库名.表名 from '用户名'@'IP';`
 
-![](https://pic.yupi.icu/5563/202404150830639.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830639.jpeg)
 
 ![MySQL09.jpg](https://pic.code-nav.cn/post_picture/1632761346305089537/sJfc1Ofv-MySQL09.jpg)
 
@@ -555,7 +555,7 @@ Usage： 只允许登录，其它什么也不允许做
 select u.User, u.Host,u.authentication_string from mysql.user u where u.User = 'Lizi';
 ```
 
-![](https://pic.yupi.icu/5563/202404150830001.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830001.jpeg)
 
 2）修改用户密码
 
@@ -565,17 +565,17 @@ update mysql.user set authentication_string = password('新密码') where user =
 
 刷新：`flush privileges;`
 
-![](https://pic.yupi.icu/5563/202404150830997.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830997.jpeg)
 
-![](https://pic.yupi.icu/5563/202404150830122.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830122.jpeg)
 
 ### 7、删除用户
 
 语法：`drop user '用户名'@'IP';`
 
-![](https://pic.yupi.icu/5563/202404150830178.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830178.jpeg)
 
-![](https://pic.yupi.icu/5563/202404150830146.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830146.jpeg)
 
 ## TPL事务处理语言
 
@@ -675,7 +675,7 @@ Oracle数据库提供默认隔离级别 Read Committed
 
 查看数据库隔离级别：`select @@tx_isolation;`
 
-![](https://pic.yupi.icu/5563/202404150830470.jpeg)
+![img](https://pic.yupi.icu/5563/202404150830470.jpeg)
 
 修改隔离级别：`set session transaction isolation level xxx;`
 

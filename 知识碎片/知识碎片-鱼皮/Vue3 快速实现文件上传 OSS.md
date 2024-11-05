@@ -16,13 +16,13 @@
 
 前端引用一下组件，需要注意的是Element plus的upload组件提供了`action`配置项，填写请求URL就可以上传文件。
 
-![](https://pic.yupi.icu/5563/202401282240663.png)
+![img](https://pic.yupi.icu/5563/202401282240663.png)
 
 但为了后期维护，我们一般都不采用`action`配置项,而是将其赋值为`#`,通过`http-request`封装我们自己的请求方法。
 
 通过组件库文档可知，我们的`doUpload`方法会获得一个options参数，我们来看看这个参数里有什么。
 
-![](https://pic.yupi.icu/5563/202401282240869.png)
+![img](https://pic.yupi.icu/5563/202401282240869.png)
 
 可以看到通过options可以获取到组件的一些属性和方法，其中的`file`就是我们所需要上传的文件对象。将其解构出来通过`FormData`创建表单对象将文件通过我们封装的`upload`方法传输到后端。
 
@@ -95,7 +95,7 @@ app.post('/uploadImg', upload.single('file'), async (req: any, res: Response) =>
 
 我们可以通过`req.file`来获取处理好的文件，那么我们来看看打印一下这个`req.file`里有什么吧。
 
-![](https://pic.yupi.icu/5563/202401282240154.png)
+![img](https://pic.yupi.icu/5563/202401282240154.png)
 
 可以看到里面包含了关于文件的一些信息，比如名称、类型、地址等，其中名称和地址会是我们所需要的参数。
 
@@ -103,15 +103,15 @@ app.post('/uploadImg', upload.single('file'), async (req: any, res: Response) =>
 
 在阿里云的OSS文档里有提供文件上传的示例代码。
 
-![](https://pic.yupi.icu/5563/202401282241480.png)
+![img](https://pic.yupi.icu/5563/202401282241480.png)
 
 进入后我们选择NodeJS的SDK参考，通过下图路径可以看到本文所需的示例代码。
 
 ![image-20240127202748283](http://cdn.t-terminal.icu/image-20240127202748283.png)
 
-![](https://pic.yupi.icu/5563/202401282241060.png)
+![img](https://pic.yupi.icu/5563/202401282241060.png)
 
-![](https://pic.yupi.icu/5563/202401282241013.png)
+![img](https://pic.yupi.icu/5563/202401282241013.png)
 
 可以看到要使用OSS服务需要下载`ali-oss`第三方库。
 
@@ -143,7 +143,7 @@ export async function put(filename: string, fileData: File) {
 
 以上就是完整的上传方法，只需要填写配置就行，其中`accessKeyId`和`accessKeySecret`可以通过个人面板的`AccessKey管理`创建获取。
 
-![](https://pic.yupi.icu/5563/202401282241435.png)
+![img](https://pic.yupi.icu/5563/202401282241435.png)
 
 随后我们就可以在接口中进行调用，传入所需的`filename`和`fileData`。
 
@@ -157,15 +157,15 @@ router.post('/uploadImg', upload.single('file'), async (req: any, res: Response)
 
 到现在为止，我们代码基本实现了，接下来看看成果吧。
 
-![](https://pic.yupi.icu/5563/202401282242794.png)
+![img](https://pic.yupi.icu/5563/202401282242794.png)
 
 可以在阿里云的OSS中看到我们上传的文件。
 
-![](https://pic.yupi.icu/5563/202401282242134.png)
+![img](https://pic.yupi.icu/5563/202401282242134.png)
 
 而在后端也可获取到接口返回的文件名和外链地址。
 
-![](https://pic.yupi.icu/5563/202401282242791.png)
+![img](https://pic.yupi.icu/5563/202401282242791.png)
 
 ## 总结
 

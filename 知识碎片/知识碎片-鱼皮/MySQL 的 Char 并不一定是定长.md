@@ -153,7 +153,7 @@ show variables like '%datadir%';
 
 搜索F0 9F 98 8A
 
-![](https://pic.yupi.icu/5563/202312221859370.png)
+![img](https://pic.yupi.icu/5563/202312221859370.png)
 
 为了方便你观察，我把它第二条数据和第三条数据单独拎出来看以下：
 
@@ -199,7 +199,7 @@ f0 9f98 8af0 9f98 8af0 9f98 8af0 9f98 8a
 
 整体上看就是下面这样（网上找来的图，侵删）
 
-![](https://pic.yupi.icu/5563/202312221858319.png)
+![img](https://pic.yupi.icu/5563/202312221858319.png)
 
 ### 重新审视实验结果
 

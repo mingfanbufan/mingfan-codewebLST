@@ -12,7 +12,7 @@
 2. 在扇区以上，便是我们常常说的，文件系统块，一个块的由 8 个扇区构成，所以一个文件系统块大概是 4K
 3. 到上面就是我们今天的重点 InnoDB 存储引擎了，其最小的存储单元就是页，一个页的大小是 4 个文件块，即 16K 这里我们用一张图来表示一下以上的关系：
 
-![](https://pic.yupi.icu/5563/202311241820556.png) 
+![img](https://pic.yupi.icu/5563/202311241820556.png) 
 
 总结一下:一页的大小大约是 16 K 即 4 个文件系统块，32 个扇区；
 
@@ -30,7 +30,7 @@ mysql -u root -p
 show variables like 'innodb_page_size';
 ```
 
-![](https://pic.yupi.icu/5563/202311241820550.png)
+![img](https://pic.yupi.icu/5563/202311241820550.png)
 
 如上图所示，InnoDB 的页大小为 16384 Byte，换算一下大约 16K，与我们在上面表示的数据是一致的
 
@@ -40,7 +40,7 @@ show variables like 'innodb_page_size';
 
 > https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
 
-![](https://pic.yupi.icu/5563/202311241820569.png)
+![img](https://pic.yupi.icu/5563/202311241820569.png)
 
 我们这里补充一个点，那就是页除了存放数据（叶子节点），还可以存放键值和指针（非叶子节点），不过需要补充一个点：他们之间的关系是有序的，如图中所示1接下去就是 3 和 4，这样的数据组织形式，我们称其为索引组织表。
 
@@ -65,9 +65,9 @@ a.table_id = b.table_id AND a.space <> 0
 and b.name like '%sp_job_log';
 ```
 
-![](https://pic.yupi.icu/5563/202311241820583.png) 从上图可以看出，每个表的主键索引的根页的 Page Number 大部分都是 3，而其他的二级索引 Page Number 是 4 或者 5 在根页偏移量为 64 的地方存放了该B+树的 page level。主键索引 B+ 树的根页在整个表空间文件中的第3个页开始，所以算出它在文件中的偏移量：16384 x 3 + 64 = 49152 + 64 =49216 。 这里，我们找到 MySQL 的数据库物理文件存放的目录（这个地方可能每个人都不一样，我这里是在我自己的电脑上)：
+![img](https://pic.yupi.icu/5563/202311241820583.png) 从上图可以看出，每个表的主键索引的根页的 Page Number 大部分都是 3，而其他的二级索引 Page Number 是 4 或者 5 在根页偏移量为 64 的地方存放了该B+树的 page level。主键索引 B+ 树的根页在整个表空间文件中的第3个页开始，所以算出它在文件中的偏移量：16384 x 3 + 64 = 49152 + 64 =49216 。 这里，我们找到 MySQL 的数据库物理文件存放的目录（这个地方可能每个人都不一样，我这里是在我自己的电脑上)：
 
-![](https://pic.yupi.icu/5563/202311241820553.png)
+![img](https://pic.yupi.icu/5563/202311241820553.png)
 
 然后我们使用 hexdump 工具来分析，查看那个表空间文件指定偏移量上的数据：
 
@@ -75,7 +75,7 @@ and b.name like '%sp_job_log';
 hexdump -s 49216 -n 10  sp_job_log.ibd
 ```
 
-![](https://pic.yupi.icu/5563/202311241820562.png) 
+![img](https://pic.yupi.icu/5563/202311241820562.png) 
 
 这里我们查看图中的值，Page_level 用二进制进行换算，0100 即换算成 2 那么最终得出的 B+ 树的高度为 page level + 1 = 3；
 
@@ -100,11 +100,11 @@ B+树的存储总数据数 = 根节点指针数 * 单个叶子节点记录条数
 
 首先，从二级索引 B + 树中，根据 name 查找对应主键的 id
 
-![](https://pic.yupi.icu/5563/202311241820196.png)
+![img](https://pic.yupi.icu/5563/202311241820196.png)
 
 然后接着根据主键 id 从聚簇索引查找到对应的记录。
 
-![](https://pic.yupi.icu/5563/202311241820208.png)
+![img](https://pic.yupi.icu/5563/202311241820208.png)
 
 如上图所示，二级索引有3层，聚簇索引有3层，那么最多花费的IO次数是：3+3 = 6
 
@@ -122,7 +122,7 @@ B+树的存储总数据数 = 根节点指针数 * 单个叶子节点记录条数
 show table status like 'subject_info'\G
 ```
 
-![](https://pic.yupi.icu/5563/202311241820217.png) 
+![img](https://pic.yupi.icu/5563/202311241820217.png) 
 
 图中可以看到 user 表的行平均大小为 2730 字节
 
@@ -132,7 +132,7 @@ show table status like 'subject_info'\G
 desc subject_info;
 ```
 
-![](https://pic.yupi.icu/5563/202311241820224.png) 
+![img](https://pic.yupi.icu/5563/202311241820224.png) 
 
 3. 计算 B + 树的行数
 
