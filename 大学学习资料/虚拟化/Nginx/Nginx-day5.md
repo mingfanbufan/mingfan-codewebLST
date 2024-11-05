@@ -35,7 +35,7 @@ HTTP 协议（Hyper Text Transfer Protocol，超文本传输协议）：是客�
 
 - HTTPS 协议（HyperText Transfer Protocol over Secure Socket Layer）：可以理解为HTTP+SSL/TLS， 即 HTTP 下加入 SSL 层，HTTPS 的安全基础是 SSL，因此加密的详细内容就需要 SSL，用于安全的 HTTP 数据传输。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417220.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417220.png)
 
 -  如上图所示 HTTPS 相比 HTTP 多了一层 SSL/TLS
 **SSL/TLS :SSL(Secure Sockets Layer 安全套接层),及其继任者传输层安全（Transport Layer Security，TLS）是为网络通信提供安全及数据完整性的一种安全协议。TLS与SSL在传输层为数据通讯进行加密提供安全支持。** 
@@ -57,11 +57,11 @@ ssl:身份认证和数据加密。保证数据完整性
 
 #### 1、HTTP 访问过程
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417554.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417554.png)
 
 如上图所示，HTTP请求过程中，客户端与服务器之间没有任何身份确认的过程，数据全部明文传输，“裸奔”在互联网上，所以很容易遭到黑客的攻击，如下：
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417675.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417675.png)
 
 可以看到，客户端发出的请求很容易被黑客截获，如果此时黑客冒充服务器，则其可返回任意信息给客户端，而不被客户端察觉。
 
@@ -77,7 +77,7 @@ ssl:身份认证和数据加密。保证数据完整性
 -  私钥：.key 
 -  证书请求文件：.csr 
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417783.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161417783.png)
 
 如上图所示，在第 ② 步时服务器发送了一个SSL证书给客户端，SSL 证书中包含的具体内容有：
 
@@ -153,17 +153,17 @@ https://common-buy.aliyun.com/?spm=5176.2020520163.cas.1.1aa12b7aWWn20O&commodit
 
 免费型的证书隐藏的比较深，想要申请免费证书需要先选择 1个域名->Symantec->免费型  ,所以读者这里需要注意一下，如下图参考。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418893.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418893.png)
 
 选择之后，一直点击下一步，便可购买完成，免费购买证书之后笔者需要回到证书控制台，在控制台有一个补全信息的链接地址，需要通过此地址补充申请人的联系信息，参考下图填写!
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418371.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418371.png)
 
 ##### 2、域名验证
 
 补全个人信息之后，还需要给阿里云验证当前域名是属于本人的，验证方式有两种，第一种是通过dns解析认证，第二种是通过上传验证文件认证，这里采用的是验证文件认证，首先需要下载文件，如下图
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418000.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418000.png)
 
 在下载验证文件完成之后，笔者需要把文件放到服务器中去，这里提供一条复制命令
 
@@ -197,11 +197,11 @@ http://www.qf.com/.well-known/pki-validation/fileauth.txt
 
 在确保文件放置正确之后，关键的是能让阿里云能访问到，阿里云这里提供了一个检查配置的功能，在下载验证文件页面，有一个检测配置的链接，单击之后便可进行检查，如下图。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418764.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418764.png)
 
 当点击 检查配置 之后，如果阿里云能够正常访问，则会在左侧给出提示，现在可以返回证书列表，在列表中可以看到当前状态为审核中，如下图
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418570.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418570.png)
 
 审核因为不需要人为干预，所以很快就能下发证书，下发证书的时间大约是2分钟左右。
 
@@ -211,7 +211,7 @@ http://www.qf.com/.well-known/pki-validation/fileauth.txt
 
 证书签发之后，可以在列表中可以看到状态栏中为 已签发 ，同时操作栏可以下载以及查看详情等，如下图所示
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418386.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418386.png)
 
 点击下载后，会跳转到下载详情页面，在下载详情页可以选择自己相对应的web服务，比如使用nginx，当选择nginx之后，下方还会很贴心的提示如何配置，下载nginx配置文件。
 
@@ -286,7 +286,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 [root@xiaoxuan cert]# nginx -s reload
 ```
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418618.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-5/202404161418618.png)
 
 如果看到浏览器，展示安全，并且显示绿色就说明大功告成了!
 

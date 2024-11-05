@@ -33,7 +33,7 @@
 
 ## 大纲
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Linux/1.png)
+![](http://img.mingfancloud.cn/Learning-Path/Linux/1.png)
 
 ## 路线
 
@@ -196,7 +196,7 @@
 
 送张 VIM 键盘图：
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Linux/2.gif)
+![](http://img.mingfancloud.cn/Learning-Path/Linux/2.gif)
 
 ### 磁盘管理
 
@@ -318,7 +318,7 @@
 
 具体路线图参考：
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Linux/3.png)
+![](http://img.mingfancloud.cn/Learning-Path/Linux/3.png)
 
 ### 第三方工具
 

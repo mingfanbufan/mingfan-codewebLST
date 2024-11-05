@@ -47,7 +47,7 @@ log_format name [escape=default|json] string ...;
 -  **string** 要定义的日志格式内容。该参数可以有多个。参数中可以使用Nginx变量。 
 
 `log_format` 指令中常用的一些变量：
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161413401.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161413401.png)
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/25576613/1669213076902-d651ef30-05f8-4f05-826a-5601a3a862fb.png#averageHue=%23f7f6f5&clientId=u1793760a-f9d2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=149&id=u67c4873d&name=image.png&originHeight=268&originWidth=1249&originalType=binary&ratio=1&rotation=0&showTitle=false&size=99506&status=done&style=none&taskId=u68c5f2ae-3909-49a3-b58f-094320f75c1&title=&width=693.8889072706675)
 
@@ -302,7 +302,7 @@ nginx错误页面包括404 403 500 502 503 504等页面，只需要在server中�
 </html>
 ```
 展示效果；
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161414095.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161414095.png)
 
 ## Nginx 流量控制
 
@@ -415,7 +415,7 @@ limit_req_zone $binary_remote_addr zone=mylimit:10m rate=1r/s;
 
 一定要定义日志位置和级别才可以：
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161414978.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161414978.png)
 
 ```shell
 limit_req_zone $binary_remote_addr zone=mylimit:10m rate=1r/s;
@@ -439,7 +439,7 @@ limit_req_zone $binary_remote_addr zone=mylimit:10m rate=1r/s;
 
 继续访问测试，看error.log日志
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161416889.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161416889.png)
 
 #### 2、发送到客户端的错误代码
 
@@ -582,7 +582,7 @@ user20:$apr1$biHJhW03$xboNUJgHME6yDd17gkQNb0
 
 测试失败
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161416545.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-3/202404161416545.png)
 
 #### 5、局限性
 

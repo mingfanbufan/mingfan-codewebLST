@@ -14,7 +14,7 @@
 
 如果你还不知道什么是 SQL，那么相信这个网站可以帮助你轻松入门；如果你已经学过了 SQL，那么不妨来挑战一下，看看自己的 SQL 水平是否过关。
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/1.png)某 B 友的评价
+![](http://img.mingfancloud.cn/Learning-Path/SQL/1.png)某 B 友的评价
 
 项目演示视频：https://www.bilibili.com/video/BV1pV4y1i7LW（推荐先看这个）
 
@@ -26,7 +26,7 @@
 
 > 了解我的朋友应该知道，我曾经做了个 SQL 代码生成器叫 `SQL 之父` ，寓意是 “生 SQL” 的
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/2.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/2.png)
 
 我个人认为，比起看教程学 SQL，**实战闯关练习** 的方式更容易带大家入门，所以给系统设计了 **一系列关卡**（总共 30 多关，都是我自己做的）。
 
@@ -42,25 +42,25 @@
 
 也可以直接看下面这张图：
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/3.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/3.png)
 
 > SQL 之母使用教程
 
 除了按照顺序过关外，大家还可以进入关卡页面自由选择关卡、自由学习，不用担心卡在一道题目上过不去、也可以不做自己觉得简单的题目。
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/4.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/4.png)
 
 > 选择关卡
 
 在关卡页面，我还提供了几个自定义关卡。毕竟时间和想象力有限，剧情可能比较水，大家别介意：
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/5.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/5.png)
 
 > 自定义关卡
 
 除了闯关外，我还提供了一个 SQL 广场功能，可以在小小的编辑器里随意输入 SQL 语句来练习~
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/6.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/6.png)
 
 > SQL 练习广场
 
@@ -76,7 +76,7 @@
 
 鱼皮：当然是为了减少被攻击的风险啊！！！
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/7.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/7.png)
 
 虽然项目是纯前端实现，而且我自己是主后端开发的，都觉得这个项目不难。
 
@@ -86,7 +86,7 @@
 
 更多的项目信息我都写在开源文档里了，希望项目代码能给大家一些启发。我还写了一些项目贡献指南和扩展思路，希望能让更多同学有机会参与进来成为贡献者，一起让这个项目更好。
 
-![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/SQL/8.png)
+![](http://img.mingfancloud.cn/Learning-Path/SQL/8.png)
 
 > 开源文档
 

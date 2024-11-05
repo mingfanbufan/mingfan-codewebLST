@@ -21,7 +21,7 @@ HTTP是一个基于TCP/IP通信协议来传递数据（HTML 文件, 图片文件
 
 以下图表展示了HTTP协议通信流程：
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407224.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407224.png)
 
 ### 2、HTTP 消息结构
 
@@ -39,15 +39,15 @@ HTTP使用统一资源标识符（Uniform Resource Identifiers, URI）来传输�
 
 ([https://www.baidu.com/s?ie=UTF-8&wd=QQ音乐](https://www.baidu.com/s?ie=UTF-8&wd=QQ%E9%9F%B3%E4%B9%90),此链接可看请求头的内容)
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407775.png)
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407909.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407775.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407909.png)
 
 
 ### 4、服务器响应消息
 
 HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407892.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407892.png)
 
 **实例**
 
@@ -101,7 +101,7 @@ PUT：保存数据（覆盖/更新文件、图片等，不会产生新的数据�
 
 DELETE：删除
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407915.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407915.png)
 
 ### 6、HTTP 响应头信息
 
@@ -143,7 +143,7 @@ HTTP状态码的英文为HTTP Status Code。
 
 HTTP状态码由三个十进制数字组成，第一个十进制数字定义了状态码的类型，后两个数字没有分类的作用。HTTP状态码共分为5种类型：
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407383.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407383.png)
 
 HTTP状态码列表:
 
@@ -200,7 +200,7 @@ HTTP状态码列表:
 
 ### 1、Nginx 介绍
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407040.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407040.png)
 
 _Nginx_ (engine x) 是一个高性能的 HTTP 和 反向代理 服务，也是一个IMAP/POP3/SMTP服务。因它的稳定性、丰富的功能集、示例配置文件和低系统资源的消耗而闻名。
 
@@ -210,7 +210,7 @@ Nginx是一款轻量级的Web 服务器/反向代理服务器及电子邮件（I
 
 **创始人伊戈尔·赛索耶夫**
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407577.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161407577.png)
 
 ### 2、为什么选择 Nginx
 
@@ -232,7 +232,7 @@ Nginx 是一个高性能的 Web 和反向代理服务器, 它具有有很多非�
 
 第一种方法就是最传统的多进程并发模型 (每进来一个新的I/O流会分配一个新的进程管理。)
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408377.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408377.png)
 
 第二种方法就是I/O多路复用 (单个线程，通过记录跟踪每个I/O流(sock)的状态，来同时管理多个I/O流 。)
 
@@ -242,7 +242,7 @@ I/O multiplexing 这里面的 multiplexing 指的其实是在单个线程通过�
 
 在同一个线程里面， 通过拨开关的方式，来同时传输多个I/O流。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408960.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408960.png)
 
 #### 2、一个请求到来了，nginx使用epoll接收请求的过程是怎样的?
 
@@ -283,7 +283,7 @@ Stable version：       最新稳定版，生产环境上建议使用的版�
 
 Legacy versions：    遗留的老版本的稳定版
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408617.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408617.png)
 
 **Yum安装nginx**
 
@@ -353,7 +353,7 @@ Enforcing
 
 浏览器输入ip访问:
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408063.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408063.png)
 
 #### 2、Nginx 编译安装与配置使用
 
@@ -548,9 +548,9 @@ log_format  main  'remote_addr - remote_user [time_local] "request" '
                   '"http_user_agent" "http_x_forwarded_for"';
 ```
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408710.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408710.png)
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408193.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408193.png)
 
 #### **3、使用 limit_rate 限制客户端传输数据的速度**
 
@@ -574,7 +574,7 @@ location / {
 **什么是虚拟主机？**
 虚拟主机是一种特殊的软硬件技术，它可以将网络上的每一台计算机分成多个虚拟主机，每个虚拟主机可以独立对外提供web服务，这样就可以实现一台主机对外提供多个web服务，每个虚拟主机之间是独立的，互不影响。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408108.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-1/202404161408108.png)
 
 nginx可以实现虚拟主机的配置，nginx支持三种类型的虚拟主机配置。
 1、基于域名的虚拟主机 （server_name来区分虚拟主机——应用：web网站）

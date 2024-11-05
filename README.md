@@ -80,7 +80,7 @@ permalink: /
 
 **本站开发上线的技术**
 
-![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/index/mingfanweb-index.png)
+![img](http://img.mingfancloud.cn/index/mingfanweb-index.png)
 
 看见最右侧的小图标了嘛，加入圈子我们一起进步！！
 
@@ -88,7 +88,7 @@ permalink: /
 
 明凡编程宝典 建立实属不易，访问维护都含有成本。条件允许的小伙伴可以支持一下站长，站长的头发++。
 
-![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/about-website/support.png)  
+![img](http://img.mingfancloud.cn/about-website/support.png)  
 
 有条件的小伙伴支持一下吧！
 

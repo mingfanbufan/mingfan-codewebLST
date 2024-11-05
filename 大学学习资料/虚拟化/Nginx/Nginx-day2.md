@@ -10,9 +10,9 @@
 -  反向代理服务的实现：
 需要有一个负载均衡设备（即反向代理服务器）来分发用户请求，将用户请求分发到空闲的服务器上。服务器返回自己的服务到负载均衡设备。负载均衡设备将服务器的服务返回用户。 
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411524.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411524.png)
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411788.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411788.png)
 
 ### 2、正/反向代理的区别
 
@@ -23,25 +23,25 @@
 正向代理的过程隐藏了真实的请求客户端，服务器不知道真实的客户端是谁，客户端请求的服务都被代理服务器代替请求。我们常说的代理也就是正向代理，正向代理代理的是请求方，也就是客户端；比如我们要访问youtube，可是不能访问，只能先安装个FQ软件代你去访问，通过FQ软件才
 能访问，FQ软件就叫作正向代理。 
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411985.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411985.png)
 
 反向代理：
 
 反向代理的过程隐藏了真实的服务器，客户不知道真正提供服务的人是谁，客户端请求的服务都被代理服务器处理。反向代理代理的是响应方，也就是服务端；我们请求www.baidu.com时这www.baidu.com就是反向代理服务器，真实提供服务的服务器有很多台，反向代理服务器会把我们的请求分/转发到真实提供服务的各台服务器。Nginx就是性能非常好的反向代理服务器，用来做负载均衡。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411568.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411568.png)
 
 反向代理中，proxy和server同属一个LAN
 
 反向代理中代理的对象是服务端，proxy和server同属一个LAN，对client透明。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411992.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411992.png)
 
 正向代理和反向代理对比示意图
 
 正向代理中代理的对象是客户端，proxy和client同属一个LAN，对server透明；
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411093.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411093.png)
 
 ### 3、知识扩展
 
@@ -157,7 +157,7 @@ proxy_send_timeout：后端服务器数据回传时间，就是在规定时间�
 proxy_read_timeout ：nginx接收upstream（上游/真实） server数据超时, 默认60s, 如果连续的60s内没有收到1个字节, 连接关闭。像长连接
 ```
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411780.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411780.png)
 
 ```shell
 proxy_set_header X-Real-IP 
@@ -174,7 +174,7 @@ d、 使用PC客户端访问nginx-2服务器地址
 
 成功访问nginx-1服务器页面
 e、 观察nginx-1（192.168.62.157）服务器的日志
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411640.png)192.168.62.159  代理服务器地址
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411640.png)192.168.62.159  代理服务器地址
 
 192.168.62.1   客户机地址
 
@@ -186,7 +186,7 @@ e、 观察nginx-1（192.168.62.157）服务器的日志
 
 如果你的Nginx服务器给2台web服务器做代理，负载均衡算法采用轮询，那么当你的一台机器web程序关闭造成web不能访问，那么Nginx服务器分发请求还是会给这台不能访问的web服务器，如果这里的响应连接时间过长，就会导致客户端的页面一直在等待响应，对用户来说体验就大大折扣，这里我们怎么避免这样的情况发生呢。这里我配张图来说明下问题。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411599.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411599.png)
 
 如果负载均衡中其中web2发生这样的情况，Nginx首先会去web1请求，但是Nginx在配置不当的情况下会继续分发请求到web2，然后等待web2响应，直到我们的响应时间超时，才会把请求重新分发给web1，这里的响应时间如果过长，用户等待的时间就会越长。
 
@@ -283,7 +283,7 @@ upstream myweb {
 
 OSI（Open System Interconnection）是一个开放性的通行系统互连参考模型，他是一个定义的非常好的协议规范，共包含七层协议。直接上图，这样更直观些：
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411679.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411679.png)
 
 （2）4层协议
 
@@ -292,7 +292,7 @@ TCP/IP协议
 
 从协议分层模型方面来讲，TCP/IP由四个层次组成：网络接口层、网络层、传输层、应用层。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411169.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161411169.png)
 
 （3）协议配置
 
@@ -551,9 +551,9 @@ dongtai
 
 当访问动态页面时location匹配到 .\php 结尾的文件转发到后端php服务处理请求。
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412879.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412879.png)
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412919.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412919.png)
 
 ### Nginx 防盗链问题
 
@@ -611,8 +611,8 @@ server {
 ```
 
 访问：
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412333.png)
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412936.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412333.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412936.png)
 Referer：这个匹配的连接为空 “-” 
 
 ```shell
@@ -641,9 +641,9 @@ server {
 </html>
 [root@nginx-client html]# systemctl restart nginx
 ```
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412581.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412581.png)
 查看图片网站服务器日志：
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412943.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412943.png)
 Referer记录了：连接是1.10这台机器。 
 ```shell
 在图片服务器操作
@@ -665,9 +665,9 @@ server {
 ```
 
 测试访问：
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412666.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412666.png)
 图片服务器查看日志：
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412254.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412254.png)
 上面配置并没有允许192.168.1.10这台机器访问。  
 
 ```shell
@@ -738,7 +738,7 @@ Accept-Ranges: bytes
 
 如果用户直接在浏览器输入你的图片地址，那么图片显示正常，因为它符合规则。
 在图片服务器查看日志：
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412626.png) 
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412626.png) 
 
 ## **Nginx 地址重写 rewrite**
 
@@ -1060,7 +1060,7 @@ Location: https://www.testpm.cn/
 
 ### **3、last,break详解**
 
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412189.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412189.png)
 
 ```shell
 [root@localhost test]# cat /etc/nginx/conf.d/last_break.conf 
@@ -1156,7 +1156,7 @@ server {
 [root@localhost ~]# yum -y install httpd mod_ssl
 [root@localhost ~]# vim /etc/httpd/conf.d/vip9999.conf
 ```
-![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412784.png)
+![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-2/202404161412784.png)
 **nginx的location指令详解** 
 Nginx 的 HTTP 配置主要包括三个区块，结构如下：
 
