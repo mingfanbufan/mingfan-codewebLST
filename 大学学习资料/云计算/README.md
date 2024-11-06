@@ -37,7 +37,6 @@ OpenStack 是一个 云操作系统，它控制着整个数据中心的大型计
 [**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   
 
 
-
 ## 期末测试试题
 
 云计算文字教程稍后更新

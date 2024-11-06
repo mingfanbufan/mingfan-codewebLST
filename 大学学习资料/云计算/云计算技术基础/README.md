@@ -10,3 +10,6 @@
 
 [eNSP安装步骤](eNSP安装步骤.md)
 
+
+
+[**云计算资料查看下载-飞书**](https://q1h6kdpo24v.feishu.cn/drive/folder/U3hSfhPnDldsEjdgP3qchCkhnnf)   
