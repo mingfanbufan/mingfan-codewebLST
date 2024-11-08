@@ -5,7 +5,8 @@ export default [
         collapsable: true,
         children: [
             "docker容器技术/Docker容器简介.md",
-
+            "docker容器技术/Docker容器技术文档.md",
+            "docker容器技术/Docker容器操作文档指南.md"
         ],
     },
     {
