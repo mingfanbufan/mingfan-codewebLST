@@ -77,7 +77,7 @@ B：“TNND，你改了也不跟我说一声。”
 
 ### 大纲
 
-![Git & GitHub 学习路线 by 程序员鱼皮.png](http://img.mingfancloud.cn/Learning-Path/Git%26GitHub/1.png)
+![Git & GitHub 学习路线 by 程序员鱼皮.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Git%26GitHub/1.png)
 
 ### 零、无痛上手
 
@@ -161,7 +161,7 @@ Git 可视化管理软件：
 
 比如 [猴子都能懂的 Git 入门](https://backlog.com/git-tutorial/cn/) ，图文并茂、通俗易懂，看完入门篇就足够了：
 
-![img](http://img.mingfancloud.cn/Learning-Path/Git%26GitHub/2.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Git%26GitHub/2.png)
 
 或者看 B 站上一些免费的分享，比如下面资源里提到的一节课入门视频，可以帮助你快速了解 Git。
 
@@ -327,7 +327,7 @@ Git 的分支概念还是很重要的，大家可以使用 [Learning Git Branchi
 
 另外，建议大家去网上了解一下企业开发中常用的 Git 协作机制，比如怎么定义分支、怎么个提交代码的流程等，如图：
 
-![img](http://img.mingfancloud.cn/Learning-Path/Git%26GitHub/3.webp)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Git%26GitHub/3.webp)
 
 还可以了解一些 “先进” 的协作方式，比如一些大公司在采用的 Monorepo（单仓 / 大仓）方案，了解它和传统项目管理模式的优缺点。
 

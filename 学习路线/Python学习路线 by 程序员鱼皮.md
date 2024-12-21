@@ -29,7 +29,7 @@
 
 于是乎，Python 被推向了神坛，甚至在 2021 年 10 月的编程语言排行榜中，Python 登上了第一位！
 
-![img](http://img.mingfancloud.cn/Learning-Path/Python/1.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Python/1.png)
 
 但就是这样一门 “永远的神” 的编程语言，却在网上被口口相传说：学了 Python 找不到工作！
 
@@ -71,7 +71,7 @@
 
 折叠了一部分，还是老长，**思维导图获取见文末** ：
 
-![img](http://img.mingfancloud.cn/Learning-Path/Python/2.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/Learning-Path/Python/2.png)
 
 ## 学习路线
 

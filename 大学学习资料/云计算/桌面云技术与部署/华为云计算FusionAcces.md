@@ -132,7 +132,7 @@ ITA 快速发放
 
 4. 桌面转型
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311227016.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311227016.png)
 
 
 启动企业“云数据中心”建设
@@ -195,7 +195,7 @@ ITA 快速发放
 
  （3）集中运维和管理
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311230088.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311230088.png)
 
 
 1. 分支机构业务资源部署在本地，虚拟机远程桌面流量也被限制在本地，因此分支机构到总部之间的网络仅用于传输管理数据，对网络带宽要求较低（带宽≥2M，时延<50ms）。而传统的集中部署桌面云的方式，对远程接入桌面云的网络带宽和延时要求都比较高，如果有播放音频、视频的需求，则要求更高。部署分支机构后不但节省了远程专线网络的成本，而且保障了流畅的虚拟机用户体验。
@@ -214,7 +214,7 @@ ITA 快速发放
 
  （3）部署简单灵活
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311345395.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311345395.png)
 
 
 1. 支持与企业已有的IT系统对接，充分利用已有的IT应用。比如利用已有的AD系统进行桌面云用户鉴权；在桌面云上使用已有的IT工作流；通过DHCP给虚拟桌面分配IP地址；通过企业的DNS来进行桌面云的域名解析等。
@@ -227,7 +227,7 @@ ITA 快速发放
 
 （1）桌面云架构VDI与IDV
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311346196.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311346196.png)
  
 
 ​        云管端
@@ -250,12 +250,12 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （2）当前IT变革的一个主要方向就是“云化”，VDI是真正和“云”结合的方案，符合时代潮流，而IDV则相反，只是一个伪云的集中管理方案。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311346579.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311346579.png)
 
 
 （2）华为桌面云解决方案逻辑架构
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311347194.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311347194.png)
 
 
 
@@ -267,7 +267,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
    3. 降低总体拥有成本 (TCO)：桌面虚拟化可以减低其管理和资源成本。
    4. FusionAccess支持GPU直通、GPU硬件虚拟化，使用户远程使用图形桌面成为可能，降低了图形桌面的TCO。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311347327.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311347327.png)
 
 
 1. FusionAccess:是华为公司自研的桌面云接入管理系统，内部使用了Huawei公司自研HDP桌面控制协议，实现虚拟桌面的业务管理、权限控制等。
@@ -277,7 +277,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （3）FusionSphere云平台架构
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311348027.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311348027.png)
 
  
 
@@ -316,7 +316,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 云管端三位一体（瘦客户端、管段、服务端）
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311349875.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311349875.png)
 
  
 
@@ -373,7 +373,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （4）常见桌面协议对比
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311349480.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311349480.png)
 
  
 
@@ -385,7 +385,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
    图形处理后                 HDP Client
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311349134.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311349134.png)
 
  
 
@@ -404,7 +404,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 1. 通常桌面协议服务器端可以在虚拟机里面实现一个音频驱动，音频驱动会和Windows的音频子系统（音频引擎）进行交互。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311350564.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311350564.png)
 
  
 
@@ -430,7 +430,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （2）视频重定向方式，通过捕获服务端播放器需要播放的视频编码流，直接将视频编码流发送到客户端进行解码播放显示。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311351501.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311351501.png)
 
 
 1. 根据上图原理显示，视频重定向方式，看上去效率更高，服务器端也少了视频解码与重新编码的资源消耗，但实际上这种方式非常受限，无法广泛的支持。具体原因解释如下：
@@ -445,7 +445,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （3）可以充分应用客户端TC的能力实现4K视频的播放
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311351285.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311351285.png)
 
 
 3. HDP视频关键技术
@@ -470,14 +470,14 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 2.传统PC机USB外设工作原理
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352276.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352276.png)
  
 
 1. 从上图可以了解到，所有USB外设正常工作，在软件层面依赖的是USB总线驱动。一个应用需要使用USB外设必须与USB设备驱动进行交互，而设备驱动的工作完全依赖USB总线驱动来交互USB设备数据，与硬件交互都是由总线驱动来代理完成。
 
 3.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352035.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352035.png)
 
  
 
@@ -485,7 +485,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 4.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352351.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352351.png)
 
 
 1. 相对于USB端口重定向，设备重定向是从设备驱动上层进行重定向处理。通过在TC客户端和桌面虚拟机里面内置设备驱动，将设备采集的原始数据，经过TC端的设备驱动进行压缩和预处理，并将处理之后的数据，通过桌面协议传送到虚拟桌面里面的设备驱动进行还原，并提交给应用程序处理。
@@ -502,7 +502,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （3）图形工作站纳管
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352161.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311352161.png)
 
 
 1. GPU直通：
@@ -518,12 +518,12 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 1. 华为桌面云解决方案硬件形态
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311355795.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311355795.png)
  
 
 2. 华为桌面云解决方案物理部署组网
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311355619.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311355619.png)
 
  
 
@@ -532,7 +532,7 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 （2）软件部署方案
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311356120.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311356120.png)
 
 
 需要的支持：①MS（微软）域AD（让VM出现在它里面）、DNS服务器（做运维解析）、DHCP（做地理分配，分配网关和DNS）
@@ -547,14 +547,14 @@ IDV：它是提高终端的处理能力。智能终端（虚拟机）是VRM通�
 
 1. 桌面云替代了传统物理PC分散，现在在用户一侧放置了TC/SC（瘦客户端）（TC是个小盒子，SC是个PC机上的Soft）帮我通过HDP协议把瘦客户端连到桌面VM。桌面VM一定要有HDA（HDP Agent），瘦客户端一定要有HDP Client。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311356720.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311356720.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311356607.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311356607.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311357048.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311357048.png)
 
  
 
@@ -608,7 +608,7 @@ Euler OS（欧拉操作系统）
 
 ⑨AD/DNS/DHCP：windows系统
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311357388.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311357388.png)
 
  
 
@@ -622,11 +622,11 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 下边就是基础设施（FusionCompute虚拟化），上边就是FusionAccess桌面云应用给管理视图ITA，驱动ITA给VRM对接。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311357879.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311357879.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311358399.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311358399.png)
 
  
 
@@ -640,7 +640,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 2.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311358223.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311358223.png)
 
  
 
@@ -664,7 +664,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 1）无外部时钟源
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311359239.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311359239.png)
 
  
 
@@ -674,7 +674,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 2）客户提供AD
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311400649.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311400649.png)
 
  
 
@@ -686,7 +686,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 3）华为提供AD
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311400877.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311400877.png)
 
  
 
@@ -708,7 +708,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 2.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311401478.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311401478.png)
 
  
 
@@ -717,7 +717,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 3.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311401190.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311401190.png)
 
  
 
@@ -726,7 +726,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 4.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311401070.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311401070.png)
 
  
 
@@ -740,7 +740,7 @@ RDP是给懂网络的人用的，而HDP可以给不懂网络的人用。
 
 （1）FusionAccess全景图
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418489.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418489.png)
 
  
 
@@ -756,7 +756,7 @@ WI为最终用户提供Web登录界面，在用户发起登录请求时，将用
 
 1. 用户可以在WI上连接、启动、重启虚拟机。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418119.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418119.png)
 
  
 
@@ -770,7 +770,7 @@ vAG的主要功能是桌面接入网关（HDP）和自助维护网关（VNC）�
 
 HDP也可以通过vAG走到HDA。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418010.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418010.png)
 
  
 
@@ -782,19 +782,19 @@ vLB功能的主要作用是在用户访问WI时，进行负载均衡，避免大
 
 1. 通过部署vLB方式实现WI的负载均衡时，将多台WI的IP地址绑定在一个域名下，当用户输入域名发起请求时，vLB按照IP地址绑定的顺序依次解析WI的IP，同时将用户的登录请求分流到依次解析出IP地址的WI上，提高WI的响应速度，保证WI服务的可靠性。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418449.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311418449.png)
 
  
 
 ①使用vAG/vLB做接入网关
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311419655.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311419655.png)
 
  
 
 ②使用F5（硬件盒子）做接入网关
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311419406.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311419406.png)
 
  
 
@@ -802,13 +802,13 @@ vLB功能的主要作用是在用户访问WI时，进行负载均衡，避免大
 
 vLB完成WI的负载均衡；vAG作为自助维护网关，HDP协议不过vAG,由客户端直接和虚拟机桌面协议服务通信。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311419376.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311419376.png)
 
  
 
 场景二：部署vAG，桌面协议HDP经过网关。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311420574.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311420574.png)
 
  
 
@@ -826,7 +826,7 @@ c.创建虚拟网关，只启用负载均衡功能，配置VIP对应的实际WI�
 
 d.使用负载均衡功能，需要给负载均衡网关导入证书，保持主备负载均衡网关证书一致。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311420240.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311420240.png)
 
  
 
@@ -848,7 +848,7 @@ e.创建虚拟网关，启用负载均衡和安全云网关功能。F5作为负�
 
 f.使用负载均衡功能，需要给负载均衡网关导入证书，保持主备负载均衡网关证书一致，且配置负载均衡模式为源IP方式。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311420807.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311420807.png)
 
  
 
@@ -863,7 +863,7 @@ ITA为用户管理虚拟机（管理员）提供接口，其通过与HDC（Huawe
 1. 虚拟机创建，发放，及日常维护都是通过ITA的portal进行。ITA调用HDC提供的接口。
 2. ITA为基于Tomcat的一个Web Service，对上（IT Portal）提供统一接口，对下则集中了HDC、FusionSphere、虚拟机、DNS的接口，完成功能的整合。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421340.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421340.png)
 
  
 
@@ -878,7 +878,7 @@ HDC是虚拟桌面管理软件的核心组件，根据ITA发送的请求进行�
    2. 用于用户接入时，与WI交互，为其提供接入信息，支持完成用户的整个接入过程
    3. 与VM中的HDA进行交互，收集HDA上报的虚拟机状态及接入状态
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421661.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421661.png)
 
  
 
@@ -891,11 +891,11 @@ TCM为升腾曦帆桌面管理系统，管理员通过TCM对TC进行日常管理
 1. 采用管理服务器对TC进行集中管理，包括版本升级、状态管理、信息监控、日志管理等。
 2. 管理服务器可搜索到待管理的TC终端，并对其进行管理。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421280.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421280.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421035.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311422513.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311421035.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311422513.png)
 
 
 
@@ -938,7 +938,7 @@ TCM为升腾曦帆桌面管理系统，管理员通过TCM对TC进行日常管理
 1. 华为桌面接入的License由License 服务器统一控制。
 2. License总数是实际购买的License个数，当License已使用数达到总数的1.1倍时，新的用户将无法登录桌面。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311422093.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311422093.png)
 
  
 
@@ -968,7 +968,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 3. HDA实际上是一系列桌面连接服务（能够升级），为TC（SC）使用虚拟机提供支持。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311423004.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311423004.png)
 
  
 
@@ -978,7 +978,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 1.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311423851.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311423851.png)
 
  
 
@@ -993,7 +993,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 2.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311423265.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311423265.png)
 
  
 
@@ -1019,20 +1019,20 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 （3）创建数据存储
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311424445.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311424445.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311424363.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311424363.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311424658.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311424658.png)
 
 
 2）创建Linux基础架构虚拟机
 
 1。根据规划，创建Linux基础架构裸虚拟机
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311425587.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311425587.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311425213.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311425213.png)
 
  
 
@@ -1040,7 +1040,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 1. 设置虚拟机自恢复属性
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311426883.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311426883.png)
 
  
 
@@ -1056,22 +1056,22 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 4. 配置root用户密码
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311426021.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311426021.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311427904.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311427904.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311427790.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311427790.png)
 
 4。虚拟机挂载安装Tools（PvDriver）
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311427296.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311427296.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311428610.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311428610.png)
 
 3）安装ITA/GaussDB/HDC/WI/License
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311428965.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311428965.png)
  
 
 1. 主用组件安装的时候节点选择“Create a new node”
@@ -1079,11 +1079,11 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 4）安装vAG/vLB
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311428727.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311428727.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311429462.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311429462.png)
 
 
 1. 如果实际规划有两台WI服务器，需要输入这两台WI服务器的业务平面IP地址。
@@ -1147,7 +1147,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 1. 树由多个域组成，这些域共享同一个表结构和配置，形成一个连续的名字空间。树中的域通过信任关系连接起来。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311429228.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311429228.png)
 
 
 2. 域森林是指一个或多个没有形成连续名字空间的域树。
@@ -1155,7 +1155,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 1. 默认情况下，森林之间没有建立信任关系，如果要达到虚拟机灵活分配的目的，必须要求森林中的域之间建立信任关系。
 2. 配置森林间的信任关系，也就是配置根域与根域之间的信任关系。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311430506.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311430506.png)
 
  
 
@@ -1181,7 +1181,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 （3）单向:外传:本地域信任指定域
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431184.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431184.png)
 
  
 
@@ -1189,7 +1189,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 1. AD域服务的目录数据存储在域控制器内，一个域内可以有多台域控制器，每台域控制器的地位（几乎）是平等的，由于控制器间存在着数据同步，他们各自储存着一份（几乎）完全相同的AD数据库。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431323.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431323.png)
 
  
 
@@ -1229,7 +1229,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 （2）Default Domain Controller Policy
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431429.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431429.png)
 
 
 1. Default Domain Policy
@@ -1240,14 +1240,14 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 6）AD组策略应用
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431567.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311431567.png)
 
 
 *7**）用户域账号*
 
 1. 域用户账号是在域控制器上建立的，域用户账号是访问域的唯一凭证，作为AD的一个对象保存在域的AD数据库中。用户从域中的任何一台计算机登录到域中的时候必须提供一个合法的域用户账号，该账号将被域控制器所验证。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311432862.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311432862.png)
 
  
 
@@ -1265,25 +1265,25 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 6. 重命名
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433998.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433998.png)
 
  
 
 9）用户域账号属性
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433738.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433738.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433466.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433466.png)
 
  
 
 10）查找用户域账号
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433478.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311433478.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434973.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434973.png)
 
  
 
@@ -1293,31 +1293,31 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 2. 将用户账号分组管理，方便管理域内资源的访问权限。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434109.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434109.png)
 
 
 12）AD中的组
 
 1. 使用组来简化资源权限的分配
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434971.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434971.png)
 
  
 
 2. 一个用户可以是许多组的成员
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434295.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434295.png)
 
 
 
 3. 组可以被嵌套在其他的组中
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434269.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311434269.png)
 
 
 13）创建用户组
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311435271.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311435271.png)
 
 
 
@@ -1327,13 +1327,13 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 2. 委派 OU 的管理控制权，必须把 OU 及 OU 包含对象的具体的权限指定给一个或几个用户和组。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311435274.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311435274.png)
 
  
 
 15）创建组织单位
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311435508.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311435508.png)
 
 
 
@@ -1343,10 +1343,10 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 16）OU之间移动AD对象
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311436621.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311436621.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311436848.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311436848.png)
  
 
 1. 用户移动账号后,赋予该用户账号的权限设置不会变
@@ -1388,7 +1388,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 1.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311437815.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311437815.png)
 
 
 1. 所有用户在单个域内
@@ -1399,7 +1399,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 2.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311437782.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311437782.png)
 
 
 1. 专门的森林根域, 按地理分布的子域来控制复制。
@@ -1411,7 +1411,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 20）把计算机加入到AD域
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311437385.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311437385.png)
 
 
 1. 如果用户试图登录主机，主机获取用户的帐号和密码，然后经过密钥机制处理，并和存储在帐号数据库中的密钥进行对比，如果对比的结果匹配，允许用户登录计算机。如果对比的结果不匹配，用户就无法登录计算机。
@@ -1425,7 +1425,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 3. 用户虚拟机向域控同步域信息。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311438656.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311438656.png)
 
 
 
@@ -1449,7 +1449,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 5.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311438253.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311438253.png)
 
 
 1. 普通域，3个字符长度
@@ -1466,7 +1466,7 @@ GaussDB为ITA、HDC提供数据库，用于存储数据信息。
 
 6.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311439584.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311439584.png)
 
 
 
@@ -1510,7 +1510,7 @@ DNS 服务器另外一种查询方式为迭代查询，DNS 服务器会向客户
 
 1. DNS正向解析需要建立正向查找区域，正向查找区域是指在DNS域名空间中使用正向查找的区域，正向查找是根据DNS客户端提供的域名解析成IP地址。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311439201.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311439201.png)
 
 
 
@@ -1520,7 +1520,7 @@ DNS 服务器另外一种查询方式为迭代查询，DNS 服务器会向客户
 
 2. 在创建正向查找区域的主机记录时，勾选“创建相关的指针（PTR）记录”，则会在反向查找区域内自动加入相应的指针。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440772.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440772.png)
 
  
 
@@ -1530,7 +1530,7 @@ DNS 服务器另外一种查询方式为迭代查询，DNS 服务器会向客户
 
 2. 当反向查找区域创建后，要为该区域创建记录指针。该指针用于指向正向DNS域名计算机的IP地址到反向DNS域名的映射。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440983.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440983.png)
 
  
 
@@ -1546,19 +1546,19 @@ DNS 服务器另外一种查询方式为迭代查询，DNS 服务器会向客户
 
 1. 配置客户端的DNS服务器地址。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440956.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440956.png)
 
 
 
 7）DNS工作流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440337.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440337.png)
 
  
 
 8）DNS服务资源记录
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440477.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311440477.png)
 
 
 9）DNS在FusionAccess中的解析
@@ -1571,7 +1571,7 @@ DNS 服务器另外一种查询方式为迭代查询，DNS 服务器会向客户
 
 （1）用户虚拟机在向HDC注册时，需要通过HDC的域名到DNS上查找相应的IP地址，进行认证。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311441877.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311441640.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311441877.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311441640.png)
 
  
 
@@ -1584,7 +1584,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 1. DHCP (Dynamic Host Configuration Protocol)是一种动态的向Internet终端提供配置参数的协议。在终端提出申请之后，DHCP可以向终端提供IP地址、网关、DNS服务器地址等参数。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311442483.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311442483.png)
 
  
 
@@ -1592,7 +1592,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 1. 在大型网络中，如果每台终端的地址都是由不同的使用者来分配，那么就很容易出现地址相同的情况。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311442494.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311442494.png)
 
 
 
@@ -1628,7 +1628,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 5）DHCP流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311442895.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311442895.png)
 
 
 
@@ -1638,7 +1638,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 （1）安装部署
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311443322.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311443322.png)
 
  
 
@@ -1646,7 +1646,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
    1. FusionAccess基础架构虚拟机管理平面网卡创建端口组：在搭建虚拟化平台过程中，会自动创建ManagementDVS及VLAN号为0的端口组，管理平面网卡的端口组即设置为该VLAN号为“0”的端口组。
    2. FusionAccess基础架构虚拟机业务平面网卡创建端口组：在搭建虚拟化平台过程中，如果管理平面和业务平面合一，则在ManagementDVS上创建业务平面网卡的端口组（推荐）；如果管理平面和业务平面分离，则在业务分布式交换机上创建业务平面网卡的端口组。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311443937.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311443937.png)
 
 
 
@@ -1654,28 +1654,28 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 1）创建Windows基础架构虚拟机
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311443268.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311443268.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311444287.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311444287.png)
  
 
-​             ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311444196.png)
+​             ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311444196.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311444133.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311444133.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311445537.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311445537.png)
 
 2）安装AD/DNS/DHCP组件
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311445608.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311445608.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311445928.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311445928.png)
 
  
 
@@ -1685,7 +1685,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 2. 配置域用户及域策略
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446573.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446573.png)
 
  
 
@@ -1693,11 +1693,11 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 1. 配置DNS正、反向解析
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446606.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446606.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446585.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446585.png)
 
  
 
@@ -1713,11 +1713,11 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 （4）配置域名称和DNS服务器
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446052.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446052.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446544.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311446544.png)
 
 
 
@@ -1733,7 +1733,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 （2）配置虚拟化环境
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447813.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447813.png)
 
  
 
@@ -1747,7 +1747,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 （3）配置域和DNS
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447387.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447387.png)
 
 
 1. 域：AD/DNS/DHCP服务器的域名，填写“vdesktop.huawei.com”。
@@ -1758,11 +1758,11 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 **（4）配置vAG/vLB**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447133.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447133.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447804.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311447804.png)
 
 
 1. 服务器IP：vAG服务器业务平面IP地址，填写“192.168.203.31”。
@@ -1774,11 +1774,11 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 1. 配置完成进入FusionAccess系统界面
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448985.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448985.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448083.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448083.png)
  
 
 ### **6.桌面云组件交互流程**
@@ -1789,7 +1789,7 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 ②看见几个电脑图标，选择其中一个进入（弹出桌面列表）。若是只有一台就自动进入。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448266.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448266.png)
 
  
 
@@ -1805,11 +1805,11 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 **（1）虚拟桌面发放流程：创建、关联虚拟机**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448255.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311448255.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449192.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449192.png)
 
  
 
@@ -1819,23 +1819,23 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 ②人工入域。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449631.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449631.png)
 
  
 
 **（2）虚拟机注册流程**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449155.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449155.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449394.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449394.png)
 
  
 
 **（3）登录流程**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449901.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311449901.png)
 
  
 
@@ -1851,13 +1851,13 @@ AD实际上就是一个信息的数据库，保存账号、密码、组织等等
 
 **1）访问WI界面**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450948.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450948.png)
 
  
 
 vAG/vLB是属于SVN（硬件）的。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450171.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450171.png)
 
  
 
@@ -1865,16 +1865,16 @@ vAG/vLB是属于SVN（硬件）的。
 
 **2）用户鉴权**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450566.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450566.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450382.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311450382.png)
 
 
 **3）获取虚拟机列表**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451688.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451688.png)
 
  
 
@@ -1882,7 +1882,7 @@ vAG/vLB是属于SVN（硬件）的。
 
 **1）预连接 (HDP经过网关)** 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451233.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451233.png)
 
  
 
@@ -1892,7 +1892,7 @@ HDC把IP地址+端口换成Address Ticket来替代，把用户名用login Ticket
 
 **2）HDP经过网关**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451879.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451879.png)
 
  
 
@@ -1900,14 +1900,14 @@ HDC把IP地址+端口换成Address Ticket来替代，把用户名用login Ticket
 
 **3）预连接 (HDP不经过网关)** 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451798.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451798.png)
 
 
 Login Ticket:用于登录的凭证
 
 **4）HDP不经过网关**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451775.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311451775.png)
 
 
 
@@ -1929,7 +1929,7 @@ User（Client TC/SC）和HDA桌面VM可以路由相通。（内网）
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311452297.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311452297.png)
 
  
 
@@ -1961,7 +1961,7 @@ User（Client TC/SC）和HDA桌面VM可以路由相通。（内网）
 
 **1）完整复制虚拟桌面**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715768.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715768.png)
 
  
 
@@ -1997,7 +1997,7 @@ User（Client TC/SC）和HDA桌面VM可以路由相通。（内网）
 
 **1）链接克隆虚拟桌面**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715526.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715526.png)
 
 
 1. 技术特点
@@ -2015,7 +2015,7 @@ User（Client TC/SC）和HDA桌面VM可以路由相通。（内网）
 
 2. 链接克隆差分卷是读写卷，其存储是精简配置的，每个链接克隆虚拟机一份，保存了每个虚拟机差异化的数据。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715603.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715603.png)
 
  
 
@@ -2049,7 +2049,7 @@ User（Client TC/SC）和HDA桌面VM可以路由相通。（内网）
 
 **5）模板、母卷与差分卷**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715393.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311715393.png)
 
 
 1. 如上图所示，如果一个链接克隆模板为30G，在数据存储1上创建链接克隆VM时，会自动复制模板，在数据存储1上产生一个A母卷，大小也为30G，再以A母卷为基础，自动快照为每个VM创建差分卷；当A母卷上创建的差分卷个数达到128个时（规格限制一个母卷最多产生128个差分卷，防止每个母卷所在存储块区域在VMs都运行的情况下I/O压力过高），系统会自动在该数据存储1上产生一个新的B母卷，为其它链接克隆VM创建新的差分卷，以此类推。（并且这个128个链接克隆出来的虚拟机不能跨数据存储）
@@ -2074,7 +2074,7 @@ User（Client TC/SC）和HDA桌面VM可以路由相通。（内网）
 
 问2：创建的1、2、3、7、8号VM，它们的创建速度如何？
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311716200.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311716200.png)
 
 
 VM1时间长，VM2和VM3一样时间短。
@@ -2126,7 +2126,7 @@ VM1时间长，VM2和VM3一样时间短。
 
 **7）链接克隆适用场景-公共阅览室**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311716014.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311716014.png)
 
 
 1. 电子阅览室场景中，用户只需要登录和使用虚拟机，阅览所需要的软件提前安装在镜像中，业务比较简单。电子阅览室主要有如下特点：
@@ -2143,21 +2143,21 @@ VM1时间长，VM2和VM3一样时间短。
 
 （1）链接克隆桌面的虚拟机共享一个相同的系统母盘，每台虚拟机对系统盘的写操作数据（如工作临时缓存数据、个性化配置（C:\User）、临时安装的个性化应用程序（C:\Program Files）等）都保存在自己的差分盘中。并且通过将母盘和差分盘组合映射为一个链接克隆盘作为虚拟机的整个系统盘（即C盘），提供给虚拟机使用。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717537.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717537.png)
 
 
 1. 对于链接克隆虚拟机，提供了手工强制还原功能，管理员可以强制把链接克隆虚拟机还原到最初状态。提供了系统更新操作，管理员可以统一对链接克隆虚拟机组中的虚拟机进行软件更新操作，完成链接克隆虚拟机的系统母卷更新。
 
 2.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717420.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717420.png)
 
 
 3. 链接克隆在克隆出虚拟机之前也就是链接克隆成模板时需要加域，所以母盘已经有自己的SID了已经是域中的成员了，再把这个模板创建出虚拟机，这些虚拟机的SID不一样（因为创建出这些虚拟机的时候必须临时分配给它们不同的SID，否则入域会出现问题）。
 
 **（6）完整复制和链接克隆混合场景 - 公司员工日常**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717469.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717469.png)
 
 
 1. 员工个人办公：完整复制
@@ -2200,12 +2200,12 @@ VM1时间长，VM2和VM3一样时间短。
 
 （2）支持链接克隆类型/场景的虚拟机，不提供系统盘个性化数据能力；非常适用于学校上机室、电子阅览室等无状态桌面场景。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717728.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311717728.png)
 
 
 **3）全内存桌面方案概述**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311718253.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311718253.png)
 
 
 1. 全内存桌面是运用IO Tailor技术，将虚拟机的系统盘数据，进行在线实时去重压缩后，全量放入内存；以此获得极高的读写存储IO性能。放入内存的数据不进行实时持久化，虚拟机关机或者服务器主机重启，虚拟机将恢复到初始状态。适用于如：学校教学、呼叫中心、CI等无状态任务型桌面场景。
@@ -2215,7 +2215,7 @@ VM1时间长，VM2和VM3一样时间短。
 
 1. 带共享数据的全内存桌面方案架构：
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311718258.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311718258.png)
 
  
 
@@ -2227,7 +2227,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 一个虚拟机一个ID盘。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311718026.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311718026.png)
 
 
 1. 模板T在数据存储上，然后在数据存储上根据模板创建出一个母盘d，再根据母盘d复制出放在CNA主机内存中的母盘m。
@@ -2279,7 +2279,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （5）提供应急磁盘保障机制，确保一旦出现内存空间用尽时（差分盘越来越大）业务不中断。（当内存不足时，把应急盘拿出来用）
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311719540.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311719540.png)
 
 
 1. 在VDI系统中，每个用户虚拟机的操作系统（如windows）和应用程序大多相同，因此系统盘数据相似程度非常高。一般的VDI系统中，多个用户的系统盘被重复存放在存储系统中，造成了大量的存储空间的浪费。
@@ -2291,7 +2291,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 **（8）桌面虚拟机类型对比**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311719491.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311719491.png)
 
 
 链接克隆和全内存的差别：链接克隆的母盘和差分盘在数据存储中（共享存储-持久化、IO慢），全内存的母盘和差分盘在内存（非持久化、IO快）中。
@@ -2320,39 +2320,39 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 **（1）操作步骤**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311719480.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311719480.png)
 
 
 **（2）创建裸虚拟机**
 
 1. 管理员登录FusionCompute，选择“资源池 > 集群 > 创建虚拟机”，创建模板空虚拟机。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720807.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720807.png)
 
 
 **（3）安装操作系统**
 
 1. 管理员通过VNC登录模板虚拟机，挂载操作系统ISO，安装操作系统。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720445.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720445.png)
 
 
 2. 管理员通过FusionCompute里虚拟机“挂载Tools”菜单为虚拟机挂载PvDriver安装盘，再通过VNC窗口完成安装。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720153.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720153.png)
 
 
 **（4）安装系统补丁、应用软件**
 
 1. 管理员安装系统补丁
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720872.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311720872.png)
 
  
 
 2. 管理员根据需要在模板内预装各种应用软件
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721589.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721589.png)
 
 
 **（5）使用工具制作模板**
@@ -2367,34 +2367,34 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 5. 卸载光驱，关闭虚拟机。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721482.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721482.png)
 
 
 **1）完整复制**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721810.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721810.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721332.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311721332.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722746.png)   
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722746.png)   
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722532.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722532.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722256.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722256.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722224.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722224.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722044.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311722044.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723227.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723227.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723206.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723206.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723352.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723352.png)
 
 
 
@@ -2404,9 +2404,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
    2. 更改系统硬件驱动：更改系统组策略，更改IDE驱动器及计算机驱动
    3. 增加电源补丁，让系统启动的时候自动检测电源。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723796.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723796.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723114.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311723114.png)
 
  
 
@@ -2455,29 +2455,29 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 **1）链接克隆**
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724257.png)         
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724257.png)         
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724512.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724512.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724814.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724814.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724676.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311724676.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725093.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725093.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725524.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725524.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725267.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725267.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725371.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725371.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725991.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311725991.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726568.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726568.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726045.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726045.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726136.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726136.png)
 
 
 **（10）完整复制制作模板和链接克隆制作模板的差异**
@@ -2498,7 +2498,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 在FusionCompute中，选择“资源池”，在待转为模板的虚拟机所在行，右击选择“模板 > 转为模板”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726785.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726785.png)
 
  
 
@@ -2506,11 +2506,11 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 在FusionAccess界面，选择“桌面管理”，在左侧导航树中，选择“业务配置 > 虚拟机模板”，在右侧窗口中，在待发放虚拟机模板所在行，根据实际应用场景选择参数。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726107.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311726107.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311727081.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311727081.png)
 
 
 ### 3.虚拟桌面发放
@@ -2527,7 +2527,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）“池”指一群人共用一组虚拟机，无个性化数据，常用于呼叫中心等场景。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311727831.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311727882.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311727831.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311727882.png)
 
  
 
@@ -2537,7 +2537,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）完整复制：虚拟机组中的每个虚拟机都分配一个系统盘，该虚拟机组类型对应的虚拟机模板类型为“完整复制”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311728060.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311728060.png)
 
 
 1. 注：先了解创建虚拟机时的几个名词，便于于理解后面创建虚拟机
@@ -2560,7 +2560,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
   2）静态多用户：一台虚拟机有多个用户共用，用户与虚拟机的关系是固定的。（呼叫中心：比如一天三个时段上班，user1使用0-8点，user2使用8-16点，user3使用16-24点）
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311728592.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311728592.png)
 
 
 1. 链接克隆池化桌面支持两种：动态池与静态池。
@@ -2571,7 +2571,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）桌面发放-快速发放
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311728821.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311728821.png)
 
 
 1. FusionAccess提供了快速发放功能，此功能就是通过向导式方法，简化管理员的发放操作难度，通过把桌面发放操作串联起来，管理员只需按照此向导进行操作即可实现批量为用户发放虚拟桌面的目的。
@@ -2594,7 +2594,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （5）指定创建数量
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729817.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729817.png)
 
 
 2）配置虚拟机选项
@@ -2621,7 +2621,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）分配类型、分配虚拟机
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729117.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729117.png)
 
 
 1. 桌面组（完整复制）- 桌面组类型（专有）-分配类型（单用户/静态多用户）
@@ -2630,25 +2630,25 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 4）确认信息
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729558.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729558.png)
 
 
 1. 管理员确认选择的参数，分配的人员是否正确，确认后提交即可。
 
 5）完成
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729647.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311729647.png)
 
 
 6）任务查看
 
 1. 管理员可以在“任务中心”查看任务进度，也可以查看任务详情。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311730827.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311730827.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311730875.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311730875.png)
 
 
 
@@ -2666,7 +2666,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （3）登录FusionAccess基础架构虚拟机，主要完成系统重启、补丁安装、病毒扫描、备份恢复的管理维护。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311731127.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311731127.png)
 
  
 
@@ -2680,17 +2680,17 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 自动巡检、诊断工具
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732896.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732896.png)
 
 
 （3）vDesk
 
 1）用户体验优化工具
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732735.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732735.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732013.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732013.png)
 
 
 **Huawei vDesk** **用户体验优化工具，包含了华为长期对桌面云用户体验优化的经验积累，极大方便提升用户使用桌面云的体验。**
@@ -2713,22 +2713,22 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 一键式体验优化
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732352.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732352.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732924.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311732924.png)
 
 
 2. 一键式连接修复
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733306.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733306.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733380.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733380.png)
 
 3. 一键式日志/信息收集
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733693.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733693.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733165.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733165.png)
 
 
 
@@ -2738,11 +2738,11 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1）运维管理工具集
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733683.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311733683.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734291.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734291.png)
  
 
 **Huawei vTools** **运维管理工具集，华为桌面云维护工具大全，累积华为桌面云长期维护经验总结，极大方便并提升桌面云的日常运维操作。**
@@ -2751,36 +2751,36 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. AD检查工具
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734767.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734767.png)
 
 
 2. WI拨测工具
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734971.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734971.png)
 
  
 
 3. WI换图工具
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734875.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311734875.png)
 
  
 
 4. 信息分析工具
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311735892.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311735892.png)
 
  
 
 5. 在线搜索
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311735785.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311735785.png)
 
  
 
 6. 第三方工具链接
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311735539.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311735539.png)
 
  
 
@@ -2790,9 +2790,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）FusionAccess日维护任务
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736285.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736285.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736177.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736177.png)
 
  
 
@@ -2811,7 +2811,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. FusionAccess Portal入口：“告警监控 > 状态监控”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736523.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736523.png)
 
  
 
@@ -2819,7 +2819,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. FusionAccess Portal入口：“告警监控 > 系统告警”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736795.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736795.png)
 
  
 
@@ -2829,7 +2829,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 方式二，告警转邮件，当VIP桌面状态异常时能够实时收到告警邮件。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736180.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736180.png)
 
  
 
@@ -2837,7 +2837,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. FusionAccess Portal入口：“统计报表 > 虚拟机信息”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736126.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311736126.png)
 
  
 
@@ -2845,7 +2845,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. FusionAccess Portal入口：“统计报表 > 用户使用信息”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737892.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737892.png)
 
 
 
@@ -2853,13 +2853,13 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. FusionAccess Portal入口：“统计报表 > vAG信息 > 基本信息”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737300.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737300.png)
 
  
 
 （8）FusionAccess周维护任务
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737169.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737169.png)
 
  
 
@@ -2867,22 +2867,22 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 建议用户虚拟机每3-5天重启一次，持续运行不要超过1周。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737099.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737099.png)
 
 
 （10）FusionAccess月维护任务
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737593.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311737593.png)
 
  
 
 （11）系统补丁更新、病毒扫描
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738033.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738033.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738016.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738016.png)
 
 
 ### 3.运维注意事项
@@ -2891,7 +2891,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 在维护FusionAccess时，禁止进行下表所示的操作，否则可能会给设备的正常运行带来致命危险。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738885.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738885.png)
 
 
 （2）禁用操作
@@ -2900,15 +2900,15 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 禁止更改msconfig系统配置中默认的服务和启动选项。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738898.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311738898.png)
 
  
 
 2. 禁止禁用HDP类服务；禁止卸载相关运行必备的软件
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739238.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739238.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739783.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739783.png)
 
 
 3. 禁止在任务管理器中禁用以下进程：
@@ -2919,7 +2919,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （3）System
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739747.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739747.png)
 
  
 
@@ -2933,7 +2933,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 4. 禁止打开Ipsec等具有禁止网络流量功能的软件或工具。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739563.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311739563.png)
 
  
 
@@ -2949,20 +2949,20 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 5. （慎用操作）自定义安装具有复杂变换功能的屏保，该操作会消耗大量系统资源，用户重新进入VM桌面时会有一定的延迟。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740186.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740140.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740186.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740140.png)
 
 
 （3）高危操作
 
 1. 在维护FusionAccess时，为了确保系统的安全性和稳定性，还需注意下表所示的高危操作。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740233.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740233.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740744.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311740744.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741333.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741333.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741110.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741110.png)
 
 
 
@@ -2972,7 +2972,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 在FusionAccess的“桌面管理 > 所有计算机”中找到将要修改的虚拟机，点击关闭虚拟机，等待虚拟机状态为“已停止”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741437.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741437.png)
 
  
 
@@ -2980,7 +2980,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 选中已关机的虚拟机，选择“高级功能 > 修改虚拟机”，进入虚拟机规格修改界面，修改结束后重启即可。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741377.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741377.png)
 
 
 
@@ -2988,7 +2988,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. “分配类型”是“静态多用户”的虚拟机才能进行追加用户操作。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741162.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311741162.png)
 
  
 
@@ -3004,7 +3004,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 3. 追加用户所属的权限组，若模板制作过程中配置“Users”权限组，此处才可设置“Users”组，否则只能设置“Administrators”权限。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742884.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742884.png)
 
  
 
@@ -3014,9 +3014,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）在虚拟机组管理界面，选中列表中待添加虚拟机的虚拟机组，点击“添加虚拟机”，填写虚拟机的规格信息即可完成添加。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742730.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742730.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742464.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742464.png)
 
  
 
@@ -3026,9 +3026,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）在桌面组管理界面，选中列表中的桌面组，单击“分配虚拟机”，配置完虚拟机命名规则、分配类型、虚拟机组、用户以及权限等信息即可完成分配。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742147.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742147.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742174.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742174.png)
 
  
 
@@ -3038,7 +3038,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. VIP桌面的资源保障和实时看护策略针对FusionAccess系统中所有的VIP虚拟机，推荐保持为默认值。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742305.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311742305.png)
 
  
 
@@ -3050,9 +3050,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 在FusionCompute中的“资源池”界面，通过虚拟机ID查找到要迁移的虚拟机，点击“迁移”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743431.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743431.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743935.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743935.png)
 
  
 
@@ -3063,9 +3063,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 4. 登录到迁移的桌面虚拟机上，整个迁移过程中ping网关的状态都是正常，业务没有受到影响。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743289.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743289.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743209.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743209.png)
 
  
 
@@ -3079,7 +3079,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （3）TC与计算机绑定
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743711.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311743711.png)
 
  
 
@@ -3092,7 +3092,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 在FusionAccess的虚拟机列表中，勾选待解分配的一台或多台虚拟机，单击“解分配”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311745746.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311745746.png)
 
  
 
@@ -3103,7 +3103,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 在FusionAccess的虚拟机列表中，选中状态为“已解分配”的虚拟机，点击“高级功能”，选择“恢复分配”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311746285.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311746285.png)
 
  
 
@@ -3119,9 +3119,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 3. 可以针对单台虚拟机、虚拟机组或桌面组进行还原。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311746739.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311746739.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311746621.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311746621.png)
 
  
 
@@ -3134,10 +3134,10 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 第一步，解分配
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311749578.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311749578.png)
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311749845.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311749845.png)
 
  
 
@@ -3145,7 +3145,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 第二步，删除虚拟机
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311750673.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311750673.png)
 
  
 
@@ -3157,7 +3157,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 将要删除的用户从“已存在的用户”移动到“需要删除的用户”中。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311750252.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311750252.png)
 
  
 
@@ -3173,7 +3173,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （3）AD中将用户从用户群组里删除
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311750061.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311750061.png)
 
  
 
@@ -3184,7 +3184,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）AD中将用户从用户群组里删除
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751775.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751775.png)
 
  
 
@@ -3194,7 +3194,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 根据各终端用户的实际环境及特有需求，对某一桌面组中的所有虚拟机、某一台虚拟机或某个用户拥有的虚拟机在以下几个方面进行应用策略的定制及规划，创建出满足用户真实需求的最优、最高效的策略管理方案，帮助用户更好的使用虚拟机。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751338.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751338.png)
 
  
 
@@ -3218,25 +3218,25 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 登录FusionAccess，进入“桌面管理 > 策略管理”，点击“创建策略组”。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751747.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751747.png)
 
  
 
 2. 第一步，创建策略组。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751066.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751066.png)
 
  
 
 2. 第二步，定制策略。
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751483.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751483.png)
 
 
 3. 第三步，策略应用对象。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751137.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311751137.png)
  
 
 
@@ -3246,7 +3246,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）从客户端驱动器中任意复制一个文件，将其粘贴到虚拟桌面用户驱动器中。检查是否可以成功操作。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311752871.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311752871.png)
 
  
 
@@ -3311,7 +3311,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 从安全角度考虑，为了防范帐户无限制的尝试登录访问，需要对FusionAccess组件的服务器帐号设置登录失败尝试次数的限制。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311752018.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311752018.png)
 
  
 
@@ -3319,7 +3319,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）安全方案总体架构
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311752290.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311752290.png)
 
 
 1. 分层简要介绍如下：
@@ -3335,7 +3335,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）TC加固，防止“病从口入”
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753466.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753466.png)
 
  
 
@@ -3343,7 +3343,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （3）终端接入安全认证
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753092.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753092.png)
 
 
 
@@ -3362,13 +3362,13 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 方式一：手工录入
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753739.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753739.png)
 
 
 
 方式二：批量录入
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753614.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753614.png)
 
  
 
@@ -3378,7 +3378,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 4.
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753473.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311753473.png)
 
  
 
@@ -3386,7 +3386,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 数据分散在每个终端
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754241.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754241.png)
 
  
 
@@ -3394,7 +3394,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2. 应用与数据被集中管理
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754633.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754633.png)
 
  
 
@@ -3410,7 +3410,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）管理面信任域与非信任域之间全部SSL加密
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754106.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754106.png)
 
  
 
@@ -3426,7 +3426,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1）支持USB端口打开与关闭
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754177.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754177.png)
 
  
 
@@ -3434,7 +3434,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （8）用户接入身份认证
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754280.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754280.png)
 
  
 
@@ -3452,7 +3452,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 事实上内部访问了两次AD（一次登录桌面云系统、一次登录WI），但是用户体验上只有一次因为只输入了一次用户名和密码。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754882.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311754882.png)
  
 
 1. 虚拟机登录时，通过AD认证的流程如下：
@@ -3473,7 +3473,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）不支持链接克隆模式、Pool模式虚拟机（此两种模式需要AD机制）。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755335.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755335.png)
 
  
 
@@ -3491,7 +3491,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）指纹登录认证利用人的指纹生物特征进行强认证，难以伪造和破解，使用起来更便利
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755603.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755603.png)
 
  
 
@@ -3517,13 +3517,13 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）TC必须为CT5000和CT6000，TC的操作系统可以为Windows或Linux
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755779.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755779.png)
 
  
 
 2。单点登录
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755979.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311755979.png)
 
  
 
@@ -3543,7 +3543,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）目前支持卫士通、鼎普、北京CA三种安全网关系统，其它网关系统提供定制支持能力
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311756278.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311756278.png)
 
  
 
@@ -3566,7 +3566,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）可支持使用RADIUS(PAP)、API等方式对接动态口令认证服务器
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311756994.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311756994.png)
 
  
 
@@ -3579,7 +3579,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 （1）域账号密码+短消息动态口令：用户手机替代了实体形式的动态口令卡，使用方便
 
 （2）可支持使用RADIUS(PAP)、API等方式对接动态口令认证服务器
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311759625.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311759625.png)
 
  
 
@@ -3593,12 +3593,12 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）“三员分立”机制需在系统安装时指定，否则依然采用传统的超级管理员模式
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311800897.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311800897.png)
 
 
 （11）分权分域管理
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311800451.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311800451.png)
 
  
 
@@ -3635,7 +3635,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （3）备份机制
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311801546.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311801546.png)
 
  
 
@@ -3653,7 +3653,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （5）软件重装恢复
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311801769.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311801421.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311801769.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311801421.png)
 
  
 
@@ -3674,13 +3674,13 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
    5. 执行命令重启ITA服务，重启服务后，约3分钟后业务才能恢复：
       1. service ITAService restart
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311802335.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311802316.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311802335.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311802316.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311803094.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311803713.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311803094.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311803713.png)
 
 
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311804288.png) ![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311804855.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311804288.png) ![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311804855.png)
 
  
 
@@ -3747,7 +3747,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （1）FusionAccess故障类型
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311804401.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311804401.png)
 
  
 
@@ -3761,7 +3761,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （2）故障处理流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311805353.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311805353.png)
 
  
 
@@ -3781,7 +3781,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. FusionAccess的组件类型有四种，对应的日志收集方式也有四种。将FusionAccess产品部件的日志进行统一收集，便于系统维护人员在系统出现故障后，能够方便地收集日志并发送给日志分析人员。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311805785.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311805785.png)
 
  
 
@@ -3789,7 +3789,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 （5）故障定位常用方法
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311805497.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311805497.png)
 
  
 
@@ -3813,7 +3813,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1）完整复制虚拟机发放流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311806218.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311806218.png)
 
  
 
@@ -3827,7 +3827,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2）链接克隆虚拟机发放流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311806461.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311806461.png)
 
  
 
@@ -3846,7 +3846,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 3）业务发放问题查看信息方法
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807936.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807936.png)
 
  
 
@@ -3863,7 +3863,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 打开任务中心，查看任务进展信息。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807265.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807265.png)
 
  
 
@@ -3873,9 +3873,9 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 检查FusionAccess上是否存在告警，根据告警帮助消除告警。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807508.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807508.png)
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807612.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311807612.png)
 
  
 
@@ -3883,7 +3883,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1. 若依旧无法定位问题，可在FC上VNC登录发放失败的虚拟机桌面，进入C:\Program Files (x86)\Huawei\HW.SysPrep\Logs 查看发放日志。
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808183.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808183.png)
 
  
 
@@ -3895,7 +3895,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 终端        接入层          后台
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808979.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808979.png)
 
  
 
@@ -3905,7 +3905,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2）虚拟机注册流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808821.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808821.png)
 
  
 
@@ -3920,7 +3920,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 3）用户登录流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808784.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808784.png)
 
  
 
@@ -3931,7 +3931,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 4）客户端连接流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808306.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808306.png)
 
  
 
@@ -3944,13 +3944,13 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 5）问题处理思路
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808559.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311808559.png)
 
  
 
 6）登录连接故障案例-虚拟机图标显示为灰色
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809730.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809730.png)
 
  
 
@@ -3958,7 +3958,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1）FusionAccess产品形态
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809512.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809512.png)
 
  
 
@@ -3970,7 +3970,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2）虚拟桌面I/O流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809428.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809428.png)
 
  
 
@@ -3989,7 +3989,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 3）性能问题定位思路
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809898.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809898.png)
 
 
 
@@ -4000,7 +4000,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 4）性能问题处理流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809583.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311809583.png)
 
  
 
@@ -4011,7 +4011,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 5）性能体验故障案例-网络视频效果不佳
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810351.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810351.png)
 
  
 
@@ -4019,7 +4019,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 1）外设技术回顾
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810657.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810657.png)
 
  
 
@@ -4029,7 +4029,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 2）外设使用故障处理流程
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810057.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810057.png)
 
  
 
@@ -4042,7 +4042,7 @@ ID盘解决的问题：用来防止主机每次重启等之后，数据没有了
 
 3）外设使用故障案例-手写板无法使用
 
-![img](http://img.mingfancloud.cn/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810505.png)
+![img](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/cloud-computing/DesktopCloudTechnology/HuaweiCloudComputingFusionAcces/202403311810505.png)
 
 
 

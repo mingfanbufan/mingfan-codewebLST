@@ -388,7 +388,7 @@ Reading: 0 Writing: 1 Waiting: 1
 
 正常情况下waiting数量是比较多的，并不能说明性能差。如果reading+writing数量比较多说明服务并发有问题。
 
-![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-4/202404161417711.png)
+![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-4/202404161417711.png)
 
 Active connections:2    #当前nginx处理请求的数目(活跃的连接数)
 
@@ -476,7 +476,7 @@ req_status_show
 在当前位置启用请求状态处理程序
 ```
 
-![image.png](http://img.mingfancloud.cn/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-4/202404161417168.png)
+![image.png](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/ComputerScienceAndTechnology/nginx2024/nginx-4/202404161417168.png)
 
 请求状态信息包括以下字段：
 

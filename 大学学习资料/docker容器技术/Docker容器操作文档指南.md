@@ -30,9 +30,9 @@ CentOS 7自带Yum源无法使用，需要更新Yum源
 
 阿里云官方镜像站：`https://developer.aliyun.com/mirror/`
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303626.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303626.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303615.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303615.png)
 
 #### 1.1.3 更换Yum源步骤
 
@@ -79,11 +79,11 @@ yum install -y net-tools          //网络工具
 
 阿里云免费试用ECS申请[ECS弹性计算服务免费资源申请](https://q1h6kdpo24v.feishu.cn/docx/P9wJdgoFhow9AHxWYfjcgq9NnBg?from=from_copylink)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303555.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303555.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303641.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303641.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303711.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303711.png)
 
 #### 1.2.2 CentOS主机名修改
 
@@ -93,7 +93,7 @@ yum install -y net-tools          //网络工具
 hostnamectl
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303544.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303544.png)
 
 临时修改主机名，重启失效：
 
@@ -125,7 +125,7 @@ Docker要求CentOS的内核版本不低于3.10
 uname -r
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303989.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303989.png)
 
 ### 2.2 删除已安装的Docker
 
@@ -183,7 +183,7 @@ docker -v                   //查看docker版本号
 docker version              //查看docker的系统信息，包括镜像和容器的数量
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303149.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303149.png)
 
 ### 2.5 配置Docker镜像加速器
 
@@ -193,11 +193,11 @@ Docker拉取镜像的源在国外，不配置加速器无法拉取镜像或速�
 
 访问华为云官网`https://www.huaweicloud.com/`，登录华为云账号，产品→容器→容器镜像服务
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303117.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303117.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303326.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303326.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303353.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303353.png)
 
 加速器地址：`https://88a8bf279d4a486ba021cdfcb4abc36d.mirror.swr.myhuaweicloud.com`
 
@@ -230,7 +230,7 @@ systemctl restart docker
 
 查看修改结果：
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303314.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303314.png)
 
 执行docker info，当Registry Mirrors字段的地址为加速器的地址时，说明加速器已经配置成功。
 
@@ -238,13 +238,13 @@ systemctl restart docker
 docker info
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303344.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303344.png)
 
 ## 3.Docker使用
 
 ### 3.1 Docker镜像命令
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303512.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303512.png)
 
 ## 单词解释：
 
@@ -263,7 +263,7 @@ docker search xxxx；如搜索ngnix：
 docker search nginx
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303716.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303716.png)
 
 #### 3.1.2 拉取镜像
 
@@ -273,7 +273,7 @@ docker pull xxxx；如拉取nginx：
 docker pull nginx
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303685.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303685.png)
 
 #### 3.1.3 查看本地镜像
 
@@ -284,7 +284,7 @@ docker images
 docker images nginx    //查看本地nginx镜像
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303730.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303730.png)
 
 #### 3.1.4 删除镜像
 
@@ -296,13 +296,13 @@ docker rmi -f $(docker images -aq)         //删除全部镜像
 
 删除tomcat镜像：
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303736.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303736.png)
 
 ```plain
 docker rmi bf4709e77b18
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303834.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303834.png)
 
 ### 3.2 Docker容器命令
 
@@ -320,7 +320,7 @@ docker run --name nginx -p 8080:80 -d nginx
             指定容器名称  端口映射  后台运行 镜像名称
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303924.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303924.png)
 
 参数说明：--name nginx：指定容器名称。
 
@@ -332,7 +332,7 @@ docker run --name nginx -p 8080:80 -d nginx
 
 docker run流程：
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303177.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303177.png)
 
 #### 3.2.3 停止运行中的容器
 
@@ -365,9 +365,9 @@ docker ps -a -q|xargs docker rm       //删除全部容器
 
 删除容器示例：
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303193.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303193.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303234.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303234.png)
 
 #### 3.2.6 查看容器的日志
 
@@ -377,7 +377,7 @@ docker logs container-name/container-id；如查看nginx日志
 docker logs nginx
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303296.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303296.png)
 
 #### 3.2.7 查看镜像详细信息
 
@@ -387,7 +387,7 @@ docker inspect container-name/container-id；如查看nginx详细信息
 docker inspect nginx
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303394.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303394.png)
 
 #### 3.2.8 在运行的容器中执行命令
 
@@ -396,7 +396,7 @@ sudo docker exec -it <容器ID> /bin/bash     //进入当前容器
 exit                                        //退出当前容器
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303543.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303543.png)
 
 #### 3.2.9 从容器内拷贝文件到主机
 
@@ -404,7 +404,7 @@ exit                                        //退出当前容器
 docker cp <容器id>:容器内文件路径 目的主机路径
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303583.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303583.png)
 
 #### 3.2.10 容器重命名
 
@@ -594,35 +594,35 @@ docker run -d -p 9000:9000 --name portainer --restart=always -v /var/run/docker.
 + `-v /var/run/docker.sock:/var/run/docker.sock`：将宿主机的Docker守护进程socket文件映射到容器中，以便Portainer能够管理Docker。
 + `-v portainer_data:/data`：将之前创建的数据卷挂载到容器的`/data`目录下，用于保存Portainer的配置和数据。
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303636.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303636.png)
 
 ##### ③访问Portainer页面
 
 启动Portainer容器后，通过浏览器访问`http://<IP地址>:9000`来访问Portainer的界面。首次访问时，需要设置一个管理员密码。
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303704.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303704.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303834.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303834.png)
 
 ##### ④Portainer功能
 
 仪表盘
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303865.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303865.png)
 
 查看容器
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303996.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303996.png)
 
 查看镜像
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303034.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303034.png)
 
 ### 3.5 Docker所有流程
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303058.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303058.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/Temp/202411061303244.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/Temp/202411061303244.png)
 
 ### 3.6 理解Docker 网络
 

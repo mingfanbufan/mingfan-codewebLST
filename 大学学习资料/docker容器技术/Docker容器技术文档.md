@@ -70,7 +70,7 @@ Docker容器使用AUFS作为文件系统，有如下优势：
 
 #### 2.1.1 Docker架构
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455965.jpeg)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455965.jpeg)
 
 #### 2.1.2 Docker系统
 
@@ -114,7 +114,7 @@ Docker镜像是Docker容器运行时的只读模板，每一个镜像由一系�
 
 下面是在本地机器运行docker images的输出结果：
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455925.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455925.png)
 
 常说的"ubuntu"镜像其实不是一个镜像名称，而是代表了一个名为ubuntu的Repository，同时在这个Repository下面有一系列打了tag的Image，Image的标记是一个GUID，为了方便也可以通过Repository:tag来引用。
 
@@ -796,9 +796,9 @@ Removing intermediate container aab3d80939d8
 
 2.4、创建完成后，从镜像创建容器
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455910.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455910.png)
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455891.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455891.png)
 
 ### 4.3 Dockerfile实例：容器化python的flask应用
 
@@ -898,7 +898,7 @@ Dockerfile  app.py   requirements.txt
 
 Dockerfile 中的每个原语执行后，都会生成一个对应的镜像层。即使原语本身并没有明显地修改文件的操作（比如，ENV 原语），它对应的层也会存在。只不过在外界看来，这个层是空的。
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455933.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455933.png)
 
 查看结果：
 
@@ -936,7 +936,7 @@ root@ce02568e64ce:/app# python app.py &        #将python运行起来
 <h3>Hello World!</h3><b>Hostname:</b> f201f6855136<br/>
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455905.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455905.png)
 
 ### 4.4 实战练习
 
@@ -974,7 +974,7 @@ apache-tomcat-8.5.47.tar.gz  Dockerfile  jdk-8u211-linux-x64.tar.gz  jenkins.war
 [root@docker-server tomcat]# docker run -itd --name jenkins1 -p 8081:8080 jenkins:v1
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455401.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455401.png)
 
 扩展----CMD与ENTRYPOINT区别
 
@@ -1102,7 +1102,7 @@ Get https://master.up.com:5000/v1/_ping: http: server gave HTTP response to HTTP
 { "insecure-registries":["192.168.246.141:5000"] }
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455409.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455409.png)
 
 ```plain
 重启docker：
@@ -1119,7 +1119,7 @@ Get https://master.up.com:5000/v1/_ping: http: server gave HTTP response to HTTP
 [root@docker-server ~]# ls /home/dockerdata/registry/docker/registry/v2/repositories/
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455426.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455426.png)
 
 查看私有仓库里的所有镜像：
 
@@ -1135,7 +1135,7 @@ Get https://master.up.com:5000/v1/_ping: http: server gave HTTP response to HTTP
 [root@docker-server ~]# curl http://192.168.246.141:5000/v2/_catalog
 ```
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455446.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455446.png)
 
 拉取镜像测试：
 
@@ -1160,7 +1160,7 @@ Get https://master.up.com:5000/v1/_ping: http: server gave HTTP response to HTTP
 
  ip:9000
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455467.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455467.png)
 
 ## 7.Docker资源限制
 
@@ -1214,7 +1214,7 @@ stress: dbug: [1] --> hogcpu worker 1 [9] forked
 
 在另外一个 terminal 使用 htop 查看资源的使用情况：
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455522.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455522.png)
 
 上图中看到，CPU 四个核资源都达到了 100%。
 
@@ -1240,7 +1240,7 @@ stress: dbug: [1] --> hogcpu worker 1 [9] forked
 
 因为默认情况下，容器的 CPU share 为 1024，所以这两个容器的 CPU 使用率应该大致为 2：1，下面是启动第二个容器之后的监控截图：
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455711.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455711.png)
 
 两个容器分别启动了四个 stress 进程，第一个容器 stress 进程 CPU 使用率都在 60% 左右，第二个容器 stress 进程 CPU 使用率在 30% 左右，比例关系大致为 2：1，符合之前的预期。
 
@@ -1271,7 +1271,7 @@ stress: dbug: [1] --> hogcpu worker 1 [8] forked
 
 在容器里启动三个 stress 来跑 CPU 压力，如果不加限制，这个容器会导致 CPU 的使用率为 300% 左右（也就是说会占用三个核的计算能力）。实际的监控如下图：
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455744.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455744.png)
 
 可以看到，每个 stress 进程 CPU 使用率大约在 50%，总共的使用率为 150%，符合 1.5 核的设置。
 
@@ -1310,7 +1310,7 @@ stress: dbug: [1] --> hogcpu worker 1 [7] forked
 
 这样，监控中可以看到只有前面两个核 CPU 达到了 100% 使用率。
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455800.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455800.png)
 
 ### 7.4 memory资源限制
 
@@ -1382,7 +1382,7 @@ stress: FAIL: [1] (452) failed run completed in 1s
 
 ## 8.端口转发
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455777.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455777.png)
 
 使用端口转发解决容器端口访问问题
 
@@ -1722,7 +1722,7 @@ d1210426b3b0        none                null                local
 
 小规模docker环境大部分运行在单台主机上，如果公司大规模采用docker，那么多个宿主机上的docker如何互联
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455794.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455794.png)
 
 Docker默认的内部ip为172.17.42.0网段，所以必须要修改其中一台的默认网段以免ip冲突。
 
@@ -1777,11 +1777,11 @@ daocloud.io/library/centos   latest              0f3e07c0138f        3 weeks ago
 
 进入到docker-server1主机的centos容器中，ping docker-server2主机的centos容器，进行测试
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455825.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455825.png)
 
 进入到docker-server2主机的centos容器中，ping docker-server1主机的centos容器，进行测试
 
-![](http://img.mingfancloud.cn/University-studies/docker/DockerTeaching/202411051455081.png)
+![](https://mingfanweb-img.obs.cn-north-4.myhuaweicloud.com/University-studies/docker/DockerTeaching/202411051455081.png)
 
 现在两台宿主机里的容器就可以通信了。
 
