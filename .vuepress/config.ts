@@ -1,8 +1,9 @@
 import { defineConfig } from "vuepress/config";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
 import footer from "./footer";
 import extraSideBar from "./extraSideBar";
+import navbar from "./navbar";
+import sidebar from "./sidebar";
+
 
 const author = "明凡";
 const domain = "https://mingfancloud.cn";
@@ -58,7 +59,17 @@ export default defineConfig({
         ga: "GTM-WVS9HM6W", // 补充自己的谷歌分析 ID，比如 UA-00000000-0
       },
     ],
-    ["@vuepress/medium-zoom"],
+    [
+      "vuepress-plugin-zooming",
+      {
+        selector: ".custom-content img",
+        delay: 1000,
+        options: {
+          bgColor: "black",
+          zIndex: 10000,
+        },
+      },
+    ],
     // https://github.com/lorisleiva/vuepress-plugin-seo
     [
       "seo",
@@ -112,6 +123,37 @@ export default defineConfig({
     ],
     // https://github.com/tolking/vuepress-plugin-img-lazy
     ["img-lazy"],
+    // // 公众号引流插件
+    ['vuepress-plugin-readmore-popular', {
+      // 已申请的博客 ID
+      blogId: '20567-9776719359463-064',
+      // 已申请的微信公众号名称
+      name: '小明创客',
+      // 已申请的微信公众号回复关键词
+      keyword: '明凡',
+      // 已申请的微信公众号二维码图片
+      qrcode: 'https://mingfancloud.cn/gongzhonghao.png',
+      // 文章内容的 JS 选择器，若使用的不是官方默认主题，则需要根据第三方的主题来设置
+      selector: 'div.theme-default-content',
+      // 自定义的 CSS 资源链接，可用于适配不同风格的博客
+      cssUrl: 'https://qiniu.techgrow.cn/readmore/dist/vuepress.css',
+      // 文章排除添加引流工具的 URL 规则，支持使用路径、通配符、正则表达式的匹配规则
+      excludes: { strExp: [], regExp: [] },
+      // 是否反转 URL 排除规则的配置，即只有符合排除规则的文章才会添加引流工具
+      reverse: false,
+      // 文章内容的预览高度(例如 300)，设置值为 auto 则表示预览高度自适应
+      height: 'auto',
+      // 是否添加微信公众号引流工具到移动端页面
+      allowMobile: false,
+      // 文章解锁后凭证的有效天数
+      expires: 90,
+      // 定时校验凭证有效性的时间间隔（秒）
+      interval: 60,
+      // 等待 DOM 节点加载完成的时间（毫秒），如果部分页面的引流功能无法生效，可适当增大此参数的值
+      waitDomMills: 1000,
+      // 每篇文章随机添加引流工具的概率，范围在 0.1 ~ 1.0 之间，代表 10% ~ 100%，其中 1.0 表示所有文章默认都添加引流工具
+      random: 1.0
+    }]
   ],
   // 主题配置
   themeConfig: {
